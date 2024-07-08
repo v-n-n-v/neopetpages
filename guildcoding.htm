@@ -1,0 +1,1252 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+guildcoding got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=1plus4is14'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+body {
+	text-align: center;
+	font-family: verdana;
+	font-size: 10pt;
+	background: #e2f1e2;
+}
+.sf {
+	display: none;
+}
+p {
+	line-height: 20px;
+	text-indent: 50px;
+	text-align: left;
+}
+table {
+	background: black;
+	height: 40px;
+}
+img.a {
+	border: double #8ecf8e;
+	padding: 5px;
+}
+#bigimage {
+	background: url("http://i410.photobucket.com/albums/pp184/charmy_/2010GC.png") no-repeat top center;
+}
+#container {
+	background: url("http://i410.photobucket.com/albums/pp184/charmy_/GC2010bg.png") repeat-y top center;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#leftside {
+	float: left;
+	width: 140px;
+	margin-left: 30px;
+	margin-top: 240px;
+	text-align: center;
+}
+#content {
+	float: left;
+	height: auto;
+	width: 725px;
+	padding: 20px;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 240px;
+}
+#footer {
+	clear: both;
+}
+h1 {
+	border-bottom: 5px solid #76af76;
+	font-family: georgia;
+	font-size: 15pt;
+	font-weight: bold;
+	text-align: left;
+	padding: 2px;
+	color: #6fb36f;
+}
+h2 {
+	background-color: none;
+	border-bottom: 2px solid #53ef53;
+	font-family: georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: right;
+	padding: 2px;
+	color: #93cf93;
+}
+a:link, a:hover, a:visited {
+	color: #564428;
+}
+b {
+	color: #69ad69;
+}
+a.nav {
+	background: #c1f3c1;
+	color: #619761;
+	font-family: verdana;
+	padding: 10px;
+	margin: 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+a.nav:hover {
+	background: #619761;
+	color: #c1f3c1;
+	font-family: verdana;
+	padding: 10px;
+	margin: 5px;
+	display: block;
+	text-align: center;
+}
+textarea.one {
+	background: #ffffff url("http://img405.imageshack.us/img405/9/htmlncsscopy.png") repeat-y top right;
+	font-family: verdana;
+	font-size: 10pt;
+	border: double #8ecf8e;
+	margin-left: 70px;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}
+textarea.side {
+	width: 88px;
+	height: 31px;
+	font-family: verdana;
+	font-size: 7pt;
+	border: double green;
+	padding: 2px;
+}
+#diff {
+	background: none;
+	font-family: verdana;
+	font-size: 10pt;
+}
+#p {
+	padding: 20px;
+}
+</style><div id="container">
+<div id="bigimage">
+
+<div id="leftside">
+<h2>Navigation</h2>
+
+<a href="#fullcode" class="nav">Full code</a> 
+<a href="#impo" class="nav">Layout Notes</a> 
+<a href="#beginning" class="nav">Let's Begin!</a> 
+<a href="#removal" class="nav">Removal Code</a>  
+<a href="#image" class="nav">Inserting an image</a> 
+<a href="#textbox" class="nav">Adding a textbox</a> 
+<a href="#side" class="nav">Editing the guild sidebar</a>  
+<a href="#background" class="nav">Adding a background</a> 
+<a href="#finish" class="nav">Finishing Notes</a> 
+
+<h2>Update</h2>
+November 13, 2010: Much needed update commencing! 
+<br><br>
+December 25, 2010: ...update done! Hope you guys like the new layout + fixed up content. :D Merry Christmas and Happy Holidays~!
+<br><br>
+February 3, 2011: WOW, the filter change had a horrible effect on this guide! D: I've updated the guide so it's usable now!
+<br><br>
+February 12, 2011: Good thing that filer change wasn't permanent! Now that textareas are working again, I have changed this guide back to what it originally was. 
+<br><br>
+May 7, 2011: Updated some stuff! I'm probably going to give GC an overhaul later, it doesn't seem to be working in IE. I apologize for that! If you happen to be interested in making lookups, check out my work in progress <a href="/~mustanq">lookup tutorial!</a>
+<br><br>
+June 23, 2011: 
+<br>
+Well would you look at that, I've somehow beat the 10 000 views mark! :o This calls for a massive update, let me know if there's any thing in particular you want to learn how to do! Thanks so much everyone! :D 
+<h2>Network</h2>
+<a href="/~mustanq">UL Tutorial (WIP)</a>
+
+<h2>Directories</h2>
+<a href="/~Soroptimist"><img src="http://i45.tinypic.com/2iuyrnn.gif" border="0"></a>
+
+<a href="/~SmileyCode"><img src="http://i31.tinypic.com/qzhji9.gif" border="0"></a>
+
+<a href="/~ravena_rebeca97"><img src="http://img.photobucket.com/albums/v226/Jossik/ehg.gif" border="0"></a>
+
+
+<h2>Affiliates</h2>
+
+<a href="/~Naiomit"><img src="http://i52.tinypic.com/run1wy.jpg" border="0"></a>
+<a href="/~Ickkiy"><img src="http://i52.tinypic.com/14b45km.gif" border="0"></a>
+<br><br>
+If you'd like to be affiliates, send me a neomail! :)
+
+<h2>Link back</h2>
+<img src="http://img687.imageshack.us/img687/6559/guild2.gif"><textarea class="side"><a href="/~guildcoding"><img src="http://img687.imageshack.us/img687/6559/guild2.gif" border="0"></a>
+</textarea><br><br><img src="http://img37.imageshack.us/img37/7238/guild1.gif"><textarea class="side"><a href="/~guildcoding"><img src="http://img37.imageshack.us/img37/7238/guild1.gif" border="0"></a>
+</textarea><br><br><a href="/~Anexous"><img src="http://i52.tinypic.com/308y43l.gif" border="0"></a>
+<textarea class="side"><a href="/~guildcoding"><img src="http://i52.tinypic.com/308y43l.gif" border="0"></a>
+</textarea><br><br><img src="http://img10.imageshack.us/img10/3980/guildcoding.png"><textarea class="side"><a href="/~guildcoding"><img src="http://img10.imageshack.us/img10/3980/guildcoding.png" border="0"></a>
+</textarea><br><br><img src="http://i31.tinypic.com/2mhtr39.png"><textarea class="side"><a href="/~guildcoding"><img src="http://i31.tinypic.com/2mhtr39.png" border="0"></a>
+</textarea><br><br>
+The first two buttons were made by: <a href="/~duchess_gydo">silvernonsense</a>. The third was by: <a href="/~Anexous">subtileknives</a>.
+
+<h2>Counters</h2>
+<img src="http://cgi.boingdragon.com/count/charmy/4.gif" width="114" height="35"><br><br><img src="http://whos.amung.us/cwidget/mtxriigl8ur6/8cc63f000000.png" width="81" height="29" border="0"><h2>Awards</h2>
+<a href="/~kacheek_faerie_728"><img src="http://a.imageshack.us/img80/7463/rec2q.png" border="0" width="60" height="60"></a>
+<br>
+Thank you Impressions!
+<br><br><img src="http://i54.tinypic.com/34jdc9j.jpg" width="60" height="60"><br>
+Thank you <a href="/userlookup.phtml?user=phammom">phammon</a>!
+
+<br><br><img src="http://myneopetstuff.weebly.com/uploads/4/8/3/6/4836138/screen_shot_2010-12-19_at_5.42.22_pm.png" width="60" height="60"><br>Thank you <a href="/userlookup.phtml?user=mypooglepwns">mypooglepwns</a>! 
+
+
+
+</div>
+
+<div id="content">
+<a name="top"></a>
+<h1>Welcome</h1>
+<p>
+Hey there the_freebie_man_, welcome to <b>Guild Coding</b>. I'm <a href="/userlookup.phtml?user=moondust_"> moondust_ </a>. I made this tutorial to <b>teach</b> others how to create a <b>full page guild layout</b>. I try to keep this guide updated as much as possible, so it will work with any recent filter changes. This guide shows how I personally make guild layouts, and I like doing things in a simple way, so what you see here is what I think is <b>simplest method to coding guild layouts</b>. 
+
+I don't think it's necessary to know HTML and CSS already because I try to explain everything clearly but if you'd like to expand upon your coding knowledge I recommend these sites: <a href="/~CSSish">CSSish</a>, <a href="/~demioxy">Demioxy</a> and <a href="/~Castilla_xx">Castilla_xx</a> 
+</p>
+
+<a name="fullcode"></a>
+<h1>Full Code</h1>
+<p>
+For your convenience you can simply copy all the coding from this box, but I suggest you go through the whole guide to be able to really understand it all. 
+<br><br></p>
+<table id="diff" style="width: 600px; text-align: right; margin-left: 100px;"><tr><td>
+<textarea class="one"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+body {
+	background-color: #bfeeba;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+<td>
+<textarea class="one"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	margin-left: 700px !important;
+	margin-top: 0px;
+	z-index: 6;
+}
+table table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+.content table p {
+	display: block;
+}
+table table table table font {
+	font-size: 6pt;
+	color: #286f20;
+	font-family: verdana;
+}
+body {
+	background-color: #bfeeba;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+</tr><tr><td>
+Without sidebar and without image map	
+</td>
+<td>
+With side bar without image map
+</td>
+</tr><tr><td>
+<textarea class="one"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	margin-left: 800px !important;
+	margin-top: 0px;
+	z-index: 6;
+}
+table table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+.content table p {
+	display: block;
+}
+table table table table font {
+	font-size: 6pt;
+	color: #286f20;
+	font-family: verdana;
+}
+body {
+	background-color: #bfeeba;
+}
+</style><div id="image" style="position: absolute;"> 
+
+<map name="example"><area shape="rect" coords="512,50,746,180" href="/"><area shape="rect" coords="70,66,94,97" href="/guilds/guild_link.phtml?id=GUILDIDHERE"><area shape="rect" coords="40,115,124,147" href="/~websitename"></map><img src="http://img707.imageshack.us/img707/3053/gclayout.png" usemap="#example" border="0"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+<td>
+<textarea class="one"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+body {
+	background-color: #bfeeba;
+}
+</style><div id="image" style="position: absolute;"> 
+
+<map name="example"><area shape="rect" coords="512,50,746,180" href="/"><area shape="rect" coords="70,66,94,97" href="/guilds/guild_link.phtml?id=GUILDIDHERE"><area shape="rect" coords="40,115,124,147" href="/~websitename"></map><img src="http://img707.imageshack.us/img707/3053/gclayout.png" usemap="#example" border="0"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+
+</tr><tr><td>
+With side bar and with image map
+</td>
+<td>
+Without side bar with image map
+</td>
+</tr></table><a name="impo"></a>
+<h1>Your Layout</h1>
+<p>
+For neo-related guild layouts, use the pictures from: <a href="/backgrounds.phtml">here</a>. The size of your layout should fit the screen of the average user, which is 1027x768. *don't make it tooo tiny! The size I make them is 800x600 so that there is room on the side for the guild side bar. If you do not want the guild side bar there, you can make the layout bigger. Search up tutorials and come up with an awesome layout, after all it is one of the most important aspects of a guild: it's where the first impressions are made!
+</p>
+
+<a name="beginning"></a>
+<h1>Let's Begin!</h1>
+<textarea class="one" style="width: 650px; height: 60px;"><style>
+</style></textarea><p>
+To make the most basic layout, all you need to use is HTML. To be able to do anything awesome, CSS is necessary. You can think of HTML as the structure of a layout and the CSS is what styles the structure. CSS stands for Cascading Style Sheets. Style codes go inside the <b>style sheet</b>, in other words between the opening style tag (style) and the closing style tag (/style). 
+
+<br><br><b>You only need to have one pair of style tags</b>. Please don't have several on one page! The way I display the code is simply to differentiate between HTML and CSS so don't just go copy the whole code from the textboxes below, copy the stuff between the style tags and the stuff outside the style tags. Make sure you only use one pair of style tags in the end! =P
+</p>
+
+<a name="removal"></a>
+<h1>Removal Code</h1>
+<p>
+On the guild homepage there's a whole lot of stuff you probably don't want to have on your guild layout. For fullpage guild layouts, you'll want the page mostly empty so you can do your own thing. The properties and values that we will use are background: none; border: none; and display: none;
+
+</p>
+<table id="diff"><tr><td>
+<br><br>
+table, td {
+<br>background: none;
+<br>}
+<br><b>This will remove the basic structure, the guild table thing.</b>
+
+<br><br>
+#header, #footer, .sidebar {
+<br>display: none;
+<br>}
+<br><b>This part removes the navigation header, the neopet footer and sidebar with your neopets and friends.</b>
+
+<br><br>
+#main {
+<br>background: none;
+<br>border: none;
+<br>}
+<br><b>We have to make it seem like #main, the white background, is not there. We can't get rid of it entirely so we will hide it by hiding the background and the border.</b>
+
+<br><br>
+.contentHeader, .contentModuleHeaderAlt {
+<br>display: none;
+<br>}
+<br><b>The fourth part gets rid of the guild description and the neighbourhood</b>
+
+<br><br>
+#ban {
+<br>display: none;
+<br>}
+<br><br>
+#main {
+<br>margin-top: 0px;
+<br>margin-left: 0px;
+<br>}
+<br><b>This part helps get rid of the strange header problem</b>
+
+<br><br>
+.content table table img { 
+<br>
+display: none; 
+<br>
+}
+<br><br>
+.content table .content table img { 
+<br>
+display: inline; 
+<br>
+}
+<br><b>This will remove the guild logo!</b>
+
+
+<br><br><a href="#top">Back to the top!</a>
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 760px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+</style></textarea></td>
+
+</tr></table><h2>Your coding after adding the removal codes</h2>
+<table id="diff"><tr><td>
+<img src="http://i410.photobucket.com/albums/pp184/charmy_/UNO.png" width="300" class="a"></td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 200px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+</style></textarea></td>
+</tr></table><a name="image"></a>
+<h1>Inserting your image</h1>
+<p>
+The next step is to add your image. There are two parts to it, the CSS and the HTML part. What we do is <b>absolute position a div id that contains an image</b>. <i>But what does mean?</i>. D: 
+
+<br><br>
+An ID is something that has a <b>name</b>, and a <b>#</b> in front of the name. IDs are only used <b>once</b> on a page (in comparison to div classes which can be used several times on a page). In this case, logically we will use an ID for our purposes since we only want one big image. 
+<br><br>
+All the coding <b>inside</b> the style tags is the CSS, and the coding outside the style tags is the <b>HTML</b>. CSS lets you position the image and the HTML is the part of the coding that actually displays the image. HTML works without CSS but CSS doesn't work without HTML. 
+<br><br>
+Now let us look at the coding we have.
+
+
+</p>
+<table id="diff"><tr><td>
+<br><br>
+#image {
+<br><b>
+There is a # followed by the word image. So this must be a div ID called "image"!
+</b>
+<br><br>
+top: 0px;
+<br><b>
+This part of the coding sets how far away from the <b>top of the screen</b> you want your image to go to. Right now it's set to the very top!
+</b>
+<br><br>
+left: 10px;
+<br><b>
+Now this part sets how far away you want the image to be from the left of the page. It's 10 pixels away from the left right now!
+</b>
+<br><br>
+z-index: -1;
+<br><b>
+z-index is a handy property you can use to put some CSS elements over and under each other. According to W3 Schools, the z-index property specifies the stack order of an element. Something with z-index: 2; goes above something with z-index: 1;. 
+<br><br>
+We just want to give it a negative z-index to absolutely ensure that it will always be at the very bottom.
+</b> 
+<br><br>
+
+(div id="image" style="position: absolute;")
+<br>
+(img src="http://img707.imageshack.us/img707/3053/gclayout.png")
+<br>
+(/div)
+<br><b>
+As I said already this is the HTML part. The way to actually make a div appear on your page. Now technically <b>style="position: absolute;</b> should be inside the style tags. But it's not. It is CSS, what's it doing outside? D: It's because of the recent coding filters, so we're forced to use inline styles. 
+<br><br>
+The image code goes inside the div, and the image will do whatever you told it to do in the CSS. (In my case it'll go to the top left most corner.)
+</b>
+
+<br><br><a href="#top">Back to the top!</a>
+
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 680px;"><style>
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+</textarea></td>
+
+</tr></table><h2>Your coding after adding the image</h2>
+<table id="diff"><tr><td>
+<img src="http://i410.photobucket.com/albums/pp184/charmy_/DOS.png" width="300" class="a"></td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 200px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+</textarea></td>
+</tr></table><h2>Your image with an image map!</h2>
+<p>
+It's very common to have your guilds links directly click-able on your image. You need to use an image map do this, and it's not very difficult to learn! 
+<img src="http://img228.imageshack.us/img228/9133/orangesf.png" id="p" width="300" style="float: right;"><br><br> 
+First you need to read up this very well explained page: <a href="/~Kasheik#maps">TutorialZ's Image Map Tutorial</a>
+<br><br>
+Now after you've read it, you will just need to incorporate it into the guild coding somehow. <b>Note:</b> Are you having difficulty with figuring out the coordinates? Look to the right for my easy method of figuring out the coordinates (drag to address bar for full view)
+<br><br>
+You know how for the last section you put the image code inside the div? This time you'll need to put both the image map code and the image code inside the div! 
+
+</p>
+<table id="diff" style="line-height: 20px;"><tr><td>
+I won't bother going through all the details, as the link I provided above explains it thoroughly and I took the coding directly from there. But, you can see how exactly you put the image map code in with the image code! 
+<br><br>
+Most people have links to their board/chat, their join link (which needs to be the LINK page, don't try to take the actual join link from sidebar, that won't work!) and their guild website. Take note that you don't need to include the neopets.com part at the front, it's simply better if you just use /~PETNAME !
+
+<br><br><a href="#top">Back to the top!</a>
+
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 360px;"><style>
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+</style><div id="image" style="position: absolute;"> 
+
+<map name="example"><area shape="rect" coords="512,50,746,180" href="/"><area shape="rect" coords="70,66,94,97" href="/guilds/guild_link.phtml?id=GUILDIDHERE"><area shape="rect" coords="40,115,124,147" href="/~websitename"></map><img src="http://img707.imageshack.us/img707/3053/gclayout.png" usemap="#example" border="0"></div>
+</textarea></td>
+</tr></table><a name="textbox"></a>
+<h1>Inserting your textbox</h1>
+<p>
+The next step is to put in a box of text. Most layouts have one big one. This is done in a similar way to do the way we inserted our image in the previous step, however this time, we will put text in the place of the image code. 
+
+</p>
+<table id="diff"><tr><td>
+You should be familiar with half the coding!
+<br><br>
+#textbox {
+<br><b>A div ID called textbox!</b>
+<br><br>
+top: 70px;
+<br><b>The textbox is 70px from the top.</b>
+<br><br>
+left: 40px;
+<br><b>The textbox is 40px from the left.</b>
+<br><br>
+overflow: auto;
+<br><b>New code! This part of the coding allows your textbox to scroll.</b>
+<br><br>
+width: 430px;
+<br><b>This sets the width of the textbox, my textbox is 430px in width.</b>
+<br><br>
+height: 480px;
+<br><b>This sets the height of the textbox, my textbox is 480px in height.</b>
+<br><br>
+font-family: verdana;
+<br><b>This part lets you choose the type of font style you want the text in your textbox to have. You have choices like georgia, verdana and tahoma. </b>
+<br><br>
+color: #551a4d;
+<br><b>This part sets the colour of the text in your textbox. There is no u for the CSS code. :( so make sure its color and not colour. </b>
+<br><br>
+z-index: 4;
+<br><b>The z-index for the textbox will just make sure it's right at the top.</b>
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 650px;"><style>
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+</style><div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+
+</tr></table><br>
+Please note, your textbox will NOT scroll if you don't have enough text in it! And the seemingly random text in the textbox is called lorem ipsum, which is just filler text. I just put it there because I need to fill up space. x)
+<br><br>
+How do you know what the top and left values are? You can experiment until you get it in the right place, or you could use a graphic program to speed the process too. (For example, you might try top: 400px;, which turns out to be too low so then you'd try top: 200px; then top: 230px;, and then get to top: 235px which is just right!)
+
+<br><br><a href="#top">Back to the top!</a> 
+
+<h2>Your coding after adding the textbox</h2>
+<table id="diff"><tr><td>
+<img src="http://i410.photobucket.com/albums/pp184/charmy_/TRES.png" width="300" class="a"></td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 200px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+
+</textarea></td>
+</tr></table><h2>Additional textboxes</h2>
+<p>
+I get asked a lot about how to add more textboxes to guild layouts. So if you want more than one textbox, its basically the exact same as how you made the first textbox, except you just need to change the ID name to something different. 
+<br><br></p>
+<table id="diff" style="line-height: 20px;"><tr><td>
+For example, if I had three textboxes, I would call the first one #textbox1, the second one #textbox2, and the third one #textbox3.
+<br><br>
+I included the bare minimum coding necessary for a scrollbox, so you need to add font-family, and color stuff yourself, like the way you did for the other section.
+<br><br>
+How do you know what to call your div? Well you can call it anything you like! You could use #apple, #orange, #banana, or #twilightisthegreatest if you very well wanted to. XD There's no reason to do this though, and it's better to keep your coding organized with div names that make sense like #textbox1 and #textbox2. 
+
+
+<br><br><a href="#top">Back to the top!</a>
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 450px;"><style>
+#textbox1 {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+}
+#textbox2 {
+	top: 200px;
+	left: 400px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+}
+#textbox3 {
+	top: 300px;
+	left: 500px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+}
+</style><div id="textbox1" style="position: absolute;">
+Text goes here 
+</div>
+
+<div id="textbox2" style="position: absolute;">
+Text goes here 
+</div>
+
+<div id="textbox3" style="position: absolute;">
+Text goes here 
+</div>
+</textarea></td>
+</tr></table><a name="side"></a>
+<h1>The guild side bar</h1>
+<p>
+You must have noticed that I didn't get rid of the side bar with the council and links in the removal code. I personally like to have the side bar, but if you don't you can get rid of it with this. (table table table table gets rid of the side bar and the .content p part hides the guild home/guild help/my guild links at the top.
+
+<textarea class="one" style="width: 650px; height: 180px;"><style>
+table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+</style></textarea><br><br>
+But say you want to have the side bar there, then what do you do? It used to be very easy, all you had to do was add the CSS codes to the selector table table table table, say you wanted to change the position of the side bar to go beside the layout: you add position: absolute; top: 0px; left: 600px; to it, and then you'd be done! 
+<br><br>
+But we can't have position: absolute; inside the style tags because of the filter changes. So we're forced to use a more complicated version. (as a note, if you know the position fix for lookups don't use it for guilds, since it doesn't work at all in Chrome) 
+
+<br><br></p>
+<table id="diff"><tr><td>
+table table table table {
+<br>
+margin-left: 700px !important;
+<br>
+margin-top: 0px;
+<br>
+z-index: 6;
+<br>
+}
+<br><b>This is the most important part, you need to change the margin-left and margin-top values to change it's position. </b>
+<br><br>
+table table table table table {
+<br>
+display: none;
+<br>
+}
+<br><b>There's this strange problem with the guild poll when you try to move it around, so this part fixes that. </b>
+<br><br>
+.content p { 
+<br>
+margin-top: -20px; 
+<br>
+}
+<br><br>
+.content table p {
+<br>
+display: block; 
+<br>
+}
+<br><b>The .content p part hides the guild home/guild help/my guild links at the top.</b>
+<br><br>
+table table table table font {
+<br>
+font-size: 6pt;
+<br>
+color: #286f20;
+<br>
+font-family: verdana;
+<br>
+}
+<br><b>This part lets you make the sidebar pretty, you can change the font-size, color and font-family.</b>
+
+
+<br><br><a href="#top">Back to the top!</a>
+</td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 560px;"><style>
+table table table table {
+	margin-left: 700px !important;
+	margin-top: 0px;
+	z-index: 6;
+}
+table table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+.content table p {
+	display: block;
+}
+table table table table font {
+	font-size: 6pt;
+	color: #286f20;
+	font-family: verdana;
+}
+</style></textarea></td>
+
+</tr></table><h2>Your coding after adding the sidebar code</h2>
+<table id="diff"><tr><td>
+<img src="http://i410.photobucket.com/albums/pp184/charmy_/QUATRO.png" width="300" class="a"></td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 200px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	margin-left: 700px !important;
+	margin-top: 0px;
+	z-index: 6;
+}
+table table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+.content table p {
+	display: block;
+}
+table table table table font {
+	font-size: 6pt;
+	color: #286f20;
+	font-family: verdana;
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+
+</textarea></td>
+</tr></table><a name="background"></a>
+<h1>The background!</h1>
+<p>
+The last thing I'm going to show you is how to change the background. You need to apply the background code to the body selector. The background CSS code is background-color: red; and background-image: url(IMAGE URL HERE); 
+
+<textarea class="one" style="width: 650px; height: 130px;"><style>
+body {
+	background-color: #bfeeba;
+	background-image: url("-blocked-");
+}
+</style></textarea><br>
+There's all sorts of awesome things you can do with the background, you can read up more on it here: <a href="/~CSSish#bkg">CSSish's CSS tutorial</a>.
+
+
+<br><br><a href="#top">Back to the top!</a>
+
+
+</p>
+<h2>What your coding should look like!</h2>
+<table id="diff"><tr><td>
+<img src="http://i410.photobucket.com/albums/pp184/charmy_/CINCO.png" width="300" class="a"></td>
+
+<td>
+<textarea class="one" style="width: 350px; height: 200px;"><style>
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar {
+	display: none;
+}
+#main {
+	background: none;
+	border: none;
+}
+.contentHeader, .contentModuleHeaderAlt {
+	display: none;
+}
+#ban {
+	display: none;
+}
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+#image {
+	top: 0px;
+	left: 10px;
+	z-index: -1;
+}
+#textbox {
+	top: 70px;
+	left: 40px;
+	overflow: auto;
+	width: 430px;
+	height: 480px;
+	font-family: verdana;
+	font-size: 10pt;
+	color: #551a4d;
+	z-index: 4;
+}
+table table table table {
+	margin-left: 700px !important;
+	margin-top: 0px;
+	z-index: 6;
+}
+table table table table table {
+	display: none;
+}
+.content p {
+	margin-top: -20px;
+}
+.content table p {
+	display: block;
+}
+table table table table font {
+	font-size: 6pt;
+	color: #286f20;
+	font-family: verdana;
+}
+body {
+	background-color: #bfeeba;
+	background-image: url("-blocked-");
+}
+</style><div id="image" style="position: absolute;">
+<img src="http://img707.imageshack.us/img707/3053/gclayout.png"></div>
+
+<div id="textbox" style="position: absolute;">
+Text goes right in here!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper malesuada lorem sit amet mollis. Integer leo neque, pellentesque sed vulputate eget, auctor convallis magna. Duis nec ante justo, vel ultricies turpis. Curabitur ipsum nisl, aliquet non consequat ut, suscipit eu nisl. Nullam ac ligula sit amet purus lobortis semper et nec orci. Phasellus ultrices odio eu eros vulputate quis placerat est placerat. Nullam a pellentesque mi. Suspendisse turpis est, blandit non lacinia ut, aliquam lobortis odio. Integer neque leo, fermentum vitae luctus posuere, sodales sit amet libero. Pellentesque ullamcorper dui pharetra magna placerat eu ornare massa tristique. Ut hendrerit mattis lacus vel ullamcorper. Vestibulum neque urna, faucibus et vestibulum quis, porttitor ultricies risus. Morbi nec orci enim. Aliquam erat volutpat. 
+</div>
+</textarea></td>
+</tr></table><a name="finish"></a>
+<h1>The End!</h1>
+<p>
+You have come to the end of my tutorial! Thanks so much for reading, and I really hope that it's helped you out in some way.
+<br><br>
+Do you have any questions or comments? Feel free to neomail my <a href="//www.neopets.com/neomessages.phtml?type=send">my main account</a>. I will be very happy to help you out! 
+<br><br>
+(please don't send anything to 1plus4is14, I don't log on there everyday, so I probably won't get to your question for a long time.)
+<br><br>
+It's cool if you don't want to link back, but you're SUPER COOL if you do! ;) You can find some link back buttons on the side of the layout. 
+<br><br>
+Good luck with your guild the_freebie_man_! :D
+
+<br><br><a href="#top">Back to the top!</a>
+</p>
+</div>
+
+<div id="footer">
+</div>
+
+</div>
+</div><BR><BR><BR>
