@@ -1,0 +1,735 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+Avatiers got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=cupkait'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+body {
+	background-color: #000;
+}
+#nav {
+	width: 100%;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
+#circle {
+	width: 100px;
+	height: 60px;
+	margin-left: -50px;
+	left: 50%;
+	top: 0px;
+	z-index: 3;
+}
+.inside {
+	background-color: #fff;
+	width: 100%;
+	height: 40px;
+}
+.inside a {
+	width: 25%;
+	display: block;
+	float: left;
+	font: 12px helvetica;
+	text-align: center;
+	padding: 13.7px 0px 13.7px 0px;
+	text-decoration: none;
+}
+.inside a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+.inside a.blue {
+	color: #009779;
+}
+.inside a.purple {
+	color: #7878c5;
+}
+.inside a.blue:hover {
+	background-color: #009779;
+	color: #fff;
+}
+.inside a.purple:hover {
+	background-color: #7878c5;
+	color: #fff;
+}
+#container {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#splash {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: url("http://i.imgur.com/q3PSW4B.png") repeat right bottom;
+	z-index: 4;
+}
+.banner {
+	width: 1000px;
+	height: 500px;
+	margin-left: -500px;
+	margin-top: -250px;
+	left: 50%;
+	top: 50%;
+}
+.tier1nav {
+	left: 284px;
+	top: 339px;
+	width: 95px;
+	height: 45px;
+}
+.tier2nav {
+	left: 255px;
+	top: 188px;
+	width: 100px;
+	height: 85px;
+}
+.tier3nav {
+	left: 556px;
+	top: 93px;
+	width: 91px;
+	height: 98px;
+}
+.tier4nav {
+	left: 687px;
+	top: 322px;
+	width: 100px;
+	height: 46px;
+}
+.aboutnav {
+	left: 481px;
+	top: 294px;
+	width: 35px;
+	height: 29px;
+}
+.aboutnav span {
+	display: none;
+	width: 650px;
+	height: auto;
+	margin-left: -335px;
+	margin-top: -250px;
+	left: 50%;
+	top: 50%;
+	font: 18px helvetica;
+	color: #fff;
+	font-weight: lighter;
+	padding: 20px;
+	text-align: justify;
+	line-height: 24px;
+	background: url("http://i.imgur.com/3RwKVih.png");
+}
+.aboutnav:hover span {
+	display: block;
+}
+#tier1 {
+	overflow: auto;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background: url("http://i.imgur.com/qeouRpw.png");
+	z-index: 1;
+}
+#banners {
+	width: 100%;
+	height: 300px;
+	background: url("http://i.imgur.com/OhjZaX2.png") fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	font: 72px helvetica;
+	color: #fff;
+}
+#info {
+	width: 96%;
+	background-color: #f0f0f0;
+	padding: 15px 2% 15px 2%;
+	color: #0d0d0d;
+	font: 24px helvetica;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: justify;
+	font-weight: lighter;
+}
+#content {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: left;
+}
+h1 {
+	font: 50px helvetica;
+	font-weight: lighter;
+	color: #009779;
+	text-transform: lowercase;
+	line-height: 65px;
+	border-bottom: 3px solid #7878c5;
+}
+h1 b {
+	font-weight: normal;
+	color: #7878c5;
+}
+h3 {
+	font: 30px helvetica;
+	font-weight: normal;
+	color: #7878c5;
+	text-transform: uppercase;
+	line-height: 65px;
+	margin-top: 100px;
+	text-align: center;
+	border-top: 4px double #009779;
+}
+.quickinfo {
+	width: 700px;
+	padding: 20px 20px 20px 0px;
+	font: 16px helvetica;
+	text-align: justify;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: -42px;
+}
+#tier2 {
+	overflow: auto;
+	top: 200%;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background: url("http://i.imgur.com/qeouRpw.png");
+	z-index: 1;
+}
+#tier3 {
+	overflow: auto;
+	top: 300%;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background: url("http://i.imgur.com/qeouRpw.png");
+	z-index: 1;
+}
+#tier4 {
+	overflow: auto;
+	top: 400%;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background: url("http://i.imgur.com/qeouRpw.png");
+	z-index: 1;
+}
+.footer {
+	width: 96%;
+	background-color: #f0f0f0;
+	padding: 2%;
+	font: 18px helvetica;
+	font-weight: lighter;
+	color: #0d0d0d;
+	text-align: right;
+	margin-top: 50px;
+}
+.footer a {
+	color: #7878c5;
+	font-weight: normal;
+	text-decoration: none;
+}
+.footer a:hover {
+	font-weight: bold;
+	color: #009779;
+}
+.hover {
+	padding: 5px;
+	display: inline-block;
+}
+.hover .box {
+	display: none;
+	background-color: #fff;
+	padding: 5px;
+	font: 12px helvetica;
+	font-weight: -blocked-;
+	border: 1px solid #009779;
+	left: 25px;
+	bottom: 25px;
+	z-index: 10;
+	width: 300px;
+}
+.hover:hover .box {
+	display: block;
+	background-color: #f0f0f0;
+}
+strong:hover span {
+	display: inline-block;
+}
+b {
+	color: #7878c5;
+}
+a {
+	color: #009779;
+	text-decoration: none;
+}
+a:hover {
+	color: #7878c5;
+}
+</style><div id="container" style="position: absolute;"> <div id="nav" style="position: fixed;"> <div id="circle" style="position: fixed;"> <a href="#home"><img src="http://i.imgur.com/zbWDspr.png"></a> </div> <div class="inside"> <a href="/~avatiers#tierone" class="blue">TIER 1</a> <a href="/~avatiers#tiertwo" class="purple">TIER 2</a> <a href="/~avatiers#tierthree" class="blue">TIER 3</a> <a href="/~avatiers#tierfour" class="purple">TIER 4</a> </div> </div> <a name="home"></a> <div id="splash" style="position: absolute;"> <div class="banner" style="position: absolute;"> <img src="http://i.imgur.com/CXhn40U.png"><a href="/~avatiers#tierone"><div class="tier1nav" style="position: absolute;"></div></a> <a href="/~avatiers#tiertwo"><div class="tier2nav" style="position: absolute;"></div></a> <a href="/~avatiers#tierthree"><div class="tier3nav" style="position: absolute;"></div></a> <a href="/~avatiers#tierfour"><div class="tier4nav" style="position: absolute;"></div></a>
+<div class="aboutnav" style="position: absolute;"> <span style="position: absolute;">This is Avatiers, the one-stop avatar reference guide for collectors, lenders, and random passersby alike! For far too long the goal of Avatar Chatters has been to obtain The Big Three. What kind of goal is that?! If you ask me it's not a goal worth having when there are 348 total obtainable avatars out there just waiting for you to collect them.<br><br>Use this guide to help you decide what avatar you should try for next, or to help you decide whether someone has put enough effort into their account to warrant you lending them, or for anything else you can think of. New features for optimized usefulness will be added regularly- if you have any suggestions, neomail them to <a href="/neomessages.phtml?type=send&amp;recipient=tizzlestix">tizzlestix</a>!<br><br><center>Oh, and here's a button for you to use if you'd like!<br><a href="/~floret"><img src="http://i.imgur.com/qhjFTdm.gif"></a><br><textarea><a href="/~avatiers"><img src="http://i.imgur.com/qhjFTdm.gif"></a></textarea></center></span> </div> </div> </div>
+<div id="tier1" style="position: absolute;"> <a name="tierone"></a> <div id="banners"> <img src="http://i.imgur.com/H5p72W9.png"></div> <div id="info"> There are avatars that are considered "clickables." These avatars cost no neopoints, call for no minimum account age, and require no effort other than visiting a specified location or typing in a certain phrase. These avatars are must-haves, and there is zero excuse for them eluding your collection. </div> <div id="content">
+<h1>All You Gotta Do Is Click</h1> <div class="quickinfo"> No, really. Just click the avatar to get the avatar. To make things go more quickly, hold down CTRL (Windows) or CMD (Mac) as you click the links to force them to open in a new tab instead of this one.</div>
+<span class="hover" style="position: relative;"><a href="/"><img src="//images.neopets.com/neoboards/avatars/babybuzz.gif"></a><span class="box" style="position: absolute;"><b>Baby Buzz</b><br><br>Search for the phrase 'I love Baby Buzz!'.</span></span>
+<span class="hover" style="position: relative;"><a href="/altador/hallofheroes.phtml?janitor=1"><img src="//images.neopets.com/neoboards/avatars/yurbleforeman.gif"></a><span class="box" style="position: absolute;"><b>Yurble - Forefitor</b></span></span>
+<span class="hover" style="position: relative;"><a href="/altador/hallofheroes.phtml?view_statue_id=12"><img src="//images.neopets.com/neoboards/avatars/kingaltador.gif"></a><span class="box" style="position: absolute;"><b>Lupe - King Altador</b></span></span>
+<span class="hover" style="position: relative;"><a href="/art/misc/scarblade2.phtml"><img src="//images.neopets.com/neoboards/avatars/scarblade.gif"></a><span class="box" style="position: absolute;"><b>Captain Scarblade</b></span></span>
+<span class="hover" style="position: relative;"><a href="/bleh.phtml"><img src="//images.neopets.com/neoboards/avatars/asparableh.gif"></a><span class="box" style="position: absolute;"><b>Bleh!!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/browseshop.phtml?owner=Cosmic145236987"><img src="//images.neopets.com/neoboards/avatars/quiggleaaay.gif"></a><span class="box" style="position: absolute;"><b>Quiggle - Cheesy Grin</b></span></span>
+<span class="hover" style="position: relative;"><a href="/evil/showcreature.phtml?villain=16"><img src="//images.neopets.com/neoboards/avatars/kassminion.gif"></a><span class="box" style="position: absolute;"><b>Kass Minion</b></span></span>
+<span class="hover" style="position: relative;"><a href="/games/defenders.phtml?type=old"><img src="//images.neopets.com/neoboards/avatars/defenders_lupe.gif"></a><span class="box" style="position: absolute;"><b>Defenders of Neopia - Lupe</b><br><br>Press 'Enter' if the avatar does not immediately appear.</span></span>
+<span class="hover" style="position: relative;"><a href="/games/defenders.phtml"><img src="//images.neopets.com/neoboards/avatars/defenders_aisha.gif"></a><span class="box" style="position: absolute;"><b>Defenders of Neopia - Aisha</b></span></span>
+<span class="hover" style="position: relative;"><a href="/halloween/costumes.phtml"><img src="//images.neopets.com/neoboards/avatars/swampwitch.gif"></a><span class="box" style="position: absolute;"><b>Ixi - Sophie the Swamp Witch</b></span></span>
+<span class="hover" style="position: relative;"><a href="/island/training.phtml?type=wisdom"><img src="//images.neopets.com/neoboards/avatars/techomaster.gif"></a><span class="box" style="position: absolute;"><b>Techo Master</b></span></span>
+<span class="hover" style="position: relative;"><a href="/neopedia.phtml?neopedia_id=179"><img src="//images.neopets.com/neoboards/avatars/greyfaerie.gif"></a><span class="box" style="position: absolute;"><b>Grey Faerie</b></span></span>
+<span class="hover" style="position: relative;"><a href="/objects.phtml?obj_type=78&amp;type=shop"><img src="//images.neopets.com/neoboards/avatars/robertabrightvale.gif"></a><span class="box" style="position: absolute;"><b>Acara - Roberta of Brightvale</b></span></span>
+<span class="hover" style="position: relative;"><a href="/objects.phtml?type=shop&amp;obj_type=48"><img src="//images.neopets.com/neoboards/avatars/usukicon_shopkeeper.gif"></a><span class="box" style="position: absolute;"><b>Usukicon - Shopkeeper</b></span></span>
+<span class="hover" style="position: relative;"><a href="/objects.phtml?type=shop&amp;obj_type=48"><img src="//images.neopets.com/neoboards/avatars/usukicon_usuls.gif"></a><span class="box" style="position: absolute;"><b>Usukicon - Usuls</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=__ShadowFury__"><img src="//images.neopets.com/neoboards/avatars/snuffly.gif"></a><span class="box" style="position: absolute;"><b>Snuffly</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Aaeliya"><img src="//images.neopets.com/neoboards/avatars/pinkcybunny.gif"></a><span class="box" style="position: absolute;"><b>Who Me?</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Acolito_de_Yurbles"><img src="//images.neopets.com/neoboards/avatars/yurble.gif"></a><span class="box" style="position: absolute;"><b>Yurble</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Aevetto"><img src="//images.neopets.com/neoboards/avatars/babynimmo.gif"></a><span class="box" style="position: absolute;"><b>Baby Nimmo</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=alexim"><img src="//images.neopets.com/neoboards/avatars/royalboyusul.gif"></a><span class="box" style="position: absolute;"><b>Usul - Royal Boy</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Bastet1570"><img src="//images.neopets.com/neoboards/avatars/anubis.gif"></a><span class="box" style="position: absolute;"><b>Anubis</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Claudaisha"><img src="//images.neopets.com/neoboards/avatars/discoaisha.gif"></a><span class="box" style="position: absolute;"><b>Aisha - Disco</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Dekuron"><img src="//images.neopets.com/neoboards/avatars/toughflotsam.gif"></a><span class="box" style="position: absolute;"><b>Flotsam - Tough</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Zac_123__96"><img src="//images.neopets.com/neoboards/avatars/niptor.gif"></a><span class="box" style="position: absolute;"><b>Niptor</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Lafroby"><img src="//images.neopets.com/neoboards/avatars/villainousmeerca.gif"></a><span class="box" style="position: absolute;"><b>Meerca - Halloween</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Muhkeat"><img src="//images.neopets.com/neoboards/avatars/grumpybori.gif"></a><span class="box" style="position: absolute;"><b>Bori - Grumpy</b><br><br>Please <a href="/neomessages.phtml?type=send&amp;recipient=tizzlestix">neomail me</a> if this stops working.</span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Orblette"><img src="//images.neopets.com/neoboards/avatars/grundo_faerie.gif"></a><span class="box" style="position: absolute;"><b>Grundo - Faerie</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Quiggler4268"><img src="//images.neopets.com/neoboards/avatars/slugawoooo.gif"></a><span class="box" style="position: absolute;"><b>SlugaWOO!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=Roger_Scary"><img src="//images.neopets.com/neoboards/avatars/mutanttonu.gif"></a><span class="box" style="position: absolute;"><b>Tonu - Mutant</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=SSSnake389"><img src="//images.neopets.com/neoboards/avatars/icehissi.gif"></a><span class="box" style="position: absolute;"><b>Hissi - Ice</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=wiley93"><img src="//images.neopets.com/neoboards/avatars/faeriexweetok.gif"></a><span class="box" style="position: absolute;"><b>Xweetok - Faerie</b></span></span>
+<span class="hover" style="position: relative;"><a href="/petlookup.phtml?pet=WolfChild_Spirit"><img src="//images.neopets.com/neoboards/avatars/spottedgelert.gif"></a><span class="box" style="position: absolute;"><b>Spotted Gelert</b></span></span>
+<span class="hover" style="position: relative;"><a href="/pirates/academy.phtml?room=15"><img src="//images.neopets.com/neoboards/avatars/shoyrupirate.gif"></a><span class="box" style="position: absolute;"><b>Pirate! - Shoyru</b></span></span>
+<span class="hover" style="position: relative;"><a href="/pirates/academy.phtml?room=2"><img src="//images.neopets.com/neoboards/avatars/krawkpirate.gif"></a><span class="box" style="position: absolute;"><b>Pirate! - Krawk</b></span></span>
+<span class="hover" style="position: relative;"><a href="/pirates/academy.phtml?room=2149"><img src="//images.neopets.com/neoboards/avatars/scorchiopirate.gif"></a><span class="box" style="position: absolute;"><b>Pirate! - Scorchio</b></span></span>
+<span class="hover" style="position: relative;"><a href="/pirates/academy.phtml?room=45"><img src="//images.neopets.com/neoboards/avatars/aishapirate.gif"></a><span class="box" style="position: absolute;"><b>Pirate! - Aisha</b></span></span>
+<span class="hover" style="position: relative;"><a href="/pound/abandon.phtml"><img src="//images.neopets.com/neoboards/avatars/drdeath.gif"></a><span class="box" style="position: absolute;"><b>Dr. Death</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=object&amp;string=Angelpuss"><img src="//images.neopets.com/neoboards/avatars/angelpuss.gif"></a><span class="box" style="position: absolute;"><b>Angelpuss - Angel</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=object&amp;string=Galem+Darkhand"><img src="//images.neopets.com/neoboards/avatars/galem.gif"></a><span class="box" style="position: absolute;"><b>Grarrl - Galem Darkhand</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=_Jetty_Sammy_"><img src="//images.neopets.com/neoboards/avatars/bahbyjetsam.gif"></a><span class="box" style="position: absolute;"><b>Jetsam - Bah!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Avasin"><img src="http://i.imgur.com/0Dxqic7.gif"></a><span class="box" style="position: absolute;"><b>Baby Pteri - C racked</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Bibunokira"><img src="//images.neopets.com/neoboards/avatars/faeriepteri.gif"></a><span class="box" style="position: absolute;"><b>Faerie Pteri</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Camocky"><img src="//images.neopets.com/neoboards/avatars/camowocky.gif"></a><span class="box" style="position: absolute;"><b>Wocky - Camouflage</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=CrunchyShell"><img src="//images.neopets.com/neoboards/avatars/ruki.gif"></a><span class="box" style="position: absolute;"><b>Ruki</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Derpot"><img src="//images.neopets.com/neoboards/avatars/discoixi.gif"></a><span class="box" style="position: absolute;"><b>Ixi - Disco</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Doobiezez"><img src="//images.neopets.com/neoboards/avatars/krawkislandfever.gif"></a><span class="box" style="position: absolute;"><b>Krawk - Island Fever</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Emaden"><img src="//images.neopets.com/neoboards/avatars/raindorf.gif"></a><span class="box" style="position: absolute;"><b>Raindorf</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=friskitorius"><img src="//images.neopets.com/neoboards/avatars/spardel.gif"></a><span class="box" style="position: absolute;"><b>Spardel</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=gator2"><img src="//images.neopets.com/neoboards/avatars/piratepoogle.gif"></a><span class="box" style="position: absolute;"><b>Poogle - Pirate</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Jesperus"><img src="//images.neopets.com/neoboards/avatars/tyrannianjubjub.gif"></a><span class="box" style="position: absolute;"><b>Jubjub - Tyrannian</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Josholox"><img src="//images.neopets.com/neoboards/avatars/fierypteri.gif"></a><span class="box" style="position: absolute;"><b>Fiery Pteri</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Jotunheimr"><img src="//images.neopets.com/neoboards/avatars/darigangrarrl.gif"></a><span class="box" style="position: absolute;"><b>Grarrl - Darigan</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=jub"><img src="//images.neopets.com/neoboards/avatars/battlejubjub.gif"></a><span class="box" style="position: absolute;"><b>Battle Jubjub</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Kauarva"><img src="//images.neopets.com/neoboards/avatars/starrykau.gif"></a><span class="box" style="position: absolute;"><b>Kau - Starry</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Korbath"><img src="//images.neopets.com/neoboards/avatars/colorfulkorbat.gif"></a><span class="box" style="position: absolute;"><b>Colorful Korbat</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Kulaboo"><img src="//images.neopets.com/neoboards/avatars/faeriepeo.gif"></a><span class="box" style="position: absolute;"><b>Peophin - Faerie</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=losta_potatoes"><img src="//images.neopets.com/neoboards/avatars/battleelephante.gif"></a><span class="box" style="position: absolute;"><b>Elephante - To War!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=LoveyDarlinOfMia"><img src="//images.neopets.com/neoboards/avatars/clay_day.gif"></a><span class="box" style="position: absolute;"><b>Clay - Ouch!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=lugia_gs"><img src="//images.neopets.com/neoboards/avatars/darkpeophin.gif"></a><span class="box" style="position: absolute;"><b>Darigan Peophin</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=lunalindy"><img src="//images.neopets.com/neoboards/avatars/scarabug.gif"></a><span class="box" style="position: absolute;"><b>Scarabug</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Macky"><img src="//images.neopets.com/neoboards/avatars/mutantdraik.gif"></a><span class="box" style="position: absolute;"><b>Mutant Draik - Back Off!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=mangokicks"><img src="//images.neopets.com/neoboards/avatars/goldy.gif"></a><span class="box" style="position: absolute;"><b>Goldy</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Marie100302"><img src="//images.neopets.com/neoboards/avatars/maraquanchomby.gif"></a><span class="box" style="position: absolute;"><b>Maraquan Chomby</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=matt_bellamy_"><img src="//images.neopets.com/neoboards/avatars/rainbowflotsam.gif"></a><span class="box" style="position: absolute;"><b>Flotsam - Rainbow</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Mega5Roll"><img src="//images.neopets.com/neoboards/avatars/itsalive.gif"></a><span class="box" style="position: absolute;"><b>Faellie - It's Alive</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=ms_lady_love"><img src="//images.neopets.com/neoboards/avatars/wreathy.gif"></a><span class="box" style="position: absolute;"><b>Not for Wreathale</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=sadies181"><img src="//images.neopets.com/neoboards/avatars/zomutt.gif"></a><span class="box" style="position: absolute;"><b>Zomutt</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=santasmuffin"><img src="//images.neopets.com/neoboards/avatars/mutantquiggle.gif"></a><span class="box" style="position: absolute;"><b>Quiggle - Mutant</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Sea_Queen_of_loveing"><img src="//images.neopets.com/neoboards/avatars/purplepeo.gif"></a><span class="box" style="position: absolute;"><b>Peophin - Purple</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Snowien"><img src="//images.neopets.com/neoboards/avatars/ohemgee.gif"></a><span class="box" style="position: absolute;"><b>OHEMGEE!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Zazido"><img src="//images.neopets.com/neoboards/avatars/cyodrake.gif"></a><span class="box" style="position: absolute;"><b>Cyodrake</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=spunWAyout2"><img src="//images.neopets.com/neoboards/avatars/moach.gif"></a><span class="box" style="position: absolute;"><b>Moach</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Tannabok"><img src="//images.neopets.com/neoboards/avatars/tuskyrelax.gif"></a><span class="box" style="position: absolute;"><b>Tuskaninny - Relax</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Teratorn"><img src="//images.neopets.com/neoboards/avatars/mutantlenny.gif"></a><span class="box" style="position: absolute;"><b>Lenny - Mutant</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Trestian"><img src="//images.neopets.com/neoboards/avatars/royalboyacara.gif"></a><span class="box" style="position: absolute;"><b>Acara - Angry Prince</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Urwissen"><img src="//images.neopets.com/neoboards/avatars/rainbowchomby.gif"></a><span class="box" style="position: absolute;"><b>Chomby - Colourful</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Verillyan"><img src="//images.neopets.com/neoboards/avatars/maraquankrawk.gif"></a><span class="box" style="position: absolute;"><b>Maraquan Krawk</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Xyioz_Athos"><img src="//images.neopets.com/neoboards/avatars/piratemoehog.gif"></a><span class="box" style="position: absolute;"><b>Moehog - Avast!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=yomikoza"><img src="//images.neopets.com/neoboards/avatars/yarrble.gif"></a><span class="box" style="position: absolute;"><b>Yarrble!</b></span></span>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Zzvar"><img src="//images.neopets.com/neoboards/avatars/desertruki.gif"></a><span class="box" style="position: absolute;"><b>Ruki - Desert</b></span></span>
+<span class="hover" style="position: relative;"><a href="/space/warehouse/prizecodes.phtml"><img src="//images.neopets.com/neoboards/avatars/grundogrunt.gif"></a><span class="box" style="position: absolute;"><b>Grundo Warehouse</b><br><br>Submit the code A384J-228P1.</span></span>
+<span class="hover" style="position: relative;"><a href="/water/plot_com.phtml?chapter=5"><img src="//images.neopets.com/neoboards/avatars/iscacaylis.gif"></a><span class="box" style="position: absolute;"><b>Good or Bad?</b></span></span>
+<h3>running total: 83</h3>
+<h1>Currently Unobtainable</h1> <div class="quickinfo">These avatars are currently impossible to obtain due to site glitches and ongoing maintenance. They have not been officially retired so, for now, they're still a part of Avatiers, though they do not count toward each tier's running total.</div>
+<span class="hover" style="position: relative;"><a href="/search.phtml?selected_type=pet&amp;string=Avisius"><img src="//images.neopets.com/neoboards/avatars/halloweenmynci.gif"></a><span class="box" style="position: absolute;"><b>Mynci - Halloween</b></span></span>
+</div><div class="footer">layout made by <a href="/userlookup.phtml?user=darkroast">darkroast</a> </div> </div>
+<div id="tier2" style="position: absolute;"> <a name="tiertwo"></a> <div id="banners"> <img src="http://i.imgur.com/GIc3DrE.png"></div> <div id="info"> Tier 2 moves away from clickables and into some actual effort (oh no!)-- but don't worry, not much. Combined, these avatars should cost you very little NP. </div> <div id="content">
+<h1>Annual</h1> <div class="quickinfo"> Some avatars are only available once per year! Annual avatars that don't have a small or unpredictable window of availability are considered Tier 2- it's not *that* hard to take 5 minutes out of your day to obtain these even if you're otherwise busy! </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/altadorcup_staff.gif"><span class="box" style="position: absolute;"> <b>Altador Cup Staff Tournament</b><br><br>Vote in the annual Altador Cut Staff Tournament.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/birthday.gif"><span class="box" style="position: absolute;"> <b>Happy Birthday!</b><br><br>Visit the <a href="/nf.phtml">New Features</a> on Neopets' birthday, November 15th.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/chefbonju.gif"><span class="box" style="position: absolute;"> <b>Blumaroo - Chef Bonju</b><br><br>During the month of August, visit the <a href="/island/cookingpot.phtml">Cooking Pot</a> with your avatar set as Mad About Orange and mix the items: Blumaroo Steak, Gourmet Cooking For Your Pet, and Orange Juice.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/easterbunny.gif"><span class="box" style="position: absolute;"> <b>Easter Cybunny</b><br><br>Send <a href="/sendgreeting.phtml?sp-blocked-=&amp;greeting_id=677">this</a> NeoGreeting on April 8th-10th.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/plasticfir.gif"><span class="box" style="position: absolute;"> <b>Plastic Fir</b><br><br>Visit the <a href="/winter/adventcalendar.phtml">Advent Calendar</a> on December 1st and collect your prizes.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/quigukiArmageddon.gif"><span class="box" style="position: absolute;"> <b>Quiguki April Fools Avatar</b><br><br>Visit the <a href="/nf.phtml">New Features</a> page on April 4th AFTER the April Fools joke has been taken down and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/valentine_chia.gif"><span class="box" style="position: absolute;"> <b>Valentine Chia</b><br><br>Send <a href="/sendgreeting.phtml?sp-blocked-=&amp;greeting_id=292">this</a> NeoGreeting on February 13th or 14th.</span></span>
+<h1>Battledome</h1> <div class="quickinfo"> These avatars require you to battle opponents in the Battledome. Your pet doesn't have to be a beast to get these avatars, they just have to be well-fed and healthy! </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/awakened_aagh7l.gif"><span class="box" style="position: absolute;"> <b>Battleground: Awakened</b><br><br>Join Awakened and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/brutes_syg48s.gif"><span class="box" style="position: absolute;"> <b>Battleground: Brute Squad</b><br><br>Join the Brute Squad and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ghostlupe.gif"><span class="box" style="position: absolute;"> <b>Ghost Lupe</b><br><br>Defeat the Ghost Lupe in the Battledome.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kasukilu.gif"><span class="box" style="position: absolute;"> <b>Kasuki Lu - Heeyah!</b><br><br>Defeat Kasuki Lu in the Battledome. Challenger obtained by viewing his Collectable Card.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/seekers_slb7gh.gif"><span class="box" style="position: absolute;"> <b>Battleground: Seekers</b><br><br>Join the Seekers and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sway_lyatb3.gif"><span class="box" style="position: absolute;"> <b>Battleground: The Sway</b><br><br>Join the Sway and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tonucharge.gif"><span class="box" style="position: absolute;"> <b>Tonu - Charge!</b><br><br>Send a challenge to battle a Darigan Tonu. You can either win or lose, but you must be the one to initiate the challenge.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/yourlupeasplode.gif"><span class="box" style="position: absolute;"> <b>Hello, little Lupe... BOOOM!</b><br><br>Lose with a Lupe in a 2-player fight in the Battledome or lose with a Lupe against the Ghost Lupe in a 1-player fight.</span></span>
+<h1>Games</h1> <div class="quickinfo"> Tier 2 games are ones that *should* not require more than a handful of tries before you get the avatar. As with anything, gaming abilities vary- please don't send any angry messages if you can't get past the Medium difficulty of Kass Basher insisting that I move it to Tier 4. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/acezafara.gif"><span class="box" style="position: absolute;"> <b>Ace Zafara</b><br><br>Score 700+ in <a href="/games/game.phtml?game_id=204">Advert Attack</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/attackoftheslorgs.gif"><span class="box" style="position: absolute;"> <b>Attack of the Slorgs</b><br><br>Send a score of 1,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=386">Attack of the Slorgs</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/capara.gif"><span class="box" style="position: absolute;"> <b>Capara</b><br><br>Randomly awarded when you catch Capara cheating and win the first round in <a href="//www.neopets.com/games/cheat/index.phtml">Cheat!</a></span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/cliffhanger.gif"><span class="box" style="position: absolute;"> <b>Cliffhanger - Game Over</b><br><br>Play a game of <a href="//www.neopets.com/games/cliffhanger/cliffhanger.phtml">Cliffhanger</a>... and lose.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/dice_escape.gif"><span class="box" style="position: absolute;"> <b>Dice Escape</b><br><br>Send a score of 1,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=356">Dice Escape</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/evileliv.gif"><span class="box" style="position: absolute;"> <b>Evil Eliv Thade</b><br><br>Send a score of 1,200+ points in <a href="//www.neopets.com/games/elivthade.phtml">The Castle of Eliv Thade</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/goparokko.gif"><span class="box" style="position: absolute;"> <b>Goparokko</b><br><br>Send a score of 8,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=887">Goparokko</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gormball_gargarox.gif"><span class="box" style="position: absolute;"> <b>Gormball - Gargarox</b><br><br>Play a game of <a href="//www.neopets.com/space/gormball.phtml">Gormball</a> and win.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/library_faerie.gif"><span class="box" style="position: absolute;"> <b>Library Faerie</b><br><br>Successfully complete the daily <a href="//www.neopets.com/games/crossword/index.phtml">Faerie Crossword</a>. Daily answers can be found on <a href="//www.neopets.com/redirect/fansite.phtml?r=http+-invalid_characters-+A+-invalid_characters-+F+-invalid_characters-+Fwww.jellyneo.net" class="auto_bumper">JellyNeo</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/lilgrarrl.gif"><span class="box" style="position: absolute;"> <b>Grarrl Keno</b><br><br>Randomly awarded when playing <a href="//www.neopets.com/prehistoric/keno.phtml">Grarrl Keno</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/magax.gif"><span class="box" style="position: absolute;"> <b>Magax: Destroyer</b><br><br>Send a score of 3,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=763">MAGAX: Destroyer II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/meepvsfeep.gif"><span class="box" style="position: absolute;"> <b>Meepit Vs Feepit</b><br><br>Send a score of 3,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=540">Meepit vs. Feepit</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mortogkiss.gif"><span class="box" style="position: absolute;"> <b>Mortog Smooch</b><br><br>Collect NP after correctly choosing four or ore Mortogs in a row at <a href="//www.neopets.com/medieval/kissthemortog.phtml">Kiss the Mortog</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mutantgravedoom.gif"><span class="box" style="position: absolute;"> <b>Mutant Graveyard of Doom II</b><br><br>Send a score of 2,250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=1042">Mutant Graveyard of Doom II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/petpetrescue.gif"><span class="box" style="position: absolute;"> <b>Petpet Rescue</b><br><br>Send a score of 250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=228">Petpet Rescue</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pooglewinner.gif"><span class="box" style="position: absolute;"> <b>Poogle Racing Winner</b><br><br>Cheer for the winner at a <a href="//www.neopets.com/faerieland/poogleracing.phtml">Poogle Race</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sinsishifter.gif"><span class="box" style="position: absolute;"> <b>Sinsi - Shapeshifter</b><br><br>Beat level 5 of <a href="//www.neopets.com/medieval/shapeshifter_index.phtml">Shapeshifter</a> and click the option to start level 6, then view the main page.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snargan.gif"><span class="box" style="position: absolute;"> <b>Skeith - Snargan</b><br><br>Collect your winnings when you reach 320 NP on <a href="//www.neopets.com/medieval/doubleornothing.phtml">Double or Nothing</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snowmuncher.gif"><span class="box" style="position: absolute;"> <b>Snowmuncher</b><br><br>Send a score of 5,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=412">Snowmuncher</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/spacerocked.gif"><span class="box" style="position: absolute;"> <b>Spacerocked!</b><br><br>Send a score of 13,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=964">Spacerocked!</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sutekstomb.gif"><span class="box" style="position: absolute;"> <b>Suteks Tomb</b><br><br>Send a score of 2,000+ points in <a href="//www.neopets.com/games/sutekstomb.phtml">Sutek's Tomb</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/weakling.gif"><span class="box" style="position: absolute;"> <b>Neoquest II - Weakling</b><br><br>Lose to a Plains Lupe in Chapter 1 of <a href="//www.neopets.com/games/nq2/index.phtml">NeoQuest II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/whackedkass.gif"><span class="box" style="position: absolute;"> <b>Whack-A-Kass</b><br><br>Send a score of 850+ points in <a>Kass Basher</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/luckyblumaroo.gif"><span class="box" style="position: absolute;"> <b>Dice-A-Roo</b><br><br>Awarded upon winning the jackpot in <a href="//www.neopets.com/games/dicearoo.phtml">Dice-A-Roo</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/betterthanyou.gif"><span class="box" style="position: absolute;"> <b>Better Than You</b><br><br>Win at <a href="//www.neopets.com/games/betterthanyou.phtml">Better Than You</a>.</span></span>
+<h1>Consumable Items</h1> <div class="quickinfo"> Once you get these avatars the items you used for them will be gone forever so you can't ask to borrow them! Not to fret, though- they won't break the bank. If you're hurting for NP, try for some of the game avatars you're missing first, send your score a few times, then come back to these afterward! </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/3legs.gif"><span class="box" style="position: absolute;"> <b>Cap'n Threelegs</b><br><br>Complete a course of training at <a href="//www.neopets.com/pirates/academy.phtml">The Academy</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/achyfi.gif"><span class="box" style="position: absolute;"> <b>Achyfi!</b><br><br>Feed any item with the word "drink" or "juice" to your pet. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Rocket+Fizzy+Drink">here</a> to SW search a dirt cheap option!</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/alienaisha.gif"><span class="box" style="position: absolute;"> <b>Alien Aisha</b><br><br>Use any Nerkmid at the <a href="//www.neopets.com/vending.phtml">Vending Machine</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/blessyoushoyru.gif"><span class="box" style="position: absolute;"> <b>Bless you, Shoyru.</b><br><br>Bless your pet Shoyru with a Weak Bottled Faerie.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snorkle.gif"><span class="box" style="position: absolute;"> <b>Snorkle</b><br><br>Feed your pet a Snorkle Snout.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/brokentoy.gif"><span class="box" style="position: absolute;"> <b>Broken</b><br><br>Get a Broken Toy fixed by Donny at the <a href="//www.neopets.com/winter/brokentoys.phtml">Toy Repair Shop</a>. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Broken+Red+Mynci+Puppet">here</a> to SW a dirt cheap broken toy.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/custard.gif"><span class="box" style="position: absolute;"> <b>Mmm, custard!</b><br><br>Feed your pet anything with "custard" in its name. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Green+Tea+Custard">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/donoteatcarrot.gif"><span class="box" style="position: absolute;"> <b>Do Not Eat!!</b><br><br>Feed your pet an item with the word "Carrot" in it. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Freshly+Tinned+Carrots">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/hungryskeith.gif"><span class="box" style="position: absolute;"> <b>Feed Me</b><br><br>Feed a skeith any item with the word "skeith" in it. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Skeith+Juice+Cocktail">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jetsamchomp.gif"><span class="box" style="position: absolute;"> <b>Jetsam Chomp!</b>Feed your Jetsam an Aquatic petpet. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Ghoti">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kikosnacktime.gif"><span class="box" style="position: absolute;"> <b>Kiko - Snack Time!</b><br><br>Have your pet eat any food between the hours of 3PM and 4PM, or 3AM and 4AM NST.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kioskwocky.gif"><span class="box" style="position: absolute;"> <b>Kiosk Wocky</b><br><br>Win any prize by scratching a scratchcard at the <a href="//www.neopets.com/winter/kiosk.phtml">Terror Mountain Kiosk</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pinatacandy.gif"><span class="box" style="position: absolute;"> <b>Pinatas &amp; Candy!</b><br><br>Play with any pinata that is a toy. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Pawkeet+Pinata">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/plushietonu.gif"><span class="box" style="position: absolute;"> <b>Plushie!</b><br><br>Donate a plushie to the Money Tree. Using QuickStock does not work. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Headless+Von+Roo+Plushie">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/runaway_garlic.gif"><span class="box" style="position: absolute;"> <b>Garlic! Run!!</b><br><br>Randomly awarded when feeding your pet something with the word "garlic" in its name. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Garlic+Cheese+Toast">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/speckled.gif"><span class="box" style="position: absolute;"> <b>Speckled</b><br><br>Feed your pet something with the word "speckled" in the name. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Speckled+Hot+Dog">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sssidney.gif"><span class="box" style="position: absolute;"> <b>Sssidney</b><br><br>Win any prize by scratching a scratchcard at the <a href="//www.neopets.com/halloween/scratch.phtml">Deserted Fairground Kiosk</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/toasty.gif"><span class="box" style="position: absolute;"> <b>Toasty</b><br><br>Have an item with the word "bread" in your inventory and visit <a href="//www.neopets.com/island/techomountain.phtml">Techo Mountain</a>. Click <a href="//www.neopets.com/market.phtml?type=wizard&amp;string=Altadorian+Bread">here</a> to SW a cheap option.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/wickedlenny.gif"><span class="box" style="position: absolute;"> <b>Lenny - Wicked</b><br><br>Feed your Lenny any Spooky Food.</span></span>
+<h1>Lendable Items</h1> <div class="quickinfo"> These items are cheap enough that buying them yourself won't bleed your funds dry, but since they can be used for the avatar and returned, borrowing from another user is an option. It is recommended that you do not seek lends for these avatars before completing the entirety of Tier 1 (remember: all you had to do for those was click, after all). </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/angelpuss2.gif"><span class="box" style="position: absolute;"> <b>Angelpuss</b><br><br>Have an Angelpuss (or a Devilpuss) attached to any of your Neopets and refresh at the <a href="//www.neopets.com/quickref.phtml">Quick Ref</a> page.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/codestones.gif"><span class="box" style="position: absolute;"> <b>Codestones!</b><br><br>Have all 10 original codestones in your <a href="//www.neopets.com/objects.phtml?type=inventory">inventory</a> and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/darknova.gif"><span class="box" style="position: absolute;"> <b>Dark Nova</b><br><br>Equip any of your pets with an item containing the words "dark nova" in its name.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/drackonack_hungry.gif"><span class="box" style="position: absolute;"> <b>Drackonack - Hungry</b><br><br>Have a Drackonack petpet eat a food item with the word "cheese" in its name from your inventory.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/dung.gif"><span class="box" style="position: absolute;"> <b>I'm Smelly</b><br><br>Have 10 different items with the word "dung" in its name in your <a href="//www.neopets.com/objects.phtml?type=inventory">inventory</a> and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/firekougra.gif"><span class="box" style="position: absolute;"> <b>Fire Paw</b><br><br>Put the card<a href="//www.neopets.com/redirect/fansite.phtml?r=http%3A%2F%2Fitems.jellyneo.net%2Findex.php+-invalid_characters-+Fgo+-invalid_characters-+Ditem&amp;showitem_-invalid_characters-_D434=" class="auto_bumper">Fire Paw</a> into your Neodeck.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/fuzzleBOO.gif"><span class="box" style="position: absolute;"> <b>Evil Fuzzle - BOO!</b><br><br>Play with a Blue Evil Fuzzle until it scares your pet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/galleryofevil_vira.gif"><span class="box" style="position: absolute;"> <b>Gallery of Evil - Vira</b><br><br>Have a mirror in your inventory and visit <a href="//www.neopets.com/evil/showcreature.phtml?villain=13">this page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gnome.gif"><span class="box" style="position: absolute;"> <b>Gnome!</b><br><br>Have an item with the word "gnome" in your inventory and visit the <a href="//www.neopets.com/objects.phtml?type=shop&amp;obj_type=12">Garden Centre</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/halloweenmoehog.gif"><span class="box" style="position: absolute;"> <b>Moehog - Halloween</b><br><br>Have an item with the word "Sloth" in your inventory and view the lookup of a <a href="//www.neopets.com/search.phtml?selected_type=pet&amp;string=sphyroz">Halloween Moehog</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/hauntedscorchio.gif"><span class="box" style="position: absolute;"> <b>Scorchio - Haunted</b><br><br>Equip any Haunted Weapon to your pet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kaufortuneteller.gif"><span class="box" style="position: absolute;"> <b>Kau - Fortune Teller</b><br><br>Have an item with the words "crystal ball" in it and view a <a href="//www.neopets.com/search.phtml?selected_type=pet&amp;string=booly66">Pink Kau</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kelpbeard.gif"><span class="box" style="position: absolute;"> <b>King Kelpbeard</b><br><br>Have any Maractite Marvels item in your inventory and then look <a href="//www.neopets.com/tcg/displayCard.phtml?edid=7&amp;id=33">here</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/koiplushie.gif"><span class="box" style="position: absolute;"> <b>Koi - Spotted Plushie</b><br><br>Have a Koi Plushie of any colour in your inventory and view the lookup of a <a href="//www.neopets.com/petlookup.phtml?pet=Crystacoral">painted Koi</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/lawyerbot.gif"><span class="box" style="position: absolute;"> <b>Lawyerbot (heart) Usuki</b><br><br>Have 50 unique Usuki items in your inventory.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/madaboutorange.gif"><span class="box" style="position: absolute;"> <b>Mad About Orange</b><br><br>Have 8 different items with the word "orange" in its name in your inventory and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/nabile.gif"><span class="box" style="position: absolute;"> <b>Nabile</b><br><br>Have any item with "ring" in its name (except for Gardening, Stamp and TCG) and then visit <a href="//www.neopets.com/neopedia.phtml?neopedia_id=15">Nabile's Neopedia Article</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ninjakiko.gif"><span class="box" style="position: absolute;"> <b>Kiko Ninja</b><br><br>Have the item "Niten Hiroru" in your inventory and look at the <a href="//www.neopets.com/neopedia.phtml?neopedia_id=181">Niten Neopedia Article</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pantdeviltaunt.gif"><span class="box" style="position: absolute;"> <b>I Taunt the Pant Devil</b><br><br>Have any single item with an estimated value of 1 million Neopoints or more, or multiple items with a combined estimated value of 5 million Neopoints or more in your <a href="//www.neopets.com/objects.phtml?type=inventory">inventory</a> and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/plushiecybunny.gif"><span class="box" style="position: absolute;"> <b>Cybunny - Plush</b><br><br>View a <a href="//www.neopets.com/search.phtml?selected_type=pet&amp;string=Ice_Blue_Wolf8">Plushie Cybunny</a> with any plushie in your inventory.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/roboeyrie.gif"><span class="box" style="position: absolute;"> <b>Robo</b><br><br>Add a robo with the category Furniture (not Toy) to your <a href="//www.neopets.com/neohome.phtml">Classic Neohome</a>. Make sure your Classic Neohome is already built before asking to be lent.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/scordrax.gif"><span class="box" style="position: absolute;"> <b>Scorchio - Scordrax</b><br><br>With any colored Scorchio Plushie in your inventory, visit a <a href="//www.neopets.com/tcg/album.phtml?edition=8&amp;offset=36&amp;owner=pinkcaddy">TCG album</a> with a Scordrax card in it.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/starrygelert.gif"><span class="box" style="position: absolute;"> <b>Gelert - Starry</b><br><br>Visit the lookup of a <a href="//www.neopets.com/petlookup.phtml?pet=Alex_dogcat5">Starry Gelert</a> with any item with the word "starry" in its name in your inventory.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/unibeauty.gif"><span class="box" style="position: absolute;"> <b>Uni - Beauty</b><br><br>Groom any of your pets with any grooming item.</span></span>
+<h1>Other</h1> <div class="quickinfo"> This is everything else that doesn't quite fit into the above categories. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/air_mote.gif"><span class="box" style="position: absolute;"> <b>Angry Air Mote</b><br><br>Buy any mote with a rarity of 70 or above from the <a href="//www.neopets.com/objects.phtml?type=shop&amp;obj_type=82">Brightvale Motery</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/darklurker.gif"><span class="box" style="position: absolute;"> <b>Dark Lurker</b><br><br>Purchase an item from any <a href="//www.neopets.com/halloween/index.phtml">Haunted Woods</a>, <a href="//www.neopets.com/halloween/index_fair.phtml">Deserted Fairground</a> or <a href="//www.neopets.com/halloween/neovia.phtml">Neovian</a> shop. This avatar is awarded randomly.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/elephantejazz.gif"><span class="box" style="position: absolute;"> <b>Jazzmosis Elephante</b><br><br>See a Jazzmosis concert in the Tyrannian Concert Hall on the 6th, 13th, 20th, or 27th of the month.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/emotingnimmo.gif"><span class="box" style="position: absolute;"> <b>Nimmo - Emote</b><br><br>Post :)*angry*:( on the <a href="/neoboards/boardlist.phtml?board=21">Avatars/NeoSignatures</a> board. If you do not receive the avatar, you may need to clear your neoHTML/signature and try again.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gloomy.gif"><span class="box" style="position: absolute;"> <b>Gloomy</b><br><br>Click through the worlds on the <a href="//www.neopets.com/weather.phtml">weather page</a> to find one where it is currently "rainy" or "gloomy.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/groovychomby.gif"><span class="box" style="position: absolute;"> <b>Groovy Chomby</b><br><br>See a Chomby and the Fungus Ba lls concert in the <a href="//www.neopets.com/prehistoric/concerthall.phtml">Tyrannian Concert Hall</a> on the 8th, 15th, 22nd (sometimes), 23rd, or 29th of the month.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jeranhero.gif"><span class="box" style="position: absolute;"> <b>Jeran - Hero</b><br><br>Refresh at<a href="//www.neopets.com/medieval/plot_bfm.phtml?current_day=7">Chapter 7</a> of the Battle For Meridell comic.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jubzambra.gif"><span class="box" style="position: absolute;"> <b>Jub Zambra</b><br><br>See a Jub Zambra concert in the <a href="//www.neopets.com/prehistoric/concerthall.phtml">Tyrannian Concert Hall</a> on the 5th of the month.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kacheekswim.gif"><span class="box" style="position: absolute;"> <b>Kacheek Swim</b><br><br>Have a Kacheek as your active pet and take it to the <a href="//www.neopets.com/island/beach.phtml">Beach</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/maraquanbuzz.gif"><span class="box" style="position: absolute;"> <b>Buzz - Maraquan</b><br><br>Go to <a href="//www.neopets.com/games/caption/caption_archive.phtml?place=664">this page</a>, right click and view the source. Search for "buzz1". Find the URL and add it to the end of www.neopets.com, then press enter to visit the URL. </span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mibeach.gif"><span class="box" style="position: absolute;"> <b>A Day At The Beach</b><br><br>Go on a <a href="//www.neopets.com/island/tikitours.phtml">Tiki Tour</a> with one of your pets.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/musickiko.gif"><span class="box" style="position: absolute;"> <b>Kiko - Rock!</b><br><br>Go to <a href="//www.neopets.com/music.phtml">this page</a>, right click, click View Source, press Ctrl+F, search for "secretavatar" and find the link. Visit the link for the avatar.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/nightsteed.gif"><span class="box" style="position: absolute;"> <b>Uni - Nightsteed</b><br><br>Visit the pet lookup of a <a href="//www.neopets.com/search.phtml?selected_type=pet&amp;string=Merakhias">Halloween Uni</a> between 8:00PM NST and 6:00AM NST.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pet_rock.gif"><span class="box" style="position: absolute;"> <b>I Love My Rock</b><br><br>See a Sticks N Stones concert in the <a href="//www.neopets.com/prehistoric/concerthall.phtml">Tyrannian Concert Hall</a> on the 10th or 17th of the month.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pickyourown.gif"><span class="box" style="position: absolute;"> <b>Pick Your Own</b><br><br>Play <a href="//www.neopets.com/medieval/pickyourown_index.phtml">Pick Your Own</a> and finish the game with 6 items that are NOT a Pile of Dung.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/plushieeyrie.gif"><span class="box" style="position: absolute;"> <b>Plushie Eyrie</b><br><br>Post the word "squawk" on the Neoboards (without quotes). If you do not get the avatar, change your avatar to the default and try again.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/taelia.gif"><span class="box" style="position: absolute;"> <b>Taelia the Snow Faerie</b><br><br>Complete one of <a href="//www.neopets.com/winter/snowfaerie.phtml">Taelia's quests</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tarla.gif"><span class="box" style="position: absolute;"> <b>Tarla - Shop of Mystery</b><br><br>Purchase an item from Tarla's <a href="//www.neopets.com/winter/shopofmystery.phtml">Shop of Mystery</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tomos.gif"><span class="box" style="position: absolute;"> <b>Tomos</b><br><br>Have exactly 1 NP on hand, have an item with "Scarab" in its name and then visit Tomos <a href="//www.neopets.com/art/misc/tomos2.phtml">How-To-Draw pg. 2</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/unifaboo.gif"><span class="box" style="position: absolute;"> <b>Uni Faboo</b><br><br>Buy an item from the <a href="//www.neopets.com/objects.phtml?type=shop&amp;obj_type=4">Clothes Shop</a> with a rarity of 80+.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/wishingwell.gif"><span class="box" style="position: absolute;"> <b>Wishing Well</b><br><br>Visit the <a href="//www.neopets.com/wishing.phtml">Wishing Well</a> and donate exactly 48,673 NP. Must be one of your first 7 wishes of the day to count.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/yesboyicecream.gif"><span class="box" style="position: absolute;"> <b>Yes Boy Ice-Cream</b><br><br>See a Yes Boy Ice-Cream concert in the <a href="//www.neopets.com/prehistoric/concerthall.phtml">Tyrannian Concert Hall</a> on the 12th, 19th, or 26th of the month.</span></span>
+<span class="hover" style="position: relative;"><a href="/AVATARLINK"><img src="//images.neopets.com/neoboards/avatars/emosuki.gif"></a><span class="box" style="position: absolute;"><b>Emo Usuki</b><br><br>Change your shopkeeper to <a href="//www.neopets.com/select_shopkeeper.phtml?gallery_name_g=&amp;search=usul+-+gothic&amp;keepertype=shop">Usul - Gothic</a>, and then view your shop front. If you view your shop front with another shopkeeper, you will lose the avatar. </span></span>
+<span class="hover" style="position: relative;"><img src="//images.neopets.com/neoboards/avatars/darkestfaerie.gif"><span class="box" style="position: absolute;"><b>The Darkest Faerie</b><br><br>You must visit <a href="//www.neopets.com/tcg/displayCard.phtml?edid=9&amp;id=5">this link</a> between 10PM and 5AM NST.</span></span>
+<span class="hover" style="position: relative;"><img src="//images.neopets.com/neoboards/avatars/royalkorbat_girl.gif"><span class="box" style="position: absolute;"><b>Korbat - Royal</b><br><br>Click <a href="/search.phtml?selected_type=pet&amp;string=Arrenius">here</a> and <a href="/search.phtml?selected_type=pet&amp;string=LittleAriadne">here</a>. Only one will award you an avatar based on the gender your account is set to.</span></span>
+<h1>Pets/Petpets</h1> <div class="quickinfo"> The pet and petpet avatars listed here are often found just by lurking the <a href="//www.neopets.com/pound/">pound</a>- super simple! Even though you can only repound one pet a day, it shouldn't take you too long to get each of these. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gruslen.gif"><span class="box" style="position: absolute;"> <b>Gruslen</b><br><br>Have a Gruslen attached to your pet for 99+ days and then visit your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mazzew.gif"><span class="box" style="position: absolute;"> <b>Mazzew</b><br><br>Have a Mazzew attached to your pet for 221+ days and visit your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pinkpopcorn.gif"><span class="box" style="position: absolute;"> <b>Pink!</b><br><br>Feed your Pink pet anything with the word "popcorn" in it.<br>Note: Pink pets ARE adoptable under 4 mos.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/robotjetsam.gif"><span class="box" style="position: absolute;"> <b>Jetsam - Wanna Fight?</b><br><br>Fight in the Battledome with a Jetsam on your account.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/slorg.gif"><span class="box" style="position: absolute;"> <b>Slorg</b><br><br>Have a Slorg attached to your pet for 100+ days and visit your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snowwocky.gif"><span class="box" style="position: absolute;"> <b>Wocky - Snow Day</b><br><br>Own a Snow pet that is 100+ days old and visit its lookup.<br>Note: Snow pets ARE adoptable under 4 mos.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/spottedtuskaninny.gif"><span class="box" style="position: absolute;"> <b>Tuskaninny - Spotted</b><br><br>Have an item in your inventory with the word "spotted" in its name and visit the lookup of <b>your</b> tuskaninny.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/toughshoyru.gif"><span class="box" style="position: absolute;"> <b>Shoyru - Tough!</b><br><br>Battle with <b>your</b> Shoyru in the Battledome and win.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/windyharris.gif"><span class="box" style="position: absolute;"> <b>Harris - Hi</b><br><br>Have a Harris attached to your pet for 99+ days and then view your pet's lookup.</span></span>
+<h1>Random</h1> <div class="quickinfo"> All random avatars are, well, random, I know. The age at which each account obtains these varies fairly widely in some cases, but I felt that some of the randoms were awarded often enough that they still fall into Tier 2. Much like with Kass Basher, please don't send us angry messages because your 7 year account still doesn't have Beware the Neggbreaker (be honest- have you even played it more than once?!). </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/cheeseroller.gif"><span class="box" style="position: absolute;"> <b>Techo - Cheesy</b><br>Randomly awarded when you cross the finish line in 60 seconds or less on <a href="//www.neopets.com/medieval/cheeseroller.phtml">Cheeseroller</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/haiku.gif"><span class="box" style="position: absolute;"> <b>Rorru</b><br>Randomly awarded when visiting and refreshing at the <a href="//www.neopets.com/island/haiku/haiku.phtml">Haiku Generator</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/islandkacheek.gif"><span class="box" style="position: absolute;"> <b>Must... Keep... Smiling...</b><br>Randomly awarded upon winning a game of <a href="//www.neopets.com/games/hidenseek.phtml">Kacheek Seek</a>/</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/islandmystic.gif"><span class="box" style="position: absolute;"> <b>Island Mystic</b><br>Awarded when visiting the <a href="//www.neopets.com/island/mystichut.phtml">Island Mystic</a> on a day when the fortune has the word "kyrii" in it, which is random.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mediocrity.gif"><span class="box" style="position: absolute;"> <b>Mediocrity</b><br>Land on the "4,000 NP" space on the <a href="//www.neopets.com/prehistoric/mediocrity.phtml">Wheel of Mediocrity</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/misfortune.gif"><span class="box" style="position: absolute;"> <b>Wheel of Misfortune</b><br>Randomly awarded for landing on any space on the <a href="//www.neopets.com/halloween/wheel/index.phtml">Wheel of Misfortune</a>. May not appear as a SHH event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/moodyskarl.gif"><span class="box" style="position: absolute;"> <b>Skarl - Moody</b><br>Get thrown out of the castle when telling <a href="//www.neopets.com/medieval/grumpyking.phtml">King Skarl</a> a joke. The joke is not important.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/neomailaddict.gif"><span class="box" style="position: absolute;"> <b>Neomail Addict</b><br>Randomly awarded when sending a Neomail. You may also refresh at <a href="//www.neopets.com/neomessages.phtml">your inbox</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/nfy14.gif"><span class="box" style="position: absolute;"> <b>Beware the Neggbreaker</b><br>Randomly awarded upon completing the <a href="//www.neopets.com/shenkuu/neggcave/index.phtml">Negg Cave</a> puzzle.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pooralbert.gif"><span class="box" style="position: absolute;"> <b>Mutant Graveyard of Doom</b><br><br>Refresh (a lot) at the <a href="//www.neopets.com/halloween/gamegraveyard.phtml">Game Graveyard</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sloth.gif"><span class="box" style="position: absolute;"> <b>Sloth!</b><br>Randomly awarded in the form of a Random Event while browsing Neopets.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/soup_faerie_kind.gif"><span class="box" style="position: absolute;"> <b>Soup Faerie</b><br>Randomly awarded when feeding your pet at the <a href="//www.neopets.com/soupkitchen.phtml">Soup Kitchen</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/symol.gif"><span class="box" style="position: absolute;"> <b>Symol</b><br>Randomly awarded when you send your pet down the <a href="//www.neopets.com/medieval/symolhole.phtml">Symol Hole</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/toothfaerie.gif"><span class="box" style="position: absolute;"> <b>Tooth Faerie</b><br>Randomly awarded in the form of a Random Event while browsing Neopets.</span></span>
+<span class="hover" style="position: relative;"><a href="/help_search.phtml?help_id=16"><img src="//images.neopets.com/neoboards/avatars/zafara_helpful.gif"></a><span class="box" style="position: absolute;"><b>Helpful Zafara</b><br>Randomly awarded upon refreshing at the <a href="/">Avatars FAQ</a>.</span></span>
+<h3>running total: 214</h3>
+<h1>Currently Unobtainable</h1> <div class="quickinfo">These avatars are currently impossible to obtain due to site glitches and ongoing maintenance. They have not been officially retired so, for now, they're still a part of Avatiers, though they do not count toward each tier's running total.</div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/bilgedice.gif"><span class="box" style="position: absolute;"> <b>Bilge Dice</b><br>Randomly awarded when you achieve a score of 24 in a game of <a href="//www.neopets.com/pirates/bilge.phtml">Bilge Dice</a>.</span></span>
+</div><div class="footer">layout made by <a href="/userlookup.phtml?user=darkroast">darkroast</a> </div> </div>
+<div id="tier3" style="position: absolute;"> <a name="tierthree"></a> <div id="banners"> <img src="http://i.imgur.com/hoGETg1.png"></div> <div id="info"> Once you've completed Tiers 1 and 2, you move on to Tier 3. You may have lucked out (or put in some extra effort) and already made a dent in this tier, but now it's time to buckle down and get a game plan going! Avatars categorized into this tier have the widest range of difficulty. </div> <div id="content">
+<h1>Annual</h1> <div class="quickinfo"> Tier 3 annual avatars all have some sort of "catch" to them, such as being online not just on a certain day, but also at a certain time during that day… or require you to have another avatar before you are eligible for the next. While none of these are particularly difficult, I felt like they needed a little more acknowledgement than the most basic of annual avatars. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/attack_pea.gif"><span class="box" style="position: absolute;"> <b>Seasonal Attack Pea</b><br><br>Awarded upon collecting <a href="/winter/adventcalendar.phtml">Advent Calendar</a> prizes on a random day in December.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gadgadsfruit.gif"><span class="box" style="position: absolute;"> <b>Gadgadsbogen!</b><br><br>Awarded by visiting <a href="//www.neopets.com/neopedia.phtml?neopedia_id=176">this page</a> on March 4th.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ihearthappiness.gif"><span class="box" style="position: absolute;"> <b>I ♥ Happiness</b><br><br>Set your avatar to 'I *heart* Sloth' and visit <a href="/hero/showhero.phtml?hero=ihearthappiness">this</a> page.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/iheartslothy.gif"><span class="box" style="position: absolute;"> <b>I *heart* Sloth</b><br><br>Complete the quiz at <a href="//www.neopets.com/space/mindcontrollab.phtml">Sloth's Mind Control Laboratory</a> on January 14th. (Answers: C, D, B, C, A)</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/illusendoll.gif"><span class="box" style="position: absolute;"> <b>Illusen Doll</b><br><br>Complete one of <a href="//www.neopets.com/medieval/earthfaerie.phtml">Illusen's Quests</a> on March 17th.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jhudoraohyeah.gif"><span class="box" style="position: absolute;"> <b>Evil Jhudora</b><br><br>Complete one of <a href="//www.neopets.com/faerieland/darkfaerie.phtml">Jhudora's Quests</a> on February 4th.</span></span>
+<h1>Battledome</h1> <div class="quickinfo"> These Battledome avatars are a bit tougher to obtain than the ones categorized in Tier 2. If you aren't training your own BD pet (why aren't you?) you may need to borrow a pet from another user to be able to defeat the opponents necessary for these avatars. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/blackPteri.gif"><span class="box" style="position: absolute;"> <b>Black Pteri</b><br><br>Defeat The Black Pteri in the Battledome. Challenger obtained through a Random Event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/meukasnot.gif"><span class="box" style="position: absolute;"> <b>Meuka - Snotty</b><br><br>Defeat Meuka in the battledome. Challenger obtained by visiting <a href="//www.neopets.com/quickref.phtml">here</a> when you have a pet who has Sneezles or Neoflu.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/order_aylbt.gif"><span class="box" style="position: absolute;"> <b>Battleground: The Order</b><br><br>Join the Order and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/spacefaerie.gif"><span class="box" style="position: absolute;"> <b>Space Faerie</b><br><br>Defeat the Space Faerie in the Battledome. Challenger obtained by <a href="//www.neopets.com/space/warehouse/prizecodes.phtml">redeeming a rare item code</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/thieves_atyl7.gif"><span class="box" style="position: absolute;"> <b>Battleground: Thieves Guild</b><br><br>Join the Thieves and participate in at least 10 battles against skirmish opponents, then visit <a href="/prehistoric/battleground/">the Obelisk page</a>.</span></span>
+<h1>Games</h1> <div class="quickinfo"> I admit, ranking games between the tiers is tough- every person has different abilities, so something that is immensely easy for most may be difficult for you. In Tier 3 I tried to include games that may be annoying and tedious, but with a little practice and memorization should be obtainable by most users without having to play for hours each day for more than a week. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/a53.gif"><span class="box" style="position: absolute;"> <b>A53 - LIKE A BOSS</b><br><br>Send a score of 20,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=1347">Assignment 53</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/altadorcupplayer.gif"><span class="box" style="position: absolute;"> <b>Altador Cup Player</b><br><br>Achieve rank one in the yearly Altador Cup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/bullseye.gif"><span class="box" style="position: absolute;"> <b>Turtum</b><br><br>Send a score of 100+ points in <a href="//www.neopets.com/games/game.phtml?game_id=903">Ultimate Bullseye II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/carnival_terror.gif"><span class="box" style="position: absolute;"> <b>Carnival of Terror</b><br><br>Send a score of 725+ points in <a href="//www.neopets.com/games/game.phtml?game_id=902">Carnival of Terror</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/chiabomber.gif"><span class="box" style="position: absolute;"> <b>Chia Bomber</b><br><br>Send a score of 1,300+ points in <a href="//www.neopets.com/games/chiabomber2.phtml">Chia Bomber 2</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/deckswabber.gif"><span class="box" style="position: absolute;"> <b>Deckswabber</b><br><br>Send a score of 1,200+ points in <a href="//www.neopets.com/games/game.phtml?game_id=852">Stowaway Sting</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/donna_wasm.gif"><span class="box" style="position: absolute;"> <b>Revenge is Sweet</b><br><br>Send a score of 2,250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=198">TNT Staff Smasher</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/drgrumps.gif"><span class="box" style="position: absolute;"> <b>Dr. Grumps</b><br><br>Send a score of 900+ points in <a href="//www.neopets.com/games/bowls.phtml">Gourmet Club Bowls</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/faeriebubbles.gif"><span class="box" style="position: absolute;"> <b>Faerie Bubbles</b><br><br>Send a score of 2,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=358">Faerie Bubbles</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ff_yoinked.gif"><span class="box" style="position: absolute;"> <b>Freaky Factory - Yoinked</b><br><br>Send a score of 1,250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=390">Freaky Factory</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/florg.gif"><span class="box" style="position: absolute;"> <b>Chia - Florg</b><br><br>Send a score of 250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=645">Feed Florg</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gadsgadsgame.gif"><span class="box" style="position: absolute;"> <b>Gadsgadsgame</b><br><br>Send a score of 1,000+ points in <a href="//www.neopets.com/games/gadgadsgame.phtml">Gadgadsgame</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/gtu.gif"><span class="box" style="position: absolute;"> <b>Grand Theft Ummagine</b><br><br>Send a score of 1,100+ points in <a href="//www.neopets.com/games/game.phtml?game_id=212">Grand Theft Ummagine</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/hatpc.gif"><span class="box" style="position: absolute;"> <b>Hannah and the Pirate Caves</b><br><br>Send a score of 150,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=349">Hannah and the Pirate Caves</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jarbjarb.gif"><span class="box" style="position: absolute;"> <b>Tyranu Evavu</b><br><br>Get at least 15 correct guesses in a row while playing <a href="//www.neopets.com/games/tyranuevavu.phtml">Tyranu Evavu</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jellyprocessing.gif"><span class="box" style="position: absolute;"> <b>Skeith - Jelly Processing Plant</b><br><br>Send a score of 1,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=538">Hungry Skeith</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mastervex.gif"><span class="box" style="position: absolute;"> <b>Master Vex</b><br><br>Achieved randomly in the later tournaments while playing <a href="//www.neopets.com/games/cellblock/cellblock.phtml">Cellblock</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/meercachase.gif"><span class="box" style="position: absolute;"> <b>Meerca - Chase</b><br><br>Send a score of 1,250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=500">Meerca Chase 2</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/nimmospond.gif"><span class="box" style="position: absolute;"> <b>Nimmos Pond</b><br><br>Send a score of 4,000+ points in <a href="//www.neopets.com/games/game.phtml?game_id=1048">Nimmos Pond</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sewage_surfer.gif"><span class="box" style="position: absolute;"> <b>Sewage Surfer</b><br><br>Beat level 49 of <a href="//www.neopets.com/games/sewage/index.phtml">Sewage Surfer</a> and quit on level 50.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/smuggleddubloon.gif"><span class="box" style="position: absolute;"> <b>Smuggler</b><br><br>Send a score of 2,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=772">Dubloon Disaster</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snowroller.gif"><span class="box" style="position: absolute;"> <b>Snowroller</b><br><br>Send a score of 6,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=1076">Snow Roller</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/techobuzz.gif"><span class="box" style="position: absolute;"> <b>Techo - The Buzzer Game</b><br><br>Send a score of 300+ points in <a href="//www.neopets.com/games/game.phtml?game_id=307">The Buzzer Game</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/topgamer.gif"><span class="box" style="position: absolute;"> <b>Top Gamer</b><br><br>Visit your <a href="//www.neopets.com/mygamescores.phtml">scores page</a> after sending a score in 250+ different games.</span></span>
+<h1>Consumable Items</h1> <div class="quickinfo"> Once again, you're going to have to pay for an item that you don't get to resell in order to earn these avatars. They range in price from 100k to 1m, so start saving up ASAP in anticipation of making these purchases. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/elephantesurprise.gif"><span class="box" style="position: absolute;"> <b>Elephante Surprise</b><br><br>Feed a Bag of Peanuts to your Elephante.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/htrich.gif"><span class="box" style="position: absolute;"> <b>HT - Rich</b><br><br>Purchase the book Grimoire of the First Order at the <a href="//www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a> and then read the book to your pet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/htricher.gif"><span class="box" style="position: absolute;"> <b>HT Richer</b><br><br>Purchase the book Grimoire of Prosperity at the <a href="//www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a> and then read the book to your pet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kauvara.gif"><span class="box" style="position: absolute;"> <b>Magical Kauvara</b><br><br>Use any morphing potion on your pet (not a Transmogrification potion).</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mutantjubjub.gif"><span class="box" style="position: absolute;"> <b>Mutant JubJub</b><br><br>Use any transmogrification potion on one of your pets.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/petpetlabray.gif"><span class="box" style="position: absolute;"> <b>Petpet Laboratory</b><br><br>Have your petpet zapped into a Pile of Soot by the <a href="//www.neopets.com/petpetlab.phtml">Petpet Lab Ray</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/pwned.gif"><span class="box" style="position: absolute;"> <b>Pwned by the Lab</b><br><br>Have your pet's species changed via the <a href="//www.neopets.com/lab.phtml">Lab Ray</a>.</span></span>
+<h1>Lendable Items</h1> <div class="quickinfo"> Lendable items on Tier 3 (roughly) range in price from 500k to 6m, making them much more economical to borrow than to buy. Considering how pricy most of the items are, it is recommended that you complete all aspects of Tier 1 and Tier 2 before asking to be lent these items. </div>
+<span class="hover" style="position: relative;"> <img src="http://i.imgur.com/mYwRwAL.gif"><span class="box" style="position: absolute;"> <b>Let it Snow!</b><br><br>Visit the <a href="/AVATARLINK">weather page</a> for Terror Mountain while it is snowing with an Icy Snowflake in your inventory.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/chokato.gif"><span class="box" style="position: absolute;"> <b>Chokato</b><br><br>Have Chokato (TCG) in your inventory and refresh. It may take a while.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/meowclops_close.gif"><span class="box" style="position: absolute;"> <b>Meowclops</b><br><br>Attach any-color Meowclops to your active pet and view the pet lookup. Also works with zapped Meowclops.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/queenfyora.gif"><span class="box" style="position: absolute;"> <b>Queen Fyora</b><br><br>Have your pet play with a Faerie Queen Doll.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/zaffydoubleagent.gif"><span class="box" style="position: absolute;"> <b>Zafara Double Agent</b><br><br>Have a Zafara Double Agent Plushie in your inventory and search for "zafara double agent" on the sidebar search.</span></span>
+<h1>Other</h1> <div class="quickinfo"> This is everything else that doesn't quite fit into the above categories. The ugly step children avatars, if you will. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/babykougra.gif"><span class="box" style="position: absolute;"> <b>Kougra - Baby</b><br><br>Visit the pet lookup of a Baby Kougra younger than 60 days. These are often posted about on the Avatar Chat.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/beautycontest.gif"><span class="box" style="position: absolute;"> <b>Beauty Contest</b><br><br>Win a round of the Beauty Contest.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/chocolate.gif"><span class="box" style="position: absolute;"> <b>Chocolate!</b><br><br>Buy any item with a rarity of 90+ at the <a href="//www.neopets.com/objects.phtml?type=shop&amp;obj_type=14">Chocolate Factory</a>. </span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/dariganpteri.gif"><span class="box" style="position: absolute;"> <b>Pteri - Darigan</b><br><br>Visit the pet lookup of a Darigan Pteri that is exactly 644 days old.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ednacackle.gif"><span class="box" style="position: absolute;"> <b>Edna - Cackle!</b><br><br>Awarded when you complete an <a href="//www.neopets.com/halloween/witchtower.phtml">Edna Quest</a> that asks for three items..</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/fyora.gif"><span class="box" style="position: absolute;"> <b>Fyora - Faerie Queen</b><br><br>Buy any item from the Hidden Tower.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/illusensglade.gif"><span class="box" style="position: absolute;"> <b>Illusen's Glade</b><br><br>Complete quest 20 at <a href="//www.neopets.com/medieval/earthfaerie.phtml">Illusen's Glade</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jhudorascloud.gif"><span class="box" style="position: absolute;"> <b>Jhudora's Cloud</b><br><br>Complete quest 20 at <a href="//www.neopets.com/faerieland/darkfaerie.phtml">Jhudora's Bluff</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/neodaqtick.gif"><span class="box" style="position: absolute;"> <b>Sell! SELL!!</b><br><br>View your stock portfolio when your "Holdings Paid" totals over 1,000,000 Neopoints with at least two different stocks purchased.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/numbersix.gif"><span class="box" style="position: absolute;"> <b>Number Six</b><br><br>Go to the <a href="//www.neopets.com/aboutus.phtml">about us</a> page and have the same amount of NP as Asparagus costs on hand.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sdb.gif"><span class="box" style="position: absolute;"> <b>SDB Pack Rat</b><br><br>Have 1,000+ <b>unique</b> items in your Safety Deposit Box.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/acp.gif"><span class="box" style="position: absolute;"> <b>Lenny - Finneus</b><br><br>Visit King Altador after completing the Altador Mini-plot and after receiving your first prizes.</span></span>
+<h1>Pet/Petpets</h1> <div class="quickinfo"> You may still get lucky and find some of the pets you need for these avatars in the <a href="//www.neopets.com/pound/">pound</a>, but it's probably time to start seeking lends as well! Save up your transfers, because most lenders don't like risking their avatar pets in the pound just for a lend. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/cocojubjub.gif"><span class="box" style="position: absolute;"> <b>Coconut Jubjub</b><br><br>Own a Coconut Jubjub and feed it a Tropical Food.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/draikegg.gif"><span class="box" style="position: absolute;"> <b>Draik - Hatched</b><br><br>Take your Draik to the <a href="//www.neopets.com/medieval/draiknest.phtml">Draik Nest</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/fireblumaroo.gif"><span class="box" style="position: absolute;"> <b>Blumaroo - Fire!</b><br><br>Own a Fire Blumaroo with a fire painted petpet that is 30+ days old, and view its lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/foreverorange.gif"><span class="box" style="position: absolute;"> <b>Grundo - Forever Orange</b><br><br>Own an Orange Grundo and visit its lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ghostkrawk.gif"><span class="box" style="position: absolute;"> <b>Ghost Krawk</b><br><br>Have a Krawk as your active pet and go to the <a href="//www.neopets.com/pirates/funguscave.phtml">Fungus Caves</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/huggy.gif"><span class="box" style="position: absolute;"> <b>Huggy</b><br><br>Have a Huggy attached to your pet for 99+ days and then view your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/islandquiggle.gif"><span class="box" style="position: absolute;"> <b>Island Quiggle</b><br><br>Own an Island Quiggle that is 30+ days old and view its lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mootix.gif"><span class="box" style="position: absolute;"> <b>Mootix</b><br><br>Equip a Mootix to your petpet and visit your <a href="//www.neopets.com/quickref.phtml">Quick Ref</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mummifiedruki.gif"><span class="box" style="position: absolute;"> <b>Ruki - Mummified</b><br><br>Own a Halloween Ruki with a 30+ day old Mummy Baby and view its lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/quadrapus.gif"><span class="box" style="position: absolute;"> <b>Quadrapus</b><br><br>Have a Quadrapus attached to your pet for 60+ days and then view your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sigh.gif"><span class="box" style="position: absolute;"> <b>Grey Wocky - *sigh*</b><br><br>Own any Grey pet and visit its lookup.<br>Note: Grey pets ARE adoptable under 4 mos.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snicklebeasty.gif"><span class="box" style="position: absolute;"> <b>Snicklebeast</b><br><br>Have a Snicklebeast attached to your pet for 61+ days and then view your pet's lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/werelupe.gif"><span class="box" style="position: absolute;"> <b>Werelupe</b><br><br>Own a Halloween Lupe and visit its lookup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/white_snowbunnies.gif"><span class="box" style="position: absolute;"> <b>Whee!</b><br><br>Have a Snowbunny attached to your pet for 364+ days and then view your pet's lookup.</span></span>
+<h1>Random</h1> <div class="quickinfo"> If you were to do a survey of every user on the AC, you would probably find that most of them are missing at least a few of these avatars. It's usually pretty easy to get one or two of them, but the rest tend to elude most collectors for long periods of time. Most are awarded through dailies, so be persistent in trying for them and in due time, they, too, will be yours! </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/deadlydice.gif"><span class="box" style="position: absolute;"> <b>Count von Roo</b><br><br>Play <a href="//www.neopets.com/worlds/deadlydice.phtml">Deadly Dice</a>, tie with Von Roo, and then win. Can also be lost by losing during a tie.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/evilcoconut.gif"><span class="box" style="position: absolute;"> <b>Evil Coconut</b><br><br>Knock down a coconut in <a href="//www.neopets.com/halloween/coconutshy.phtml">Coconut Shy</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/fishsquid.gif"><span class="box" style="position: absolute;"> <b>Fishing - Titanic Squid</b><br><br>Catch a Titanic Giant Squid in the <a href="//www.neopets.com/water/fishing.phtml">Underwater Fishing Cavern</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/forgshore.gif"><span class="box" style="position: absolute;"> <b>Forgotten Shore</b><br><br>Random when collecting a daily prize at the <a href="//www.neopets.com/pirates/forgottenshore.phtml">Forgotten Shore</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/imposterapple.gif"><span class="box" style="position: absolute;"> <b>Imposter Apple</b><br><br>Randomly awarded when obtaining or losing an Imposter Apple while <a href="//www.neopets.com/halloween/applebobbing.phtml">Apple Bobbing</a>. </span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kelpwaitress.gif"><span class="box" style="position: absolute;"> <b>Bon Appétit</b><br><br>Awarded when you take your pet for a meal at the <a href="//www.neopets.com/water/restaurant.phtml">Kelp Restaurant</a> and receive leftovers to take home.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kikopop.gif"><span class="box" style="position: absolute;"> <b>Kiko Pop</b><br><br>Randomly awarded when popping a balloon on Stadard or Hard mode in Kiko Pop.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kinghagan.gif"><span class="box" style="position: absolute;"> <b>Skeith - King Hagan</b><br><br>Get a grade of A+ from<a href="//www.neopets.com/medieval/wiseking.phtml"> King Hagan</a> after you give him a piece of wisdom.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/leverofdoom.gif"><span class="box" style="position: absolute;"> <b>Lever of Doom</b><br><br>Random when having 100 NP stolen by the <a href="//www.neopets.com/space/strangelever.phtml">Lever of Doom</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/monotony.gif"><span class="box" style="position: absolute;"> <b>Wheel of Monotony</b><br><br>Land on the "?" space on the <a href="//www.neopets.com/prehistoric/monotony/monotony.phtml">Wheel of Monotony</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/rubbish.gif"><span class="box" style="position: absolute;"> <b>Rubbish</b><br><br>Awarded randomly (as far as we know) when discarding items from your inventory either individually or by using quickstock.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/turmaculus.gif"><span class="box" style="position: absolute;"> <b>Turmaculus</b><br><br>Visit <a href="//www.neopets.com/medieval/turmaculus.phtml">Turmaculus</a> and have him eat your petpet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/valiant.gif"><span class="box" style="position: absolute;"> <b>Battle Faerie</b><br><br>Randomly awarded when you win a 1-player fight in the Battledome.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/wheelofexcitement.gif"><span class="box" style="position: absolute;"> <b>Wheel of Excitement</b><br><br>Land on the "20,000 NP" space on the <a href="//www.neopets.com/faerieland/wheel.phtml">Wheel of Excitement</a>.</span></span>
+<h3>running total: 302</h3>
+<h1>Currently Unobtainable</h1> <div class="quickinfo">These avatars are currently impossible to obtain due to site glitches and ongoing maintenance. They have not been officially retired so, for now, they're still a part of Avatiers, though they do not count toward each tier's running total.</div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/heermeedjet.gif"><span class="box" style="position: absolute;"> <b>Heermeedjet</b> or <b>Meerouladen</b><br><br>You must beat the Meerca Henchmen in the BD and then visit DoN HQ. You will only get one of the avatars, chosen at random.</span></span>
+</div><div class="footer">layout made by <a href="/userlookup.phtml?user=darkroast">darkroast</a> </div> </div>
+<div id="tier4" style="position: absolute;"> <a name="tierfour"></a> <div id="banners"> <img src="http://i.imgur.com/FWh0EWx.png"></div> <div id="info"> Last, but not least, is the worst of the worst- the hardest of the hard. The avatars that make up Tier 4 require what is considered enormous amounts of time, effort, and dedication. A few avatars listed here are lendable- and considering their cost, that is how most people obtain them. Lending is part of the spirit of avatar collecting, and if you've made a valiant effort to show your dedication to collecting, your time for these lends will come! It is imperative that you fully complete Tiers 1 and 2 and, at the very least, the majority of Tier 3 before asking for item lends that are categorized as Tier 4. </div> <div id="content">
+<h1>Games</h1> <div class="quickinfo"> You've successfully put off the most difficult, most obnoxious game avatars for as long as you could- now it's time to get them over with. There is a high probability that you're not going to be able to get all of the avatars listed here, but that shouldn't stop you from trying. After all, practice makes perfect, and you definitely can't get the avatars without trying first! </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ahhhhmeepit.gif"><span class="box" style="position: absolute;"> <b>A Meepit! Run!</b><br><br>Send a score of 3,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=379">Meepit Juice Break</a>.</span></span>
+
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/aaasrevenge.gif"><span class="box" style="position: absolute;"> <b>Aaa's Revenge</b><br><br>Submit a score of 1,000+ in <a href="//www.neopets.com/games/game.phtml?game_id=1375">AAA's Revenge</a>.</span></span>
+
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/bunninator.gif"><span class="box" style="position: absolute;"> <b>Neoquest II - Bionic Cybunny</b><br><br>Defeat a Bionic Cybunny in Chapter 5 of <a href="//www.neopets.com/games/nq2/index.phtml">NeoQuest II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/destructomatch2.gif"><span class="box" style="position: absolute;"> <b>Destruct-O-Match II</b><br><br>Send a score of 2,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=999">Destruct-O-Match III</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/devilpuss.gif"><span class="box" style="position: absolute;"> <b>Neoquest II - Devilpuss</b><br><br>Defeat the boss Devilpuss in Chapter 5 of <a href="//www.neopets.com/games/nq2/index.phtml">NeoQuest II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/efmcdraik.gif"><span class="box" style="position: absolute;"> <b>Draik - Escape from Meridell Castle</b><br><br>Awarded if you are in the top 50 on the high score table of <a href="//www.neopets.com/games/draikcastle.phtml">Escape from Meridell Castle</a> when trophies are awarded daily.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/extremepotato.gif"><span class="box" style="position: absolute;"> <b>Extreme Potato Counter</b><br><br>Send a score of 200+ points in <a href="//www.neopets.com/games/epc.phtml">Extreme Potato Counter</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/freakedkorbat.gif"><span class="box" style="position: absolute;"> <b>Freaked Korbat</b><br><br>Awarded if you are in the top 50 on the high score table for <a href="//www.neopets.com/games/game.phtml?game_id=801">Korbat's Lab</a> when trophies are awarded daily.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/grundo_snowthrow.gif"><span class="box" style="position: absolute;"> <b>Grundo - Snowthrow!</b><br><br>Send a score of 10,000+ points in <a href="//www.neopets.com/games/snowwars2.phtml">Snow Wars II</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/icecreammachine.gif"><span class="box" style="position: absolute;"> <b>Ice Cream Machine</b><br><br>Send a score of 14,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=507">Ice Cream Machine</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kacheek06.gif"><span class="box" style="position: absolute;"> <b>Extreme Herder</b><br><br>Send a score of 250+ points in <a href="//www.neopets.com/games/game.phtml?game_id=149">Extreme Herder</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/maraquanraider.gif"><span class="box" style="position: absolute;"> <b>Raider of Maraqua</b><br><br>Send a score of 800+ points in <a href="//www.neopets.com/games/raiders.phtml">Raiders of Maraqua</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/mathsbabaa.gif"><span class="box" style="position: absolute;"> <b>Babaa - Maths Nightmare</b><br><br>Awarded if you are in the top 50 on the high score table for <a href="//www.neopets.com/games/game.phtml?game_id=885">Maths Nightmare</a> when trophies are awarded daily.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/myncispike.gif"><span class="box" style="position: absolute;"> <b>Spike!</b><br><br>Send a score of 800+ points in <a href="//www.neopets.com/games/game.phtml?game_id=315">Mynci Beach Volleyball</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/nq1erick.gif"><span class="box" style="position: absolute;"> <b>NeoQuest - Wise and Powerful</b><br><br>Defeat the Archmagus of Roo in Neoquest I and give Erick the clouded gem that is dropped.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/petpetsitter.gif"><span class="box" style="position: absolute;"> <b>Petpetsitter</b><br><br>Send a score of 2,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=428">Petpetsitter</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/plushieTycoon.gif"><span class="box" style="position: absolute;"> <b>Plushie Tycoon</b><br><br>Complete a game of <a href="//www.neopets.com/games/tycoon/index.phtml">Plushie Tycoon</a> with at least 50,000NP left.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/typingterror.gif"><span class="box" style="position: absolute;"> <b>Typing Terror</b><br><br>Send a score of 3,600+ points in <a href="//www.neopets.com/games/game.phtml?game_id=574">Typing Terror</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/volcanorun.gif"><span class="box" style="position: absolute;"> <b>Volcano Run</b><br><br>Send a score of 1,500+ points in <a href="//www.neopets.com/games/game.phtml?game_id=761">Volcano Run</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kadoatery.gif"><span class="box" style="position: absolute;"> <b>Kadoatery - Mew!</b><br><br>Feed 75 Kadoaties at the Kadoatery, then view your userlookup.</span></span>
+<h1>Consumable Items</h1> <div class="quickinfo"> I spent 10m in the Hidden Tower and all I have to show for it is this avatar. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/htrichest.gif"><span class="box" style="position: absolute;"> <b>HT Richest</b><br><br>Purchase the book Grimoire of Affluence at the <a href="//www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a> and then read the book to your pet.</span></span>
+<h1>Lendable Items</h1> <div class="quickinfo"> Here you have them- The Big Three. Though the prices are always changing, each of these items costs more than 100m at present. If you only listen to one recommendation from this guide, let it be this one: Do NOT overtly seek lends for these items before you have completed <b>all</b> of Tier 1, <b>all</b> of Tier 2, and <b>most</b> of Tier 3. If you paid a ton for an item, would you really want to lend it to someone who still hadn't spent 40k on the Wishing Well avatar? Probably not. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/evilpoogle.gif"><span class="box" style="position: absolute;"> <b>MSPP</b><br><br>Have the Malevolent Sentient Poogle Plushie (TCG) item in your inventory and refresh.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/grarrlwarrior.gif"><span class="box" style="position: absolute;"> <b>Grarrl Warrior</b><br><br>Equip your Grarrl with a Bony Grarrl Club.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/superpea.gif"><span class="box" style="position: absolute;"> <b>Super Attack Pea!</b><br><br>Attach a Super Attack Pea to your Pea Chia.</span></span>
+<h1>Other</h1> <div class="quickinfo"> When you have everything else that you could ever want, these are the avatars you should strive for. They come easy to no one, and require buckets full of time, effort, and dedication to not only avatars, but Neopets in general. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/avatarcollector.gif"><span class="box" style="position: absolute;"> <b>Avatar Collector</b><br><br>Be ranked in the <a href="//www.neopets.com/gamescores.phtml?game_id=342">Top 50</a> for avatar collectors.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsbattledome1337.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - The Battledome</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=10&amp;owner=">Battledome page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsDesert0013.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Lost Desert</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=9&amp;owner=">Lost Desert page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsfaerieland87393.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Faerieland</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=23&amp;owner=">Faerieland page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsHaunted3192.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Haunted Woods</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=4&amp;owner=">Haunted Woods page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/kingkelp.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Maraqua</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=18&amp;owner=">Mystery Island page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsMystery2352.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Mystery Island</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=1&amp;owner=">Mystery Island page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsothers.gif" height="50"><span class="box" style="position: absolute;"> <b>Stamp Collector - Others II</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=22&amp;owner=">Other II page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsSnowy2312.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Snowy Valley</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=7&amp;owner=">Snowy Valley page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsTyrannia3421.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Tyrannia</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=3&amp;owner=">Tyrannia page</a> of your Stamp Album.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/stampsVirtupets9764.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Virtupets</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=2&amp;owner=">Virtupets page</a> of your Stamp Album.</span></span>
+
+
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/collectorshenkuu.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Shenkuu</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=20&amp;owner=">Shenkuu page</a> of your Stamp Album.</span></span>
+
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/collectorseashells.gif"><span class="box" style="position: absolute;"> <b>Stamp Collector - Sea Shells</b><br><br>Complete the <a href="//www.neopets.com/stamps.phtml?type=album&amp;page_id=17&amp;owner=">Sea Shells page</a> of your Stamp Album.</span></span>
+
+
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ntstar.gif"><span class="box" style="position: absolute;"> <b>Neopian Times Star</b><br><br>Get into the Neopian Times 10+ times. Editorials do not count.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ntwriter.gif"><span class="box" style="position: absolute;"> <b>Neopian Times Writer</b><br><br>Get published in a Neopian Times issue ending in 50 or 00.</span></span>
+<h1>Random</h1> <div class="quickinfo"> When you see these avatars on Newbie accounts, it is OKAY to feel a small flame of anger within. They are some of the most elusive random avatars and no one will blame you for shedding a tear (or two) when you finally get the Something Has Happened that accompanies them. </div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/aishascalawag.gif"><span class="box" style="position: absolute;"> <b>Aisha Scalawag</b><br><br>Random when you pull a winning ticket at <a href="//www.neopets.com/pirates/buriedtreasure/index.phtml">Buried Treasure</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/brightvale.gif"><span class="box" style="position: absolute;"> <b>Brightvale</b><br><br>Land on the 8-pointed star on the <a href="//www.neopets.com/medieval/knowledge.phtml">Wheel of Knowledge</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/buzzin.gif"><span class="box" style="position: absolute;"> <b>Buzzin</b><br><br>Complete a quest for the Fountain Faerie and paint your Buzz any color at the <a href="//www.neopets.com/faerieland/rainbowfountain.phtml">Rainbow Fountain</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/extravagance.gif"><span class="box" style="position: absolute;"> <b>High Roller</b><br><br>Land on the "blank square" space on the <a href="//www.neopets.com/desert/extravagance.phtml">Wheel of Extravagance</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/geraptiku_tomb.gif"><span class="box" style="position: absolute;"> <b>Geraptiku - Deserted Tomb</b><br><br>Random when you win an item from the <a href="//www.neopets.com/worlds/geraptiku/tomb.phtml">Deserted Tomb</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/jester.gif"><span class="box" style="position: absolute;"> <b>Blumaroo Court Jester</b><br><br>Awarded randomly when you make <a href="//www.neopets.com/medieval/grumpyking.phtml">King Skarl</a> laugh by telling him the following joke: "What do you do if *blank* fierce Peophins *blank* has eaten too much *blank* tin of olives?" (The answer can be anything).</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/lottery.gif"><span class="box" style="position: absolute;"> <b>Lottery</b><br><br>Win the <a href="//www.neopets.com/games/lottery.phtml">Neopian Lottery</a>, then visit the page showing past winners to claim your avatar.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/snowager.gif"><span class="box" style="position: absolute;"> <b>Snowager - Rawr!</b><br><br>Random when getting blasted by the <a href="//www.neopets.com/winter/snowager.phtml">Snowager</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tdmbgpop.gif"><span class="box" style="position: absolute;"> <b>Grundo - Discarded Plushie</b><br><br>Randomly awarded when collecting your daily prize at <a href="//www.neopets.com/faerieland/tdmbgpop.phtml">The Discarded Magical Blue Grundo Plushie of Prosperity</a></span></span>
+<h3>running total: 348</h3>
+<h1>Currently Unobtainable</h1> <div class="quickinfo">These avatars are currently impossible to obtain due to site glitches and ongoing maintenance. They have not been officially retired so, for now, they're still a part of Avatiers, though they do not count toward each tier's running total.</div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/captionwinner.gif"><span class="box" style="position: absolute;"> <b>Caption Contest - Funny</b><br><br>Win one of the hundredth <a href="//www.neopets.com/games/new_caption.phtml">Caption Contests</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/luckystreak.gif"><span class="box" style="position: absolute;"> <b>Bilge Dice - Lucky Streak!</b><br><br>Win ten games in a row in <a href="//www.neopets.com/pirates/bilge.phtml">Bilge Dice</a>.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/punchbag.gif"><span class="box" style="position: absolute;"> <b>Punchbag</b><br><br>Lose to Punchbag Sid with your active pet. Sid randomly appears and replaces Bob as a challenger.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/sitespotlight.gif"><span class="box" style="position: absolute;"> <b>Site Spotlight</b><br><br>Win the Site Spotlight.</span></span>
+<h1>Retired</h1> <div class="quickinfo">These avatars are no longer available. Either they were one-time-only, or the activity that awarded them is no longer an active part of Neopets. They're here for you to admire. Enjoy!</div>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/10thbday.gif"><span class="box" style="position: absolute;"> <b>10th Birthday</b><br><br>Awarded to users who visited the 10th Birthday Celebration page and collected the prize on November 15, 2009.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/altadorcup.gif"><span class="box" style="position: absolute;"> <b>Altador Cup</b><br><br>Awarded for participating in the Altador Cup.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/altadorcupstaff.gif"><span class="box" style="position: absolute;"> <b>Altador Cup Staff Tournament</b><br><br>Submit a vote in the yearly TNT AC Staff Tournament.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/aota.gif"><span class="box" style="position: absolute;"> <b>Atlas of the Ancients</b><br><br>Awarded to users who participated in the Atlas of the Ancients plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/avinroo.gif"><span class="box" style="position: absolute;"> <b>Gamesmaster Aaa</b><br><br>Was awarded for completing 15 Daily Dares and collecting your prizes. This avatar has not been rereleased for recent Daily Dare events.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/bd_veteran.gif"><span class="box" style="position: absolute;"> <b>Battledome Veteran</b><br><br>Awarded to users at the Battledome for having at least one win in the old Battledome. This avatar has also been awarded to newer players in a glitch.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/charitycorner.gif"><span class="box" style="position: absolute;"> <b>Charity Corner</b><br><br>Complete the "Adopt a Neopian" quest on 8 days during the Charity Corner event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/cocoroller.gif"><span class="box" style="position: absolute;"> <b>Coco Roll</b><br><br>Awarded for users who completed level 5 of the Neopets Mobile game, Coco Roll.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/darigandarkling.gif"><span class="box" style="position: absolute;"> <b>Darigan Darklin</b><br><br>Awarded to users who fought for Darigan in the Champions of Meridell war.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/dariganredeemed.gif"><span class="box" style="position: absolute;"> <b>Darigan Redeemed</b><br><br>Awarded to users who fought for Darigan in the Champions of Meridell war and then participated in the Battle For Meridell war.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ddstaff.gif"><span class="box" style="position: absolute;"> <b>Daily Dare Staff Tournament</b><br><br>Awarded to users who submitted guesses in the 2010 Daily Dare Staff Tournament.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ddstaff_tourney.gif"><span class="box" style="position: absolute;"> <b>Daily Dare Neopets Staff Tournament</b><br><br>Awarded to users who submitted guesses in the 2011 Daily Dare Staff Tournament.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/easterbunnyy17.gif"><span class="box" style="position: absolute;"> <b>Negg Basket Cybunny</b><br><br>Awarded to users who filled their negg bar during the 2015 Festival of Neggs.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/freejhuidah.gif"><span class="box" style="position: absolute;"> <b>Free Jhudiah</b><br><br>Awarded to users who freed Jhuidah from the fish bowl during the Volcano Mystery site event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/hoban.gif"><span class="box" style="position: absolute;"> <b>Aisha - Hoban the Navigator</b><br><br>Awarded for guessing two or more correct answers on the "Who Pushed Hoban" questionnaire, then visiting a specific page.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/hwp_krawley.gif"><span class="box" style="position: absolute;"> <b>Tale of Woe - Krawley</b><br><br>Awarded to users who participated in the Tale of Woe plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/iommoehog.gif"><span class="box" style="position: absolute;"> <b>IOM Moehog</b><br><br>This avatar was awarded for playing Invasion of Meridell and winning Mission 7, Battle 3 during the same calendar month in which you began playing.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/krawkenattack.gif"><span class="box" style="position: absolute;"> <b>Krawken Attack</b><br><br>Awarded to users who visited the Governor's Mansion after participating in the Krawk Island Disappearance event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/ldp_tablet.gif"><span class="box" style="position: absolute;"> <b>LDP - What does it mean?</b><br><br>Awarded to users who participated in the Lost Desert plot and successfully translated their tablet.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/maraquansupporter.gif"><span class="box" style="position: absolute;"> <b>Curse of Maraqua - Maraquan Supporter</b><br><br>Awarded to users who supported Maraqua during the Curse of Maraqua plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/maraquanwarrior.gif"><span class="box" style="position: absolute;"> <b>Curse of Maraqua - Maraquan Warrior</b><br><br>Awarded to users who fought for Maraqua during the Curse of Maraqua plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/meridellknight.gif"><span class="box" style="position: absolute;"> <b>Meridell Knight</b><br><br>Awarded to users who fought for Meridell in the Champions of Meridell war.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/monsterhunting.gif"><span class="box" style="position: absolute;"> <b>Monster Hunting</b><br><br>Awarded to participants in the Spooky Food Eating Contest in October 2013.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/negg_fest11.gif"><span class="box" style="position: absolute;"> <b>Festival of Neggs Y13 - Builder</b><br><br>Awarded to users who completed all 4 quests in the 2011 Festival of Neggs.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/neggfest2010_95e8ebf8a4.gif"><span class="box" style="position: absolute;"> <b>Festival of Neggs Y12 - Quester</b><br><br>Awarded to users who completed all 8 quests in the 2010 Festival of Neggs.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/neopocalypse.gif"><span class="box" style="position: absolute;"> <b>I survived the Neopocalypse!</b><br><br>Awarded by visiting the news on March 1st, 2012 and September 19th, 2014.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/novaplushie.gif"><span class="box" style="position: absolute;"> <b>Plushie Nova</b><br><br>Awarded for visiting the McDonald's Daily Giveaway on May 31, 2004 or September 29, 2005.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/obeliskwar_ayfb89s.gif"><span class="box" style="position: absolute;"> <b>Obelisk War Veteran</b><br><br>Awarded to users who participated in the War for the Obelisk.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/piratesupporter.gif"><span class="box" style="position: absolute;"> <b>Curse of Maraqua - Pirate Supporter</b><br><br>Awarded to users who supported the pirates during the Curse of Maraqua plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/piratewarrior.gif"><span class="box" style="position: absolute;"> <b>Curse of Maraqua - Pirate Warrior</b><br><br>Awarded to users who fought for the pirates during the Curse of Maraqua plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/randomcontest.gif"><span class="box" style="position: absolute;"> <b>Random Contest Winner</b><br><br>Place in the Random Contest.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/randomevents2014.gif"><span class="box" style="position: absolute;"> <b>Aboard the Coincidence</b><br><br>Awarded for participating in the Spaceship Interior event.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/rods_champion.gif"><span class="box" style="position: absolute;"> <b>TCG - Return of Dr. Sloth Champion</b><br><br>Awarded to users who won the real life Return of Dr. Sloth release tournament and to those who scored enough points in the staff tourney guessing game.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/savedMysteryIsland.gif"><span class="box" style="position: absolute;"> <b>I saved Mystery Island</b><br><br>Awarded to the first 10,000 users to solve the Volcano Mystery.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/squished.gif"><span class="box" style="position: absolute;"> <b>BFM - Squished Spiders</b><br><br>Awarded for defeating at least one Gigantic Spyder in the Battle For Meridell war.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tcg_wizard.gif"><span class="box" style="position: absolute;"> <b>TCG Wizard</b><br><br>Awarded to users who won the Staff Trading Card Game Tournament guessing game.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tcgtourney2.gif"><span class="box" style="position: absolute;"> <b>TCG - Wanna Play</b><br><br>Awarded to users who won the Battle For Meridell Trading Card Game staff tournament.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/tfr2010_d92f4b98fa.gif"><span class="box" style="position: absolute;"> <b>Ruined</b><br><br>Awarded to users who participated in the Faeries' Ruin plot.</span></span>
+<span class="hover" style="position: relative;"> <img src="//images.neopets.com/neoboards/avatars/volcanoReward.gif"><span class="box" style="position: absolute;"> <b>Volcano Faerie</b><br><br>Awarded to the first 100 users to solve the Volcano Mystery.</span></span>
+<span class="hover" style="position: relative;"><img src="//images.neopets.com/neoboards/avatars/charitycorner2017.gif"><span class="box" style="position: absolute;"> <b>Winter Charity Corner</b><br><br>Awarded to everyone who made at least 100 donations... and a few people who donated less.</span></span>
+</div><div class="footer"><div style="background-position: center; background-repeat: no-repeat; width: 100px; height: 25px; background-image: url('http://i.imgur.com/Rj7VSka.png');"><img src="http://cgi.boingdragon.com/count/cupkait/0.gif" width="100" height="25"></div>layout made by <a href="/userlookup.phtml?user=darkroast">darkroast</a> </div> </div> </div><BR><BR><BR>

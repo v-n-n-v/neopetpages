@@ -1,0 +1,603 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+Baila got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=micolash'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+a img {
+	border-width: 0px;
+}
+a {
+	color: #5b6d8c;
+	text-decoration: none;
+	font-weight: 700;
+}
+a:hover {
+	color: #2e848d;
+	font-weight: 700;
+}
+body {
+	font: 8pt Verdana;
+	line-height: 18px;
+	text-align: center;
+	color: #444;
+	background: url("http://66.media.tumblr.com/d249339336e54c5916984cf820ba72c2/tumblr_inline_n258pmUe5i1qhwjx8.png") top fixed #f4f4f4;
+}
+td {
+	background: #000;
+}
+#container {
+	width: 99%;
+	margin: 5px auto -40px auto;
+}
+#center {
+	width: 60%;
+	float: left;
+}
+.sidebar {
+	width: 20%;
+	float: left;
+	font: 8pt Verdana;
+	line-height: 18px;
+	text-align: left;
+}
+#center p {
+	margin: 8px 0px 10px 0px;
+}
+.sidebar p {
+	margin: 0px 0px 5px 0px;
+	text-align: left;
+}
+.module {
+	margin: 10px 5px 0px 5px;
+	border: 1px #999 solid;
+	padding: 5px;
+	background: #dfe2e8;
+}
+.teeny {
+	width: 33% !important;
+	vertical-align: top;
+	text-align: center;
+}
+.avatar {
+	float: left;
+	padding: 3px 10px 6px 10px;
+}
+.avblock, .petblock {
+	width: 33% !important;
+	vertical-align: top;
+	text-align: left;
+}
+.avblock {
+	min-height: 125px;
+}
+.petblock {
+	min-height: 100px;
+}
+.nm {
+	padding: 5px;
+}
+.nm img, .nm img.a {
+	display: inline;
+	padding-right: 8px;
+	margin: 0px;
+	width: 16px;
+	height: 16px;
+}
+.method {
+	padding-left: 10px;
+	line-height: 15px;
+}
+.avblock, .petblock, .teeny, .nm, .method {
+	display: inline-block;
+}
+h1 {
+	font: bold 10pt Verdana;
+	text-align: left;
+	margin: -5px -5px 5px -5px;
+	color: #fff;
+	padding: 5px;
+	background: #444;
+}
+h3 {
+	font: bold 12px Tahoma;
+	letter-spacing: 3px;
+}
+hr {
+	margin: 2px 0px;
+	border: 1px #ccc solid;
+	border-width: 1px 0px 0px 0px;
+	clear: both;
+}
+#safelends {
+	overflow: auto;
+	height: 500px;
+	margin-bottom: 2px;
+}
+#games hr {
+	border: 1px #ccc dotted;
+	border-width: 1px 0px 0px 0px;
+}
+#tkm {
+	visibility: hidden;
+}
+#nf a {
+	display: block;
+	margin: 3px 0px;
+	color: #444;
+}
+#nf img {
+	float: left;
+	clear: left;
+	width: 80px;
+	margin: 5px 5px 5px 0px;
+}
+#nf b {
+	display: block;
+	margin: -1px 0px;
+}
+#nf a:hover {
+	color: #444;
+}
+#nf i {
+	font-style: normal;
+	font-size: 10px;
+	font-family: Tahoma;
+}
+#pet_hover {
+	border: 0px red solid;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: auto;
+}
+#pet_hover li {
+	border: 0px blue solid;
+	display: inline;
+	float: left;
+}
+#pet_hover li a img {
+	border: 1px #ccc solid;
+	padding: 1px;
+	margin: 5px;
+}
+#pet_hover li span {
+	display: none;
+	text-align: left;
+	border: 1px #ccc solid;
+	width: 300px;
+	overflow: hidden;
+	padding: 8px;
+	margin-left: 15px;
+	margin-top: -15px;
+	background: #fff;
+	z-index: 1;
+}
+#pet_hover li:hover span {
+	display: block;
+}
+#pet_hover hr {
+	border-style: dotted;
+}
+#pet_hover li span a {
+	font-weight: normal;
+	float: right;
+	padding: 5px 0px 0px 12px;
+	margin: 0px 4px;
+	border: 0px blue solid;
+	background: url("http://www.websitebullets.com/bullet/855/5.gif") no-repeat 0px 6px;
+	font: 8pt Verdana;
+}
+#blog {
+	height: 200px;
+	overflow: auto;
+	margin: -3px;
+	padding: 5px;
+	line-height: 20px;
+}
+#blog h2 {
+	float: left;
+	width: 38px;
+	background: #ddd;
+	border: 1px #ccc solid;
+	padding: 2px;
+	margin: 5px 8px 0px 0px;
+	font: 7pt Verdana;
+	text-transform: uppercase;
+	text-align: center;
+}
+#blog h2 b {
+	display: block;
+	font: 14pt Verdana;
+}
+#goal {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#goal li {
+	margin: 8px 0px;
+	background: url("http://www.websitebullets.com/bullet/222/5.gif") no-repeat 0px 6px;
+	padding-left: 10px;
+}
+textarea {
+	background: #e0e0e0;
+	color: #666;
+	border: 0px;
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	font: 9pt Courier New;
+}
+.avlist, #games, #wishlist {
+	width: 100%;
+	overflow: hidden;
+	border: 0px red solid;
+	text-align: center;
+	font: 7pt Verdana;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.avlist li, #wishlist li {
+	width: 90px;
+	height: 120px;
+	border: 0px #ccc solid;
+	float: left;
+	margin: 2px;
+}
+.avlist li a, #games li a {
+	display: block;
+}
+.avlist a img, #wishlist img {
+	display: block;
+	margin: 5px auto 3px auto;
+	width: 70px;
+}
+#wishlist li {
+	margin: 10px !important;
+}
+#about {
+	min-height: 210px;
+}
+#about img {
+	float: none;
+	margin: 3px;
+	width: auto;
+}
+</style><div id="container">
+
+<div class="sidebar">
+<div class="module" id="about">
+<h1>Welcome!</h1>
+<img src="http://s-media-cache-ak0.pinimg.com/originals/99/7c/d4/997cd40bfb364f4d2f5a4e92c5fd5f53.png" width="125" height="150" style="padding: 20px 10px 20px 10px; float: left; margin-top: -3px;">
+Oh, hello there! It seems you've stumbled here from our board, and are in need of some lends. Have no fear, Micolash and friends are here! On this page, you will find everything you need to know, from rules and regulars, to avatars and lenders!<br><br>
+
+Please be aware that this board may be outdated as Micolash does not actively play Neopets anymore. If there are any changes that need to be made please don't hesitate to send a NeoMail!
+</div>
+
+
+<div class="module">
+<h1>Updates</h1>
+<div id="blog">
+
+<h2>Oct<b>25</b>2023</h2>
+<p>Wow, it's been over 3 years since the last update... A lot has happened in the world in that time. This is just a quick update to say I am going to update the page...</p>
+
+<h2>Apr<b>10</b>2020</h2>
+<p>It's been 2 years since we had our last update, this update we changed a few colours, added a background, updated values, removed remaining mail icons and added some avatars!</p>
+
+<h2>Jul<b>23</b>2018</h2>
+<p>Coming out of hiatus to update the page. You'll notice that mail links are now non-existant and we have sub-lending pages! The board message will also be updated.</p>
+
+<h2>Apr<b>16</b>2018</h2>
+<p>Just implemented some changes here on the lending page! Mainly, removing neomail links as they were outdated, will add more in the future with new lenders! Watch this space!</p>
+
+<h2>Oct<b>24</b>2017</h2>
+<p>If you would like to be lent a pet, please mail the owner. Micolash does occasionally pop on the boards and checks mails. If any updates need to be made to this page please let me know!</p>
+
+<h2>Oct<b>1</b>2017</h2>
+<p>Finally pet chains have been added to this page. They will be updated as needed. If you need to be lent a pet, please find us on the AC!</p><br><h2>Sep<b>10</b>2017</h2>
+<p>The first version of the lending page is finished! If you would like to be added to the lenders/regulars section, please send Micolash a mail!</p><br><h2>Sep<b>7</b>2017</h2>
+<p>Finally beginning to work on the lending page. This new layout is cleaner and will provide all info in one place. All feedback is appreciated!</p><br></div></div>
+
+
+
+<div class="module" id="nf">
+<h1>Sub Lending Pages</h1>
+<center><br><a href="//www.neopets.com/gallery/index.phtml?user_cat_g=Lends&amp;gu=jenna_lyn_russell"><b>~*~*~ Tawny's Lends ~*~*~</b></a><br><a href="/~Lootarius"><b>~*~*~ Mandi's Lends ~*~*~</b></a><br><a href="/~Wuddelmuddel"><b>~*~*~ TPel's Lends ~*~*~</b></a><br><a href="/~Ruprectsanta"><b>~*~*~ Cheese's Lends ~*~*~</b></a><br><a href="/~gnaffo"><b>~*~*~ Fede's Lends ~*~*~</b></a>
+
+
+</center><br></div>
+
+
+
+<div class="module">
+<h1>New Board Code</h1>
+<textarea>
+This board is a place where users come to be lent avatar items/pets. If you need to be lent anything please post your name, a little bit about yourself, a *carrot* and stay and chat with us!
+
+We have multiple lending pages, and you can find all the information at:
+
+//www.neopets.com/~Baila
+
+Please be sure to read all the rules, and most of all: HAVE FUN!
+</textarea></div>
+
+
+</div>
+
+<div id="center">
+
+<div class="module">
+<h1>Item Avatars</h1>
+<ul class="avlist"><p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/dung.gif" class="avatar"><b>I'm Smelly</b><br>Value: 300 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying ten different items whose names contain the word "dung". Refreshing may be required.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/madaboutorange.gif" class="avatar"><b>Mad About Orange</b><br>Value: 700 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying eight different items whose names contain the word "orange". Refreshing may be required.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/fuzzleBOO.gif" class="avatar"><b>Evil Fuzzle - BOO!</b><br>Value: 5,000 NP<br><span class="method">Randomly awarded when your pet plays with a Blue Evil Fuzzle.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/firekougra.gif" class="avatar"><b>Fire Paw</b><br>Value: 3,000 NP<br><span class="method">Put the collectable card Fire Paw into your Neodeck.          </span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/ninjakiko.gif" class="avatar"><b>Kiko Ninja</b><br>Value: 4,000 NP<br><span class="method">View <a href="//www.neopets.com/neopedia.phtml?neopedia_id=181">Niten Hiroru's</a> Neopedia entry while having the Niten Hiroru collectable card in your inventory.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/royalboylutari.gif" class="avatar"><b>Royalboy Lutari</b><br>Value: 5,000 NP<br><span class="method">Visit the pet lookup of a <a href="//www.neopets.com/petlookup.phtml?pet=Boxias">Royalboy Lutari</a> with at least 5 unique items with "Lutari" in its name in your <a href="//www.neopets.com/inventory.phtml">inventory</a>.
+</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/drackonack_hungry.gif" class="avatar"><b>Drackonack - Hungry</b><br>Value: 7,000 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying a Drackonack and any item with "Cheese" in its name. Refresh until the Drackonack eats the cheese.
+</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/roboeyrie.gif" class="avatar"><b>Robo</b><br>Value: 8,000 NP<br><span class="method">Put any Robo Pet item in your classic NeoHome such as a Robo Eyrie. Robo-Quiggles only work if you change the language to Japanese.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/lawyerbot.gif" class="avatar"><b>Lawyerbot</b><br>Value: 30,000 NP<br><span class="method">Have 50 unique Usuki items in your inventory and view your <a href="//www.neopets.com/inventory.phtml">inventory</a>. The event will appear at the bottom of the page.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/robotvandagyre.gif" class="avatar"><b>Robot Vandagyre</b><br>Value: 40,000 NP<br><span class="method">Visit the pet lookup of a <a href="//www.neopets.com/petlookup.phtml?pet=RoboOwl">Robot Vandagyre</a> with a Robot-coloured petpet attached to your active Neopet.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/pantdeviltaunt.gif" class="avatar"><b>I Taunt the Pant Devil</b><br>Value: 65,000 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying an item with an estimated value of 1,000,000 NP or multiple items with a combined estimated value of 5,000,000 NP or more. Refreshing may be required.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/codestones.gif" class="avatar"><b>Codestones!</b><br>Value: 80,000 NP<br><span class="method">Have all ten original codestones (Tai-Kai, Bri, Mau, Main, Lu, Har, Vo, Eo, Orn, and Zei) in your <a href="//www.neopets.com/inventory.phtml">inventory</a> and refresh.</span>
+</p>
+
+<p class="avblock">
+<img src="http://i.imgur.com/8YDWSWH.gif" class="avatar"><b>Let It Snow!</b><br>Value: 90,000 NP<br><span class="method">View the <a href="//www.neopets.com/weather.phtml?world=1">Terror Mountain weather</a> when there's a blizzard or it's snowing with an Icy Snowflake in your inventory.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/zaffydoubleagent.gif" class="avatar"><b>Zafara - Double Agent</b><br>Value: 200,000 NP<br><span class="method">Type "Zafara Double Agent" into the Neopets search bar while you have a Zafara Double Agent Plushie in your inventory.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/queenfyora.gif" class="avatar"><b>Queen Fyora</b><br>Value: 1,200,000 NP<br><span class="method">Have your pet play with a Faerie Queen Doll from the Hidden Tower.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/chokato.gif" class="avatar"><b>Chokato</b><br>Value: 1,350,000 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying a Chokato (TCG). Refreshing will likely be necessary.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/meowclops_close.gif" class="avatar"><b>Meowclops</b><br>Value: 6,000,000 NP<br><span class="method">Attach a Meowclops to your pet and then visit the <a href="//www.neopets.com/quickref.phtml">Quick Ref</a> page.</span>
+</p>
+
+<p class="avblock">
+<img src="//images.neopets.com/neoboards/avatars/numbersix.gif" class="avatar"><b>Number Six</b><br>Value: ?,???,??? NP<br><span class="method">Go to the <a href="//www.neopets.com/aboutus.phtml">about us</a> page and be carrying the same amount of NP as Asparagus costs.</span>
+</p>
+
+</ul></div>
+
+<div class="module">
+<h1>Pet Avatars</h1>
+<ul class="avlist"><p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/werelupe.gif" class="avatar"><b>Werelupe</b><br>Pet: <span style="color: #FF9900;">Halloween</span> Lupe<br><span class="method">View the pet lookup of your own Halloween Lupe.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/robotjetsam.gif" class="avatar"><b>Jetsam - Wanna Fight?</b><br>Pet: Jetsam<br><span class="method">Complete a Battledome fight while you are using a Jetsam.       </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/jetsamchomp.gif" class="avatar"><b>Jetsam Chomp!</b><br>Pet: Jetsam<br><span class="method">Feed an aquatic petpet to your Jetsam.             </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/foreverorange.gif" class="avatar"><b>Grundo - Forever Orange</b><br>Pet: <span style="color: #FB843E;">Orange</span> Grundo<br><span class="method">View the pet lookup of your own Orange Grundo.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/fireblumaroo.gif" class="avatar"><b>Blumaroo - Fire!</b><br>Pet: <span style="color: #BA0707;">Fire</span> Blumaroo with Baby Fireball<br><span class="method">View the pet lookup of your own Fire Blumaroo with a 30+ day old petpet that has "fire" in its species name attached.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/cocojubjub.gif" class="avatar"><b>Coconut Jubjub</b><br>Pet: <span style="color: #9C7300;">Coconut</span> Jubjub<br><span class="method">Feed any Tropical Food to your Coconut Jubjub.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/quadrapus.gif" class="avatar"><b>Quadrapus</b><br>Petpet: Quadrapus<br><span class="method">Visit your own pet's lookup that has a 60+ day old Quadrapus attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/islandquiggle.gif" class="avatar"><b>Island Quiggle</b><br>Pet: <span style="color: #E8CB66;">Island</span> Quiggle<br><span class="method">View the pet lookup of your own Island Quiggle that is 30+ days old.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/windyharris.gif" class="avatar"><b>Harris - Hi</b><br>Petpet: Harris<br><span class="method">View your own pet's lookup that has a 99+ day old Harris attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/slorg.gif" class="avatar"><b>Slorg</b><br>Petpet: Slorg; Slorgclops<br><span class="method">View your own pet's lookup that has a 100+ day old Slorg (or Slorgclops) attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/mootix.gif" class="avatar"><b>Mootix</b><br>Petpetpet: Mootix<br><span class="method">Have a Mootix attached to one of your pet's petpets, then view the <a href="//www.neopets.com/quickref.phtml">Quick Ref</a> page.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/ghostkrawk.gif" class="avatar"><b>Ghost Krawk</b><br>Pet: Krawk<br><span class="method">Visit the <a href="//www.neopets.com/pirates/funguscave.phtml">Fungus Cave</a> while a Krawk is your active pet.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/gruslen.gif" class="avatar"><b>Gruslen</b><br>Petpet: Gruslen<br><span class="method">Visit your own pet's lookup that has a 99+ day old Gruslen attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/snicklebeasty.gif" class="avatar"><b>Snicklebeast</b><br>Petpet: Snicklebeast<br><span class="method">Visit your own pet's lookup that has a 61+ day old Snicklebeast attached to it.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/huggy.gif" class="avatar"><b>Huggy</b><br>Petpet: Huggy<br><span class="method">Visit your own pet's lookup that has a 99+ day old Huggy attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/mazzew.gif" class="avatar"><b>Mazzew</b><br>Petpet: Mazzew<br><span class="method">View your own pet's lookup that has a 221+ day old Mazzew attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/pinkpopcorn.gif" class="avatar"><b>Pink!</b><br>Pet: <span style="color: #F33F9A;">Pink</span> (Any Species)<br><span class="method">Feed your Pink pet any item whose name contains the word "popcorn".</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/white_snowbunnies.gif" class="avatar"><b>Whee!</b><br>Petpet: Snowbunny<br><span class="method">View your own pet's lookup that has a 364+ day old Snowbunny attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/snowwocky.gif" class="avatar"><b>Wocky - Snow Day</b><br>Pet: <span style="color: #D8E7FE;">Snow</span> (Any Species)<br><span class="method">View the pet lookup of your own 100+ day old Snow pet.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/draikegg.gif" class="avatar"><b>Draik - Hatched</b><br>Pet: Draik<br><span class="method">Visit the <a href="//www.neopets.com/medieval/draiknest.phtml">Draik Nest</a> while having a Draik as your active pet.</span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/sigh.gif" class="avatar"><b>Grey Wocky - *sigh*</b><br>Pet: <span style="color: #858585;">Grey</span> (Any Species)<br><span class="method">View the pet lookup of your own Grey pet.          </span>
+</p>
+
+<p class="petblock">
+<img src="//images.neopets.com/neoboards/avatars/mummifiedruki.gif" class="avatar"><b>Ruki - Mummified</b><br>Pet: <span style="color: #FF9900;">Halloween</span> Ruki with Mummy Baby<br><span class="method">View the pet lookup of your own Halloween Ruki with a 30+ day old Mummy Baby attached.</span>
+</p>
+
+<p class="petblock">
+<img src="//pets.neopets.com/cp/j7q65fv4/1/1.png" class="avatar"><b>Grarrl Warrior</b><br>Pet: Grarrl<br><span class="method">Via the <a href="//www.neopets.com/inventory.phtml">inventory</a>, equip a Bony Grarrl Club to your Grarrl.      </span>
+</p>
+
+<p class="petblock">
+<img src="//pets.neopets.com/cp/mn53trx7/1/1.png" class="avatar"><b>Super Attack Pea!</b><br>Pet: <span style="color: #36C422;">Pea</span> Chia<br><span class="method">Via the <a href="//www.neopets.com/inventory.phtml">inventory</a>, equip a Super Attack Pea to your Pea Chia.</span>
+</p>
+
+</ul></div>
+
+<div class="module">
+<h1>The Big Three</h1>
+<ul class="avlist"><p class="avblock"><br><img src="//images.neopets.com/neoboards/avatars/grarrlwarrior.gif" class="avatar"><b>Grarrl Warrior</b><br>Value: 55,000,000 NP<br><span class="method">Via the <a href="//www.neopets.com/inventory.phtml">inventory</a>, equip a Bony Grarrl Club to your Grarrl.    </span>
+</p>
+
+<p class="avblock"><br><img src="//images.neopets.com/neoboards/avatars/evilpoogle.gif" class="avatar"><b>MSPP</b><br>Value: 250,000,000 NP<br><span class="method">View your <a href="//www.neopets.com/inventory.phtml">inventory</a> while carrying a Malevolent Sentient Poogle Plushie (TCG).</span>
+</p>
+
+<p class="avblock"><br><img src="//images.neopets.com/neoboards/avatars/superpea.gif" class="avatar"><b>Super Attack Pea!</b><br>Value: 1,000,000,000 NP<br><span class="method">Via the <a href="//www.neopets.com/inventory.phtml">inventory</a>, equip a Super Attack Pea to your Pea Chia.</span>
+
+</p></ul></div>
+
+
+
+</div>
+<div class="sidebar">
+
+<div class="module">
+<h1>Rules</h1>
+<ul id="goal"><b>General</b><p></p>
+
+<li>For all lends, please post your name, a <img src="//images.neopets.com/neoboards/smilies/carrot.gif"> and a little bit about yourself. We like to get to know our lendees, so stay and chat!</li>
+
+<li>Please don't mail a lender unless you have already posted on the board. We do not lend through mail alone.</li>
+
+<li>Begging will not be tolerated. All lenders have the right to lend whom they choose.</li>
+
+<li>Paying NP for lends or gifting in order to receive a lend is against the rules, thus all gifts will be declined. A simple please and thank you will suffice!</li>
+
+<b>Item Lends</b><p></p>
+
+<li>All items MUST be returned to the lender in the same way they were sent to you. Failure to return an item will result in being reported.</li>
+
+<li>To ensure a safe lend, please remain active on the lending board. If you need to leave Neopets for more than a few minutes, please let us know so the item isn't sent to you while you're away.</li>
+
+<li>Please don't ask to be lent a specific item if you haven't been lent items of lesser value. </li>
+
+<b>Pet Lends</b><p></p>
+
+<li>All pets MUST be returned to the lender the same way they were sent to you. Please mail the lender to sort out the return of the pet.</li>
+
+<li> Do NOT remove any pet/petpets, paint or morph a pet you have been lent. Doing so will result in you being removed from all chains.</li>
+
+<li>If you are a part of a chain lend, please mail the next user in line to receive the pet. If they do not reply in 24 hours, mail the next user in line until a transfer can be arranged.</li>
+
+<li> If you are the last person in a chain, please mail the owner of the pet to arrange a safe return home. </li>
+
+<b>The Big Three</b><p></p>
+
+<li>Your <a href="//www.neopets.com/inventory.phtml">inventory</a> must be nearly full before receiving one of the big three to ensure the safety of the item.</li>
+
+<li>The item must be returned IMMEDIATELY. This means no posting on the boards while in possession of the item. If you would like to post the events, please copy/paste them and hit send AFTER you have sent the item back.</li>
+
+<li>Screenshots are permitted.</li>
+
+<li><img src="//images.neopets.com/neoboards/smilies/bgc.gif"> Users that would like to be lent BGC must post with their Grarrl as active and paste its NeoLodge checkout time. You will not be lent if you fail to do so.
+<p><b>Due to a bug, BGC will not be lent to users whose Grarrl's name has too many numbers or consists of numbers entirely.</b></p></li>
+
+<li><img src="//images.neopets.com/neoboards/smilies/mspp.gif"> When being lent MSPP, the only page you need to visit after accepting the item is your <a href="//www.neopets.com/inventory.phtml">inventory</a>. Please refrain from visiting other pages while being lent.</li>
+
+<li><img src="//images.neopets.com/neoboards/smilies/suap.gif">
+ To be lent SuAP, please ensure that you have a Pea Chia as your active pet. If you need to be lent a Pea Chia, please let us know before requesting a SuAP lend.</li>
+
+<li><img src="//images.neopets.com/neoboards/smilies/bgc.gif"><img src="//images.neopets.com/neoboards/smilies/mspp.gif"><img src="//images.neopets.com/neoboards/smilies/suap.gif"> If you have read all of the above rules for the big three, please post two <img src="//images.neopets.com/neoboards/smilies/carrot.gif">!</li>
+
+</ul></div>
+
+<div class="module" style="font-size: 10px;">
+<h1>Credit</h1>
+<p>Template from <a href="//www.neopets.com/userlookup.phtml?user=fire_dragon_342">here</a></p>
+<p>Additional CSS: <a href="//www.neopets.com/userlookup.phtml?user=micolash">Micolash</a> and <a href="//www.neopets.com/userlookup.phtml?user=myncithemonkey">Tom</a></p>
+<p><img src="http://www.tennisdrawchallenge.com/counter/i/baila.png?visit=the_freebie_man_" style="width: 1px; height: 1px;"></p>
+</div>
+
+</div>
+<hr id="tkm"></div><BR><BR><BR>
