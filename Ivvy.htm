@@ -1,0 +1,998 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+Ivvy got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=rioghnach'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+body {
+	background: fixed repeat top left #020b3d url("http://i.imgur.com/xISayPH.png");
+	color: #000 !important;
+	font: 11px verdana !important;
+	line-height: 200% !important;
+}
+table, .sf {
+	visibility: hidden;
+}
+#main table {
+	visibility: visible;
+	color: #000 !important;
+	font: 11px verdana !important;
+	line-height: 200% !important;
+}
+#main td {
+	vertical-align: top !important;
+}
+#nav {
+	background: fixed repeat top left #9e3001 url("http://i.imgur.com/xISayPH.png");
+	padding: 15px;
+	top: 200px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+}
+.outernav {
+	margin-left: 50%;
+}
+.nav {
+	background: white;
+	width: 150px;
+	padding: 30px 40px 30px 30px;
+	margin: 0px;
+	text-align: justify;
+	margin-left: -675px;
+}
+.nav a {
+	display: block;
+	text-transform: uppercase;
+	width: 100%;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 8px 5px;
+	text-align: right;
+	font: 9px verdana !important;
+}
+.nav a b {
+	display: none;
+	font-weight: normal;
+}
+.nav a:hover b {
+	display: inline;
+}
+.nav img {
+	width: 150px;
+	height: auto;
+}
+#main {
+	top: 100px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: 9;
+}
+.box {
+	background: white;
+	width: 850px;
+	padding: 35px;
+	height: auto;
+	margin-bottom: 55px;
+	text-align: justify;
+	border: 1px #DDDDDD solid;
+	display: table;
+}
+.scroll {
+	background: white;
+	width: 850px;
+	padding: 35px;
+	height: auto;
+	margin-bottom: 55px;
+	text-align: justify;
+	overflow: auto;
+}
+h1 {
+	color: #38468f;
+	font-family: tahoma,sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: left;
+	padding: 0px;
+	line-height: 100%;
+	margin: 0px;
+}
+h2 {
+	color: #ba4310;
+	font-family: monospace;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	padding: 0px;
+	text-transform: uppercase;
+	line-height: 100%;
+	margin: 0px 0px 15px 30px;
+}
+h3 {
+	border-top: 2px solid #cad3ff;
+	border-right: 1px solid #cad3ff;
+	color: #ba4310 !important;
+	font-weight: -blocked- !important;
+	font: 15px verdana !important;
+	letter-spacing: 1px;
+	display: block;
+	text-align: right;
+	padding: 0px 5px 2px 5px;
+	margin-bottom: 13px;
+	margin-right: 20px;
+}
+h4 {
+	padding: 5px 10px;
+	color: white;
+	display: block;
+	text-transform: lowercase;
+	width: 750px;
+	text-align: center;
+	font-family: georgia;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 13px;
+	background: #9e3001;
+}
+b {
+	font-weight: -blocked-;
+	color: #5f79ff;
+	letter-spacing: 1px;
+}
+a {
+	color: #5f79ff !important;
+	font: 11px verdana !important;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+a:hover {
+	color: #ba4310 !important;
+}
+textarea {
+	background: #ba4310;
+	color: white;
+	border: 10px solid #ba4310;
+	font: 11px verdana !important;
+	line-height: 150% !important;
+}
+ul {
+	list-style-type: square;
+}
+.left {
+	float: left;
+	background: #efefef;
+	padding: 10px;
+	border-right: 10px solid white;
+	border-bottom: 10px solid white;
+}
+.right {
+	float: right;
+	background: #efefef;
+	padding: 10px;
+	border-left: 10px solid white;
+	border-bottom: 10px solid white;
+}
+.pet {
+	float: left;
+	width: 50%;
+	height: 325px;
+	text-align: left;
+	display: table-cell;
+	background: no-repeat bottom left #fff url("http://i.imgur.com/xzr73Rd.png");
+}
+.pet span {
+	border: 1px #DDDDDD solid;
+	float: left;
+	margin-right: 4px;
+	overflow: hidden;
+}
+.pet span img {
+	height: 250px;
+	width: 250px;
+	margin: 0px -55px 0px -55px;
+}
+.pet2 {
+	float: left;
+	width: 33%;
+	text-align: left;
+	display: table-cell;
+	background: no-repeat bottom left #fff url("http://i.imgur.com/aYvo9JL.png");
+}
+.pet2 span {
+	border: 1px #DDDDDD solid;
+	float: left;
+	margin-right: 4px;
+	overflow: hidden;
+}
+.pet2 span img {
+	height: 150px;
+	width: 150px;
+	margin: -10px -35px -10px -35px;
+}
+</style><div id="nav" style="position: fixed;"><div class="outernav"><div class="nav">
+<a href="#top" style="border-top: 1px solid #EBEBEB;">top of the page<b> »</b></a>
+<a href="#UFA">UFA - Painted<b> »</b></a>
+<a href="#Zapping">UFA - Zapping<b> »</b></a>
+<a href="#Names">UFA - Names<b> »</b></a>
+<a href="#Adopted">Adopted!<b> »</b></a>
+<a href="/~Hootiolado">Dream Pet List<b> »</b></a>
+<a href="#Council">Guild Council<b> »</b></a>
+<a href="#Add">List a Pet<b> »</b></a>
+<a href="#FAQ">FAQ<b> »</b></a>
+<a href="#Links">Links<b> »</b></a>
+<a href="#credits">credits<b> »</b></a>
+<a href="/">back to neopets?<b> «</b></a>
+
+</div></div></div>
+<div id="main" style="position: absolute;">
+<a name="top"></a>
+<div class="box">
+
+<h1>Homes for Every Lost Pet</h1>
+<h2>Where lost pets get a second chance</h2>
+
+We're a team of Neopians looking to zap pets found in the pound and give them a second chance! 
+But you don't just have to be a zapper to join us, we still need people to advertise, bump the board, 
+work on CSS, seek out people to adopt our pets, and more! Interested in becoming part of our team? 
+Consider <a href="//www.neopets.com/guilds/guild.phtml?id=4179760">joining us</a> today! <p>
+We are an application free adoption agency. All we ask is that you neomail the owner and introduce yourself a little. 
+You can include whatever you like,
+
+<img src="http://imagizer.imageshack.com/img921/418/PyVNNq.png" width="150" height="150" class="right">
+
+whether the pet is your dream pet, if you like the name, any future plans, how excited you are... As long as you're polite! 
+We work on a first come, first served basis for the most part, so please neomail the owner right away! Of course, the final 
+decision lies with the owner, so if you're rude, don't have transfers, have a history of adopting just to trade, or have adopted 
+several pets from us, the owner may decide to adopt out to someone else. Most of the time, however; owners adopt out to 
+the first person to neomail them expressing interest!</p><p>
+
+Our pets are UFA to everyone, not just guild members! You are, of course, welcome to join the guild for any reason but you 
+don't have to be a member just to adopt our pets. (Joining also won't give you an advantage since we work on a first come, 
+first served basis!)</p><p>
+
+If you have any questions please neomail any council member or post on our board on the PC!</p><p>
+
+</p><center><b><a href="#Add">
+<p style="font-size: 16px; font-weight: 600;">» Want to add your pets to the petpage? Go here! «</p></a></b></center>
+
+</div>
+<a name="UFA"></a>
+<div class="box">
+<h1>UFA Pets!</h1>
+<h2>All eagerly awaiting their new home!</h2>
+
+Please be polite and write a little about yourself and why you want the pet. 
+Remember we work on a first come, first served basis, so don't delay neomailing 
+the owner! Also pets are listed in order of species for easy viewing!<br>
+Also keep in mind that some of our members like to customise all their pets, 
+even the ones that are UFA. 
+So, just because a pet is customised doesn't mean they aren't still UFA!
+
+
+<br><center><b>Last updated: June 25 at 11:05pm NST</b></center>
+<p>
+</p>
+
+<div class="pet"><h3>sweety_rice</h3>
+<span><a href="/petlookup.phtml?pet=sweety_rice"><img src="//pets.neopets.com/cpn/sweety_rice/1/5.png"></a></span>
+<b>Elderly Girl Bruce</b>
+<br>Gender: Female
+<br>Born: 28th April (Y10)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=noahalyssaw">Austin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=noahalyssaw">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b>
+<br>Notes: Will get stuck if repounded.</div>
+
+<div class="pet"><h3>Franklin_Mc_Person</h3>
+<span><a href="/petlookup.phtml?pet=Franklin_Mc_Person"><img src="//pets.neopets.com/cpn/Franklin_Mc_Person/1/5.png"></a></span>
+<b>Electric Bruce</b>
+<br>Gender: Female
+<br>Born: 29th July (Y8)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=valamin">valamin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=valamin">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>rockworld608</h3>
+<span><a href="/petlookup.phtml?pet=rockworld608"><img src="//pets.neopets.com/cpn/rockworld608/1/5.png"></a></span>
+<b>Shadow Bruce</b>
+<br>Gender: Male
+<br>Born: December 4 (Y7)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=valamin">valamin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=valamin">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b>
+<br>Notes: Has an old pet trophy. Can ask for just the clothes.</div>
+
+<div class="pet"><h3>__one_tree_hill__</h3>
+<span><a href="/petlookup.phtml?pet=__one_tree_hill__"><img src="//pets.neopets.com/cpn/__one_tree_hill__/1/5.png"></a></span>
+<b>Green Cybunny</b>
+<br>Gender: Male
+<br>Born: 15th February (Y11)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>freastee</h3>
+<span><a href="/petlookup.phtml?pet=freastee"><img src="//pets.neopets.com/cpn/freastee/1/5.png"></a></span>
+<b>Chocolate Flotsam</b>
+<br>Gender: Male
+<br>Born: 23rd January (Y6)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=mcgartyt">mcgartyt</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=mcgartyt">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b>
+<br>Notes: Has old pet trophy.</div>
+
+<div class="pet"><h3>folgorita</h3>
+<span><a href="/petlookup.phtml?pet=folgorita"><img src="//pets.neopets.com/cpn/folgorita/1/5.png"></a></span>
+<b>Ice Hissi</b>
+<br>Gender: Female
+<br>Born: 10th March (Y10)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>michelle231331</h3>
+<span><a href="/petlookup.phtml?pet=michelle231331"><img src="//pets.neopets.com/cpn/michelle231331/1/5.png"></a></span>
+<b>Ice Jubjub</b>
+<br>Gender: Female
+<br>Born: 2nd February (Y15)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>ManyRipples</h3>
+<span><a href="/petlookup.phtml?pet=ManyRipples"><img src="//pets.neopets.com/cpn/ManyRipples/1/5.png"></a></span>
+<b>Stealthy Jubjub</b>
+<br>Gender: Female
+<br>Born: 24th July (Y25)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=playglor1a">playglor1a</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=playglor1a">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>pitzci</h3>
+<span><a href="/petlookup.phtml?pet=pitzci"><img src="//pets.neopets.com/cpn/pitzci/1/5.png"></a></span>
+<b>Zombie Jubjub</b>
+<br>Gender: Female
+<br>Born: 16th March (Y12)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=forestfirebird">forestfirebird</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=forestfirebird">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>May</b>
+<br>Notes: has zapped petpet</div>
+
+<div class="pet"><h3>Mrs_Engle</h3>
+<span><a href="/petlookup.phtml?pet=Mrs_Engle"><img src="//pets.neopets.com/cpn/Mrs_Engle/1/5.png"></a></span>
+<b>Stealthy Kyrii</b>
+<br>Gender: Female
+<br>Born: 22nd June (Y11)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=noahalyssaw">Austin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=noahalyssaw">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>May</b>
+<br>Notes: Will get stuck if repounded. Transferred with pb clothes.</div>
+
+<div class="pet"><h3>Chuck_The_Chip</h3>
+<span><a href="/petlookup.phtml?pet=Chuck_The_Chip"><img src="//pets.neopets.com/cpn/Chuck_The_Chip/1/5.png"></a></span>
+<b>Invisible Lenny</b>
+<br>Gender: Male
+<br>Born: 19th January (Y20)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=valamin">valamin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=valamin">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>propanee</h3>
+<span><a href="/petlookup.phtml?pet=propanee"><img src="//pets.neopets.com/cpn/propanee/1/5.png"></a></span>
+<b>Magma Poogle</b>
+<br>Gender: Female
+<br>Born: July 15th (Y10)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=happymonsterrrr">happymonsterrrr</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=happymonsterrrr">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>May</b></div>
+
+<div class="pet"><h3>Kardas_Dragon</h3>
+<span><a href="/petlookup.phtml?pet=Kardas_Dragon"><img src="//pets.neopets.com/cpn/Kardas_Dragon/1/5.png"></a></span>
+<b>Pastel Shoyru</b>
+<br>Gender: Female
+<br>Born: 23rd March (Y26)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>Spike_209</h3>
+<span><a href="/petlookup.phtml?pet=Spike_209"><img src="//pets.neopets.com/cpn/Spike_209/1/5.png"></a></span>
+<b>Fire Skeith</b>
+<br>Gender: Male
+<br>Born: 1st February (Y10)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=noahalyssaw">Austin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=noahalyssaw">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>May</b>
+<br>Notes: Will get stuck if repounded.</div>
+
+<div class="pet"><h3>llari7</h3>
+<span><a href="/petlookup.phtml?pet=llari7"><img src="//pets.neopets.com/cpn/llari7/1/5.png"></a></span>
+<b>Faerie Tuskaninny</b>
+<br>Gender: Male
+<br>Born: 31st December (Y7)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet"><h3>Clementinexxx</h3>
+<span><a href="/petlookup.phtml?pet=Clementinexxx"><img src="//pets.neopets.com/cpn/Clementinexxx/1/5.png"></a></span>
+<b>Dimensional Xweetok</b>
+<br>Gender: Male
+<br>Born: 29th January (Y11)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evil_tooth_fairy182">evil_tooth_fairy182</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evil_tooth_fairy182">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>May</b></div>
+
+<div class="pet"><h3>Simon_94</h3>
+<span><a href="/petlookup.phtml?pet=Simon_94"><img src="//pets.neopets.com/cpn/Simon_94/1/5.png"></a></span>
+<b>Robot Xweetok</b>
+<br>Gender: Male
+<br>Born: May 1st (Y9)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=valamin">valamin</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=valamin">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a>
+<br><br>Updated for <b>June</b>
+<br>Notes: Can ask for just the clothes.</div>
+
+</div>
+
+<a name="Zapping"></a>
+<div class="box">
+<h1>Zapping</h1><br>
+All our current lab rats. Like the current species and colour? Neomail the owner before 
+they zap again and you miss it!<br>Note that you may want to go to the pet's lookup to see 
+the current colour/species, as some people have reported problems with pet images not updating 
+(it seems to be a cache problem on Neo's end).<p>
+</p>
+
+<div class="pet2"><h3>SilverWhisperer</h3>
+<span><a href="/petlookup.phtml?pet=SilverWhisperer"><img src="//pets.neopets.com/cpn/SilverWhisperer/1/4.png"></a></span>
+<br>Born: 29th March (Y14)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=lilypawpads">Bex</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=lilypawpads">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>SirBeaver</h3>
+<span><a href="/petlookup.phtml?pet=SirBeaver"><img src="//pets.neopets.com/cpn/SirBeaver/1/4.png"></a></span>
+<br>Born: 16th November (Y14)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=ejen94">EJ</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=ejen94">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>pastelpapaya</h3>
+<span><a href="/petlookup.phtml?pet=pastelpapaya"><img src="//pets.neopets.com/cpn/pastelpapaya/1/4.png"></a></span>
+<br>Born: 19th April (Y26)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=bbambi_">Bev</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=bbambi_">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>shaylaz</h3>
+<span><a href="/petlookup.phtml?pet=shaylaz"><img src="//pets.neopets.com/cpn/shaylaz/1/4.png"></a></span>
+Born: 3rd August (Y13)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Staf01">Esther</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Staf01">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>kokonttu</h3>
+<span><a href="/petlookup.phtml?pet=kokonttu"><img src="//pets.neopets.com/cpn/kokonttu/1/4.png"></a></span>
+Born: 16th September (Y7)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>_Miss_Berria_</h3>
+<span><a href="/petlookup.phtml?pet=_Miss_Berria_"><img src="//pets.neopets.com/cpn/_Miss_Berria_/1/4.png"></a></span>
+Born: 5th October (Y8)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=china_black">Kendal</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=china_black">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>May</b></div>
+
+<div class="pet2"><h3>Niall_Flitterfell</h3>
+<span><a href="/petlookup.phtml?pet=Niall_Flitterfell"><img src="//pets.neopets.com/cpn/Niall_Flitterfell/1/4.png"></a></span>
+Born: 28th August (Y25)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=china_black">Kendal</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=china_black">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>May</b></div>
+
+<div class="pet2"><h3>slorgeon</h3>
+<span><a href="/petlookup.phtml?pet=slorgeon"><img src="//pets.neopets.com/cpn/slorgeon/1/4.png"></a></span>
+Born: 1st April (Y8)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>Meyzake</h3>
+<span><a href="/petlookup.phtml?pet=Meyzake"><img src="//pets.neopets.com/cpn/Meyzake/1/4.png"></a></span>
+Born: 8th November (Y13)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>leslona</h3>
+<span><a href="/petlookup.phtml?pet=leslona"><img src="//pets.neopets.com/cpn/leslona/1/4.png"></a></span>
+Born: 3rd May (Y9)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>stretys</h3>
+<span><a href="/petlookup.phtml?pet=stretys"><img src="//pets.neopets.com/cpn/stretys/1/4.png"></a></span>
+Born: 5th October (Y25)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>lofime</h3>
+<span><a href="/petlookup.phtml?pet=lofime"><img src="//pets.neopets.com/cpn/lofime/1/4.png"></a></span>
+Born: 11th April (Y9)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>toddzin</h3>
+<span><a href="/petlookup.phtml?pet=toddzin"><img src="//pets.neopets.com/cpn/toddzin/1/4.png"></a></span>
+Born: 16th October (Y7)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>lilyledy</h3>
+<span><a href="/petlookup.phtml?pet=lilyledy"><img src="//pets.neopets.com/cpn/lilyledy/1/4.png"></a></span>
+Born: 26th March (Y11)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+
+<div class="pet2"><h3>crawlybot</h3>
+<span><a href="/petlookup.phtml?pet=crawlybot"><img src="//pets.neopets.com/cpn/crawlybot/1/4.png"></a></span>
+Born: 28th July (Y7)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=x15stitches">gwennie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=x15stitches">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>Mierye</h3>
+<span><a href="/petlookup.phtml?pet=Mierye"><img src="//pets.neopets.com/cpn/Mierye/1/4.png"></a></span>
+Born: 16th March (Y26)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=0o0slytherinpride0o0">Pride</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>Ryelzy</h3>
+<span><a href="/petlookup.phtml?pet=Ryelzy"><img src="//pets.neopets.com/cpn/Ryelzy/1/4.png"></a></span>
+Born: 31st May (Y26)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=0o0slytherinpride0o0">Pride</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>RyuSekai</h3>
+<span><a href="/petlookup.phtml?pet=RyuSekai"><img src="//pets.neopets.com/cpn/RyuSekai/1/4.png"></a></span>
+Born: 19th February (Y12)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=0o0slytherinpride0o0">Pride</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>Sparklerrie</h3>
+<span><a href="/petlookup.phtml?pet=Sparklerrie"><img src="//pets.neopets.com/cpn/Sparklerrie/1/4.png"></a></span>
+Born: 9th July (Y11)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evie_fae">Evie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evie_fae">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>triyla</h3>
+<span><a href="/petlookup.phtml?pet=triyla"><img src="//pets.neopets.com/cpn/triyla/1/4.png"></a></span>
+Born: 28th June (Y8)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evie_fae">Evie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evie_fae">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>shiramii</h3>
+<span><a href="/petlookup.phtml?pet=shiramii"><img src="//pets.neopets.com/cpn/shiramii/1/4.png"></a></span>
+<br>Born: 2nd August (Y12)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evie_fae">Evie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evie_fae">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>tryyxx</h3>
+<span><a href="/petlookup.phtml?pet=tryyxx"><img src="//pets.neopets.com/cpn/tryyxx/1/4.png"></a></span>
+Born: 21st February (Y12)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evie_fae">Evie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evie_fae">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+<div class="pet2"><h3>soofli</h3>
+<span><a href="/petlookup.phtml?pet=soofli"><img src="//pets.neopets.com/cpn/soofli/1/4.png"></a></span>
+Born: 2nd July (Y9)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=evie_fae">Evie</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=evie_fae">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br><br>Updated for <b>June</b></div>
+
+</div>
+
+<a name="Names"></a>
+<div class="box">
+<h1>Nicely Named Pets</h1>
+<br>All our WN basic pets that aren't being zapped. 
+Interested in a WN pet you can paint yourself? 
+Neomail the owner today!<p>
+</p>
+
+
+<div class="pet2"><h3>Tonitruone</h3>
+<span><a href="/petlookup.phtml?pet=Tonitruone"><img src="//pets.neopets.com/cpn/Tonitruone/1/4.png"></a></span>
+Born: 29th July (Y18)
+<br>Owner: <a href="//www.neopets.com/userlookup.phtml?user=Nightraven2000">Nightraven2000</a>
+<br><a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=Nightraven2000">
+<img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="20" height="20"></a>
+<br>Updated for <b>June</b></div>
+
+</div>
+
+<a name="Adopted"></a>
+<div class="scroll">
+<h1>Given a second chance!</h1>
+<h2>All the pets adopted out through H.E.L.P.!</h2>
+
+<p>Pets adopted out prior to June 2024 have been moved <a href="/~Askios">here</a>!</p>
+<a href="/petlookup.phtml?pet=Meowpz"><img src="//pets.neopets.com/cpn/Meowpz/1/1.png"></a>
+<a href="/petlookup.phtml?pet=bobo0bobobob"><img src="//pets.neopets.com/cpn/bobo0bobobob/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Kiffkiffkiff"><img src="//pets.neopets.com/cpn/Kiffkiffkiff/1/1.png"></a>
+<a href="/petlookup.phtml?pet=BINGO_THE_ZINGO"><img src="//pets.neopets.com/cpn/BINGO_THE_ZINGO/1/1.png"></a>
+<a href="/petlookup.phtml?pet=kristainna"><img src="//pets.neopets.com/cpn/kristainna/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Meneide"><img src="//pets.neopets.com/cpn/Meneide/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Poroe"><img src="//pets.neopets.com/cpn/Poroe/1/1.png"></a>
+<a href="/petlookup.phtml?pet=tonitoni60"><img src="//pets.neopets.com/cpn/tonitoni60/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Lyndziy"><img src="//pets.neopets.com/cpn/Lyndziy/1/1.png"></a>
+<a href="/petlookup.phtml?pet=MummiKau"><img src="//pets.neopets.com/cpn/MummiKau/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Kitarrat"><img src="//pets.neopets.com/cpn/Kitarrat/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Straeker"><img src="//pets.neopets.com/cpn/Straeker/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Bwaila"><img src="//pets.neopets.com/cpn/Bwaila/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Noctivagu"><img src="//pets.neopets.com/cpn/Noctivagu/1/1.png"></a>
+<a href="/petlookup.phtml?pet=cupcake416"><img src="//pets.neopets.com/cpn/cupcake416/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Blaze_1309"><img src="//pets.neopets.com/cpn/Blaze_1309/1/1.png"></a>
+<a href="/petlookup.phtml?pet=RyujiShu"><img src="//pets.neopets.com/cpn/RyujiShu/1/1.png"></a>
+<a href="/petlookup.phtml?pet=SHEBABART"><img src="//pets.neopets.com/cpn/SHEBABART/1/1.png"></a>
+<a href="/petlookup.phtml?pet=Twilightmooneclipse"><img src="//pets.neopets.com/cpn/Twilightmooneclipse/1/1.png"></a>
+</div>
+
+<a name="Council"></a>
+<div class="box">
+<h1>Guild Council</h1>
+<h2>Meet the guild leadership!</h2>
+
+<p><a href="/userlookup.phtml?user=newenglandquizzer">newenglandquizzer</a>
+<br>Rank: Founder
+<br><a href="/neomessages.phtml?type=send&amp;recipient=newenglandquizzer">Send a neomail!</a>
+<br>newenglandquizzer, or just Quizzer, is the co-founder of H.E.L.P.. They love Gelerts and Grundos, and write for the Neopian Times. They used to run their own adoption agency, called Camp G, which is still featured in their NT stories sometimes. They can usually be found chatting through Neomail or on the Neopian Pound guild board.</p>
+
+<p><a href="/userlookup.phtml?user=0o0slytherinpride0o0">0o0slytherinpride0o0</a>
+<br>Rank: Founder
+<br><a href="/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">Send a neomail!</a><br>
+Pride is the co-founder of H.E.L.P.! She's an avid trophy and avatar collector, and she enjoys hoarding neopoints and items. She has personally adopted out 100+ pets over the years. Feel free to message her on her main account (<a href="/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">0o0slytherinpride0o0</a>) or her side account (<a href="/neomessages.phtml?type=send&amp;recipient=0o0pride0o0">0o0pride0o0</a>). She's always happy to help!
+</p>
+
+<p><a href="/userlookup.phtml?user=maico199">maico199</a>
+<br>Rank: Board Leader
+<br><a href="/neomessages.phtml?type=send&amp;recipient=maico199">Send a neomail!</a><br>
+Maico spends her time on the various boards. She enjoys collecting a number of different things. She loves to draw for herself and for others. She likes creating characters for her neopets because it's quite fun. She also has a lot of original characters as well! She can be really shy but she is very friendly. She likes to spend time searching through the pound for pets to zap.
+</p>
+
+<p><a href="/userlookup.phtml?user=rioghnach">Rioghnach</a>
+<br>Rank: Petpage Leader
+<br><a href="/neomessages.phtml?type=send&amp;recipient=rioghnach">Send a neomail!</a><br>
+Evie is the newest council member and keeps the adoption petpage listing up to date. You won't find her on the neoboards too often, but she's always happy to respond to neomails on this account, or her main (<a href="/neomessages.phtml?type=send&amp;recipient=evie_fae">evie_fae</a>). Please be patient, though, Evie lives in New Zealand, so she's online at some pretty strange times if you're not in the same timezone! She returned to Neopets in 2022, when TNT returned her stolen accounts and pets to her, after they were taken in the big data breach. She's been adopting out zapped pets since 2003, and has her own log of every pet she's adopted out, both with HELP, and her previous guild, TNO, <a href="//www.neopets.com/~Iris#4">here</a>. 
+</p>
+
+</div>
+
+<a name="Add"></a>
+<div class="box">
+<h1>List a Pet</h1><h2>How to add your pet</h2>
+<b>We prefer (but don't require) that you be a member of the guild to have your pets listed on our petpage</b>. It makes it easier to keep track of all the owners this way. Also everyone is welcome and encouraged to post their UFA pets on our board on the PC (you can find a link on the <a href="/guilds/guild.phtml?id=4179760">guild main page</a>)!
+
+<p><b><font color="red">Also please remember that if you have any pets listed on this petpage, you need to <a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=rioghnach">neomail Evie</a> sometime between the 1st and the 7th of each month to let her know you're still active. When you do so, please double-check the petpage to make sure everything is accurate.</font></b> We just want to make sure the petpage is up to date. If you do not do so, your pets will be removed. Thank you for your cooperation!</p><p>
+
+<br></p><center><font size="3">Owners are responsible for verifying the accuracy of their listings!</font></center><br><br>
+
+To have a pet listed on the petpage simply <a href="//www.neopets.com/neomessages.phtml?type=send&amp;recipient=rioghnach">neomail Evie</a> using the forms below! They specify what information is needed depending on the section. Please put multiple forms in the SAME neomail. And update Evie as soon as a pet has been promised to someone!<br>Evie always replies to let you know when your pet(s) have been added/updated, so if you don't receive a reply please message her again! (Neomails can be glitchy.)<br><br><br><br><center><font color="red" size="3">Please double check the spelling of your pet name before you send me the form! <br>Please make sure you include all information needed, or I won't be able to list your pet. It's best to please fill them out as-is, it really helps me update the petpage as quickly and easily as possible!</font></center><br><br><table><tr><td></td><td>
+<font size="3">Form for UFA pets:</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=UFA+Pet"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a></td>
+
+<td rowspan="2">
+<ul><li>You <b>MUST</b> include your <b>username</b>. Each time, no matter what!</li>
+<li>You do <b>NOT</b> need to include the <b>field names</b>!</li>
+<li>You can simply put a space between each form entry, instead of putting them all on a new line, if you wish!</li>
+<li>e.g., <b>Proud Shadow Kougra Male 1st November (Y14) 0o0slytherinpride0o0 Pride</b> is PERFECT</li>
+<li>Simply copy and paste the birthday directly from the pet's lookup, no changes needed! (When logged into the account the pet is on.)</li>
+<li>You <b>MUST</b> include <b>Notes:</b> before any notes. And please try to keep them brief!</li>
+<li>Do <b>NOT</b> change the <b>order</b> of any of the info!</li>
+<li>You <b>MUST</b> complete the entire form for <b>EACH</b> pet</li>
+</ul></td>
+
+
+</tr><tr><td align="right" width="120"><p style="padding-top: 13px; line-height: 150%;"><br><b>(Required)<br>
+1.<br>
+2.<br>
+3.<br>
+4.<br>
+5.<br>
+6.</b><br><br><b>(Optional)<br>
+1.<br>
+2.</b><br></p>
+</td>
+
+<td><textarea style="width: 300px; height: 250px;">
+Please add the following to the UFA section:
+
+Name: 
+Colour: 
+Species: 
+Gender: 
+Born: 
+Contact: 
+
+
+Your Name: 
+Notes: 
+</textarea></td></tr></table><br><table><tr><td></td>
+<td>
+<font size="3">Form for lab/WN pets:</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=Lab%2FName+Listing"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a></td><td width="100"></td>
+<td>
+<font size="3">Move to UFA form:</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=Move+to+UFA"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a></td></tr><tr><td align="right" width="120"><p style="padding-top: 13px; line-height: 150%;"><br><b>(Required)<br>
+1.<br>
+2.<br>
+3.<br>
+4.</b><br><br><b>(Optional)<br>
+1.<br>
+2.</b><br></p>
+</td>
+
+<td><textarea style="width: 250px; height: 210px;">
+Can you please add the following?
+
+Section: Lab OR Section: WN
+Name: 
+Born: 
+Contact: 
+
+
+Your Name:
+Notes: 
+</textarea></td><td align="right" width="80"><p style="padding-top: 13px; line-height: 150%;"><br><b>(Required)<br>
+1.<br>
+2.<br>
+3.<br>
+4.</b><br><br><b>(Optional)<br>
+1.</b>
+</p>
+</td>
+
+<td><textarea style="width: 320px; height: 210px;">
+Can you move the following to the UFA section?
+
+Name: 
+Colour: 
+Species: 
+Gender: 
+
+
+Notes: 
+</textarea></td>
+
+</tr></table><br><table><tr><td>
+<font size="3">Adopted form</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=Pet+Adopted"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a><br><textarea style="width: 275px; height: 75px;">NAME has been adopted!
+</textarea></td>
+
+<td>
+<font size="3">Remove form</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=Remove+pet"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a><br><textarea style="width: 275px; height: 75px;">Please remove NAME (they were not adopted).
+</textarea></td>
+
+<td>
+<font size="3">Check-in, no changes</font> <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach&amp;subject=Monthly+check+in"><img src="//images.neopets.com/icons/ul/ul_neomail.gif" width="30" height="30"></a><br><textarea style="width: 275px; height: 75px;">Hi! No changes with my pets this month!
+</textarea></td></tr></table></div>
+<a name="FAQ"></a>
+<div class="box">
+<h1>FAQ</h1>
+<h2>Check here for the most commonly asked questions!</h2>
+
+<table style="border: 1px solid #ddd; border-collapse: collapse;"><tr align="center"><td style="border: 1px solid #ddd; width: 50%; background-color: #ba4310; padding: 3px;"><i><font size="3" color="white">Questions for members and potential members!</font></i></td>
+<td style="border: 1px solid #ddd; width: 50%; background-color: #ba4310;"><i><font size="3" color="white">Questions for potential adopters!</font></i></td></tr><tr><td style="border: 1px solid #ddd; width: 50%; padding: 5px;">
+<b>Q: Can I join the Homes for Every Lost Pet guild?</b>
+<br>A: You sure can! We love new members! H.E.L.P. is an open guild and you can join at any time. You don't even need to have the lab ray or any pets UFA! We would just love to have you join the community. The guild is located <a href="//www.neopets.com/guilds/guild.phtml?id=4179760">here</a>. We also welcome side accounts!
+
+<br><br><b>Q: What are the requirements to join?</b>
+<br>A: We don't have any requirements! You can be as independent as you want, there's no need to post in the guild or on our board in the PC. Of course, you can if you like! We do have some chatty members! However, a lot of our members just <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach">neomail Evie</a> to have their pets listed on the petpage. The only real "requirements" are that you do your best to check-in once a month if you have pets listed on the petpage. This is just to make sure the petpage is up to date! Please see the <a href="#Add">List a Pet Section</a> for more information! Some of our members stay inactive for a while then have pets they want to adopt out - that's fine! Other people join temporarily just to adopt out some pets and then leave the guild (and sometimes come back later!) that's fine too!
+
+<br><br><b>Q: Can I list my pets in other adoption agencies or advertise them on the PC?</b>
+<br>A: Of course! Our ultimate goal is to help people get their dream pets, so we try to do that the best we can! Just make sure you update us when a pet has been adopted!
+
+<br><br><b>Q: I have a pet to list but I'm not a member of H.E.L.P. Can I still list them?</b>
+<br>A: Yes, although we prefer you be a member of the guild, you can list your pets even if you aren'!
+
+<br><br><b>Q: How do I adopt out my pets through H.E.L.P.?</b>
+<br>A: It's pretty simple! You <a href="/neomessages.phtml?type=send&amp;recipient=rioghnach">neomail Evie</a> to have your pet listed on the petpage (see the <a href="#Add">List a Pet Section</a> for the handy dandy links and forms) and respond to any neomails you get from people who want to adopt your pets! The final decision is 100% yours. There's no oversight from guild leadership on the adoption process. We won't ask you who you are adopting your pets out to, we only need to know when they are adopted so the petpage can be updated. However, if you ever need advice or have a question about the adoption process, don't hesitate to reach out to leadership!
+
+<br><br><b>Q: What if I have a problem with a potential new owner?</b>
+<br>A: Please <a href="/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">let Pride know</a> if something happens. We're all independent members but if anything happens, it's best to let her know so she can try and help. We all just want this to go smoothly with no troubles!
+
+<br><br><b>Q: Are there any colours that people don't want to adopt?</b>
+<br>A: A good rule of thumb is: if the colour costs more than 1 million Neopoints to buy the Paint Brush for, it's a good colour to put up for adoption. For instance, it's not much use listing Snow Neopets. The Snow Paint Brush is worth very little, so most people are not seeking Snow Neopets. Unless your cheaply-painted pet has a REALLY great name that people might want to adopt, you will probably not receive any interest in them. Other cheap/unpopular colours include Split, Checkered, Speckled, Glowing, Snow, Striped, Starry, Purple, Strawberry, Orange, Sketch, Swamp Gas, Cloud, Electric, Fire, Disco, Ghost, Gold, Silver, Relic, Biscuit, Camo, Brown, Christmas, most Pirates (the morphing potions are very cheap due to Anchor Management), Rainbow, Skunk, and all basic colours (Red, Blue, Green, and Yellow). <b>If your pet zaps any of these colours, you probably want to continue zapping to get something better–otherwise it may be very difficult to adopt them out.</b> Please also keep in mind that some Transmogrification Potions (to turn a pet Mutant) are very inexpensive, so not all Mutant Neopets are popular. For instance, the Moehog Transmogrification Potion is less than 100,000NPs.
+
+<br><br><b>Q: So what are some good colours to put UFA?</b>
+<br>A: If we're thinking about colours that cost more than 1 million Neopoints, we're thinking things like Zombie, Water, Stealthy, Candy, Faerie, White, Darigan, Desert, Woodland, Elderly...etc. Some colours that cost less than 1mil are also popular, like Baby and some Spotted pets (think the cool patchwork on the Spotted Lupe). There are also a bunch of colours that can only be acquired through the lab, and these are also popular. Snot, Ice, Burlap, Robot, Jelly, Chocolate, Mallow, MSP, etc. In fact, MSP can ONLY be acquired through the lab. It's not even available at the Rainbow Fountain from a Fountain Faerie Quest!
+
+<br><br><b>Q: I found a name I think is pretty cool that hasn't been created yet. Can I create the pet and adopt it out through H.E.L.P.?</b>
+<br>A: We prefer if you not do this, although we understand that there are a lot of reasons to adopt out pets besides ones you adopt from the pound. The point of this guild is to find pets a new home who need one. Whether that means adopting a pet from the pound to zap, adopting out a former permie, or creating an LE pet on their day to zap, let's just help people get their dream pets and find new homes for any pet who needs one!
+
+
+</td>
+<td style="border: 1px solid #ddd; width: 50%; padding: 5px;">
+<b>Q: How do I adopt a pet from H.E.L.P.?</b>
+<br>A: Just neomail the owner! You can include as much or as little information as you want. In general, please write something more than "Can I have your pet?" because those types of neomails seem rather rude. Even something as simple as "Hi, I'm (name) and I've always wanted a (colour) (species), could I adopt (pet)?" can be enough! Some of our members might want to look at your account or want more information. The key is just to be honest and polite!<br>
+General tips:
+<ul><li>Tell us your name</li>
+<li>Use the foster parent's name! It makes it feel more personal</li>
+<li>Use the pet's name</li>
+<li>Use the correct gender of the pet (if you want to change it, that's fine, just say so!)</li>
+<li>Tell us why you're interested. Is it for the name, the birthday, the colour, the clothes<sup>1</sup>, the species, all of the above?</li>
+<li>Tell us if you plan on keeping on your main or a side account</li>
+<li>Tell us if you plan on morphing/repainting<sup>2</sup></li>
+</ul><sup>1</sup>If someone has a pet UFA for a while with no interest and they have clothes, the foster parent may more than happy to give the clothes away and start zapping again. It doesn't hurt to ask!
+<br><sup>2</sup>For example, someone wanted a Robot pet that Pride had UFA–they wanted to use their Premium Perk on the foster pet because they wanted a Robot pet of another species. However, you don't need to start with a Robot pet to get a Robot via premium perk! If you let us know why you really want the pet, we might just be able to help in unexpected ways.
+
+
+<br><br><b>Q: I see two pets listed that I just love! Can I try to adopt both of them? I've also adopted from H.E.L.P. before... Is that okay?</b>
+<br>Of course! Adoption decisions are up to the individual owner, we don't have any limits!
+
+<br><br><b>Q: What if I have a problem with a guild member?</b>
+<br>A: Please <a href="/neomessages.phtml?type=send&amp;recipient=0o0slytherinpride0o0">let Pride know</a> if something happens. We're all independent members but if anything happens, it's best to let them know so they can try and help. We all just want this to go smoothly with no troubles!
+
+<br><br><b>Q: I don't see any pets UFA that I like right now. How often is the page updated?</b>
+<br>A: Evie updates the page roughly once per day. So check back tomorrow and you may see new pets UFA!
+
+
+<br><br><b>Q: I want to adopt a pet from the page, but I don't have any space right now until I can afford a new pet slot/adopt out a pet I own/etc. Will the owner hold the pet for me?</b>
+<br>A: Maybe! It doesn't hurt to ask! But it is up to <i>every individual owner</i> whether they want to hold a pet for someone. They do not HAVE to hold a pet for you. This guild is first-come, first-serve, and it is within the owner's rights to adopt the pet out to someone else rather than wait for you. Most of the guild members want to quickly make room for new foster pets. Assume that they won't hold the pet, ask politely, and if you're pleasantly surprised, then that's great! But otherwise, respect the owner's decision to adopt out immediately rather than wait for you.
+
+<br><br><b>Q: I don't like the colour/species/stats of this pet, but I like the name. Will you do a custom paint job/morph/BD training for me?</b>
+<br>A: No. Absolutely not. We are adopting these pets out for <i>nothing at all</i>, just the goodness of our hearts. We're not receiving anything in return, unlike in a trade. If you don't like the pet the way it is, don't adopt it--or else paint/morph/train it yourself after you've adopted.
+
+
+<br><br><b>Q: Can I adopt a H.E.L.P. pet for a trade?</b>
+<br>A: Please, do not do this. While we can't actually stop you from doing what you will with the pet after you adopt it--we really want these pets to go to permanent homes. Please don't trade a pet you adopt from H.E.L.P.. If we find you've adopted a pet just to trade it, you will be banned from adopting from us again. If, after a while, you realize you don't want to keep the pet you adopted--please, adopt the pet out to another user to pass on the giving spirit of H.E.L.P..
+
+
+<br><br><b>Q: I REALLY want a specific colour/species of pet but I don't see it UFA right now. Is there any way you can tell me if you zap one?</b>
+<br>A: Yes! We have a dreamie wishlist page, and whenever we get a good zap, we check this page to see if someone has already wished for one! Head over to our <a href="//www.neopets.com/~Hootiolado">Dream Pet List</a> for details. You are also allowed to wish for non-zappable pets, like Babies and Plushies, because occasionally we have users putting hand-painted pets UFA.
+
+
+<br><br><b>Q: I'm really hoping to adopt a Lutari...they're so cute!</b>
+<br>A: Aww, Lutaris are cute! And they can be transferred now! YAY! So you can absolutely adopt them from us but only with a user-to-user transfer. Lutaris still run away when they are dropped in the pound. :(
+</td>
+</tr></table></div>
+<a name="Links"></a>
+<div class="box">
+
+<h1>Links</h1>
+<br><table><tr align="center"><td>Adoption Agency:<br><a href="/~Ivvy"><img src="http://i.imgur.com/Fv3G0AG.gif" border="0"></a>
+<br>Button by <a href="/~Dixiue">Pixie</a>! 
+<br><textarea style="width: 250px; height: 80px;"><a href="/~Ivvy"><img src="http://i.imgur.com/Fv3G0AG.gif" border="0"></a></textarea></td>
+
+<td align="center">Dream Pet List:<br><a href="/~Hootiolado"><img src="http://i.imgur.com/1G5oHXo.gif" border="0"></a>
+<br>Button by <a href="/~Dixiue">Pixie</a>! 
+<br><textarea style="width: 250px; height: 80px;"><a href="/~Hootiolado"><img src="http://i.imgur.com/1G5oHXo.gif" border="0"></a></textarea></td></tr></table><br><table><tr><td width="100" valign="bottom" align="center">
+<a href="//www.neopets.com/guilds/guild.phtml?id=4179760"><img src="//upload.neopets.com/guilds/4/1/4179760_logo.jpg" width="60" height="60"><br>Guild Home</a></td>
+
+<td width="100" valign="bottom" align="center"><br><a href="/neomessages.phtml?type=send&amp;recipient=rioghnach"><img src="//images.neopets.com/icons/ul/ul_neomail.gif"><br>Neomail Evie</a></td>
+</tr></table><br><h1>Other awesome petpages!</h1>
+
+<br><center><table width="550" cellspacing="4"><tr width="550"><td colspan="10"><h3>Adoption Agencies</h3></td></tr><tr align="center"><td><a href="/~Moonsis3"><img src="http://i.imgur.com/Cbv81Bt.gif" border="0"></a></td>
+<td><a href="/~davantos"><img src="http://i.imgur.com/9d3oRnq.gif" border="0"></a></td>
+<td><a href="/~Nissay"><img src="http://i.imgur.com/z4P0ZFw.gif" border="0"></a></td>
+<td><a href="/~Rizya"><img src="http://i.imgur.com/3wxqhNz.gif" border="0"></a></td>
+<td><a href="/~Giesol"><img src="http://i.imgur.com/uwn0sUG.gif" border="0"></a></td>
+<td><a href="/~Sufferet"><img src="http://i.imgur.com/vz6p0Hy.gif" border="0"></a></td>
+<td><a href="/~babysweetluvduv"><img src="http://orig04.deviantart.net/3466/f/2015/126/9/1/ufa_at_zapportunities_button_request_by_floretbutton-d8sfgz1.gif" border="0"></a></td>
+</tr><tr width="550"><td colspan="10"><h3>Specialized Adoption Agencies</h3></td></tr><tr align="center" width="700"><td><a href="/~Diapey"><img src="http://i.imgur.com/PfPkf8j.gif" border="0"></a></td>
+<td><a href="/~Eggso"><img src="http://i.imgur.com/kyDUvn0.gif" border="0"></a></td>
+<td><a href="/~Sosura"><img src="http://i.imgur.com/K1ENIm0.gif" border="0"></a></td>
+<td colspan="2"><a href="/~Tradoce"><img src="//images.neopets.com/neoboards/smilies/codestone.gif"><br>Training Academy<br>Adoption Center</a></td>
+<td colspan="2"><a href="/~Ioading"><img src="//images.neopets.com/template_images/lost_isle_jubjub.gif" height="35" width="35"><br>Jubjub Rescue</a></td>
+<td><a href="/~SunSetRiver"><img src="http://i.imgur.com/6kPNwBN.gif" border="0"></a></td>
+</tr><tr width="550"><td colspan="10"><h3>Dream Pet Lists</h3></td></tr><tr align="center" width="700"><td><a href="/~ZYDP"><img src="http://i.imgur.com/opA8Ayv.jpg" border="0"></a></td>
+<td><a href="//www.neopets.com/~Peluni"><img src="http://i.imgur.com/tJMXace.gif" border="0"></a></td><td><a href="/~uniks"><img src="http://i.imgur.com/cUc3VOr.gif" title="PB Clothing" border="0"></a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr width="550"><td colspan="10"><h3>Stuck Pet List &amp; Untaken Names Lists</h3></td></tr><tr align="center" width="700"><td><a href="/~Swesia"><img src="http://i.imgur.com/zInVMQo.gif" border="0"></a></td>
+<td><a href="//www.neopets.com/~OldWays"><img src="http://lost.quiggle.org/button_ixi.gif" border="0"></a></td>
+<td><a href="/~Talons"><img src="http://i.imgur.com/88uj6T3.png" border="0"></a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr width="550"><td colspan="10"><h3>Other</h3></td></tr><tr align="center" width="700"><td><a href="/~PCNT"><img src="http://i.imgur.com/kBvCXQk.gif" title="PC News" border="0"></a></td>
+<td><a href="/~fef"><img src="http://imgur.com/ye0xlje.gif" title="Pet Directory" border="0"></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr></table></center>
+
+
+<br><br><table><tr><td><a href="/~hincil"><img src="http://i.imgur.com/NpWoI4M.png" border="0"></a></td><td><ul><li>Want to achieve your own dream pet? It might be cheaper than you think!<br>Check out this petpage for a list of Morphing Potions that are cheaper than using a Paint Brush!</li></ul></td>
+</tr><tr><td><a href="/ntimes/index.phtml?section=576057&amp;week=814">How to Nickname<br>Your Badly-Named Neopet</a></td>
+<td><ul><li>Recently adopted a badly named pet? Read this NT article from our very own Quizzer to find a way to give them a nickname! What better way to bond with your new pet?</li></ul></td>
+</tr><tr><td><a href="//www.neopets.com/ntimes/index.phtml?section=editorial&amp;issue=483"><img src="http://i.imgur.com/C96KenE.gif" width="88" height="31"></a></td>
+<td><ul><li>This is just something Pride made because she highly dislikes TNT's rule about FFQs. Feel free to add it to your page!</li></ul></td>
+</tr></table></div>
+<a name="credits"></a>
+<div class="box"><h1>Credits</h1>
+<h2>thank you for visiting my page!</h2>
+Main CSS by <a href="/~Niwi">Floral</a><br>
+CSS help from <a href="/~Thatk.illsme">Thatk.illsme</a><br>
+Background from <a href="/~Ventria">Mariposa</a><br>
+Original Editing and content (c) <a href="/userlookup.phtml?user=0o0slytherinpride0o0">Pride</a>.<br>
+Current Editing and content (c) <a href="/userlookup.phtml?user=evie_fae">Evie</a>.<br>
+Link back buttons kindly made by: <a href="/~Dixiue"><img src="http://i.imgur.com/Bcc0xuK.gif" border="0"></a><br>
+
+Gelert image on the main page kindly made by <a href="/userlookup.phtml?user=robin1234504">Robin</a>.<p>
+
+Everything on this petpage was made specifically for H.E.L.P. Please do not use anything without permission.
+
+</p><p>NEOPETS, characters, logos, names and all related indicia are trademarks of <a href="/">Neopets, Inc.</a>, © 1999-present.
+</p></div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><BR><BR><BR>

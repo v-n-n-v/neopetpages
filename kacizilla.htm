@@ -1,0 +1,218 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+Kacizilla got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=brexis'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: purple;
+}
+.sf {
+	color: #555;
+	font: 10px Verdana;
+	line-height: 13px;
+}
+.sf a {
+	color: purple;
+	text-decoration: none;
+}
+body {
+	text-align: center;
+}
+textarea {
+	width: 400px;
+	height: 123px;
+	border: 1px solid #ddd;
+	font: 10px Verdana;
+	color: #999;
+	line-height: 14px;
+}
+textarea:hover {
+	color: #333;
+}
+.box {
+	width: 500px;
+	margin: 30px auto;
+	padding: 0 13px 15px 13px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #eee;
+	text-align: left;
+	font: 11px Verdana;
+	line-height: 17px;
+}
+</style><h1 style="padding-right: 200px; color: purple;">Image mapping by CSS</h1>
+<p>
+An alternative to HTML image maps. <a href="#note">Note</a>.
+</p>
+<div class="box">
+<h2>1: Find the dimensions of your image</h2>
+Let's code an image map (using CSS) for this image:<p>
+<img src="//images.neopets.com/caption/caption_1146.gif"><br>
+The dimensions of this image is 400px tall by 400px wide.
+</p>
+</div>
+<div class="box">
+<h2>2: Setting up your image as a div background</h2>
+<textarea><div style="background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;"></div>
+</textarea><p>
+As you can see in the code above, the height and width of your div is the height and width of the image. The image is now the background image of an <b>empty</b> div. <br>The result has the same effect as an image tag but it's really a div:<br></p>
+<div style="background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;"></div>
+</div>
+<div class="box">
+<h2>3: Setting up links</h2>
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+LINKS WILL GO IN HERE
+
+</div>
+</textarea><p>
+We have added "position:relative" in the styles of our div as we begin to add links. Your links will go inside the div. Now here is the format of a single link (below), which I like to call a "clickable area". Note that you will not enter anything inside the <b>a</b> tag. </p>
+<p>
+<textarea><a href="/url.phtml" style="width: 123px; height: 123px; border: 0; position: absolute; top: 123px; left: 123px;"></a>
+</textarea></p>
+<p>
+Each link has its own address (/url.phtml) and the dimensions and positioning (123). Enter your own URL for the address, and numbers for width, height, top and left. <b>We don't know what the numbers are at the moment. As of now, just enter anything reasonable.</b> </p>
+<p>The code below is a working example of this step: 
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 100px; height: 100px; border: 0; position: absolute; top: 100px; left: 100px;"></a>
+
+</div>
+</textarea></p>
+<p>
+And the result:<br></p>
+<div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 100px; height: 100px; border: 0; position: absolute; top: 100px; left: 100px;"></a>
+
+</div>
+Can you find where the clickable area is in the image? (Hint: curtains)
+</div>
+<div class="box">
+<h2>4: Arbitrary blue background</h2>
+From our previous code, we set up a clickable area. Let's make one more edit - adding a <b style="color: blue;">blue</b> background to the link (or any other color you prefer). We will undo this later. <p>
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="background: blue; width: 100px; height: 100px; border: 0; position: absolute; top: 100px; left: 100px;"></a>
+
+</div>
+</textarea></p>
+<p>
+The result looks like this: </p>
+<p>
+</p>
+<div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="background: blue; width: 100px; height: 100px; border: 0; position: absolute; top: 100px; left: 100px;"></a>
+
+</div>
+<p>Now that you can see the clickable area, you are ready for the next step.
+</p>
+</div>
+<div class="box">
+<h2>5: Scaling and positioning of links</h2>
+Relying on trial and error, keep editing the dimensions and positioning of your link. If you wanted to make the poppit clickable, you would try to fit the blue box over the poppit, making sure it is nicely covered. Notice the old width, height and positioning have changed in our code: <p>
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="background: blue; width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+</div>
+</textarea></p>
+<p>
+The result, after a little guesswork: </p>
+<p>
+
+</p>
+<div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="background: blue; width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+</div>
+
+
+</div>
+<div class="box">
+<h2>6: The End</h2>
+Remove the background on the link. Congrats! You now have a working image map. <p>
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+</div>
+</textarea></p>
+<p>
+Which looks like:</p>
+<p>
+</p>
+<div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+</div>
+<p>The poppit is now clickable. 
+
+</p>
+<hr style="border-bottom: 1px solid #ddd; border-top: 0; border-left: 0; border-right: 0; margin: 20px 0;">If you want to add more links, repeat steps 3-5 while keeping your finished links. Here is an example. Notice there are two links inside the div now: <p>
+<textarea><div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+<a href="/nf.phtml" style="background: blue; width: 100px; height: 100px; border: 0; position: absolute; top: 200px; left: 200px;"></a>
+
+</div>
+</textarea></p>
+<p>
+Result: </p>
+<p>
+</p>
+<div style="position: relative; background: url('//images.neopets.com/caption/caption_1146.gif') no-repeat; width: 400px; height: 400px;">
+
+<a href="/weather.phtml" style="width: 70px; height: 85px; border: 0; position: absolute; top: 179px; left: 8px;"></a>
+
+<a href="/nf.phtml" style="background: blue; width: 100px; height: 100px; border: 0; position: absolute; top: 200px; left: 200px;"></a>
+
+</div>
+<p>We have kept the old link on the poppit, and added a new link to work with. Use the same process again to finish this new link. Keep this up until you have completed all the links for your image map! 
+<b>Good luck!</b></p>
+<p>
+Click <a href="//www.neopets.com/neomessages.phtml?type=send">here</a> to send me your feedback.
+</p>
+</div>
+<div class="box">
+<a name="note"></a>
+<h2>The Two Roads to Image Mapping: CSS vs HTML</h2>
+<p>I originally made this guide because it used to be that HTML image maps did not work on user lookups. But here you have it: an alternative way of coding image maps... just in case!
+</p>
+<p>I like doing the guess-and-check way of CSS image maps, mostly out of habit. <span style="color: purple;">For the sake of mapping an image, there is probably an HTML image mapper you can find that will generate code for you, which is easy.</span> Even better, with HTML image maps, you can choose shapes including rectangles, circles, and polygons. The downside of CSS image mapping is that you are only limited to rectangular clickable areas.
+</p>
+<p>(A solution to this with the CSS method is to break up your clickable area into little rectangles that all link to the same place. This could be painfully time-consuming)!
+</p>
+<p>The main benefit of the CSS method is that it's easy to turn it into a page layout. You can position your image map as a layout background image. Just as you have positioned clickable areas within the outer div, you can also put another div that contains your page content. This is shown in my other guide, <a href="/~zeawn">How to Code a Blog-Style Layout</a>. 
+</p>
+</div>
+<div class="box">
+<h2>Link Back</h2>
+<p align="center">
+<a href="/~Cedrowy"><img src="http://i50.tinypic.com/att87.jpg" border="0"></a><br><textarea style="border-bottom: 2px solid purple; border-top: 0; border-left: 0; border-right: 0; width: 92px; height: 20px; overflow: hidden;"><a href="/~Kacizilla"><img src="http://i50.tinypic.com/att87.jpg" border="0"></a></textarea></p>
+<p align="center">I love this button made by <a href="/~Cedrowy">Abigail</a>!
+</p>
+</div><BR><BR><BR>
