@@ -1,0 +1,516 @@
+<html>
+<head>
+<meta name="Robots" content="all">
+<meta name="Description" content="NeoPets.Com - Virtual Pet Community!  Join up for fun, games, shops, auctions, chat and more!">
+<meta name="Keywords" content="pets, pet, games, game, virtual, chat, fun, creatures, prizes, play, tamagotchi, virtual pet, pokemon, kids">
+<title>
+AmeliaElephant got their homepage at Neopets.com
+</title>
+
+<script language='javascript'>
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+</script>
+<script src="//images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</head>
+<body marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0" bgcolor="dddd77">
+<tr><td align=center><a href='//www.neopets.com/refer.phtml?username=laurawr_may95'>
+<img src='//images.neopets.com/images/homepage_banner.gif' height=14 width=602 border=0></a><br>
+</td></tr></table>
+<style>
+body {
+	background: url("http://i.ibb.co/JkbCDsC/Petpage-Background.jpg");
+}
+body, div, a {
+	font: 12pt verdana;
+	color: #000000;
+	text-align: center;
+}
+td, tr, table {
+	font: 12pt verdana;
+	color: #000000;
+	padding: 0px;
+}
+a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #a32e79;
+}
+a:hover {
+	color: #c2a3b7;
+}
+h1 {
+	padding-top: 3px;
+	font-size: 18pt;
+	font-family: verdana;
+	font-style: -blocked-;
+	text-align: center;
+	padding-left: 5px;
+	color: #1e5858;
+	border-bottom: 2px dotted #1e5858;
+}
+b {
+	font: 12pt verdana;
+	color: #1e5858;
+	font-weight: bold;
+}
+#header {
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	width: 1808px;
+	height: 700px;
+	background: url("http://i.ibb.co/WyWS5LM/Petpage-Header.jpg");
+	z-index: -1;
+}
+#info {
+	left: 125px;
+	top: 610px;
+	width: 1460px;
+	z-index: 2;
+	padding: 0px;
+}
+table {
+	background: none;
+}
+table a img, center p {
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+}
+</style><div id="header" style="position: absolute;"></div>
+
+<div id="info" style="position: absolute;">
+
+<h1>Welcome!</h1>
+Hello laurawr_may95, and welcome to my tutorial on how to create a custom userlookup here on Neopets!<p>
+
+First, I'll give you my template and code - this is the easiest way to make a custom userlookup if you really don't want to play around with CSS too much. I used this template to make my own userlookup, which you can see here - <a href="//www.neopets.com/randomfriend.phtml?randomfriend=laurawr_may95">laurawr_may95</a>. I didn't spend too long on the design, so please don't judge too hard, I plan to spend a bit more time on it when I've got this tutorial done. I bet you could do way better!</p><p>
+
+I'll then explain the various parts of the code, along with how to change all of the colours, positions of boxes, borders, and even how to customise those funky buttons that scroll through your Neopets!</p><p>
+
+Before we continue, just a word of warning - I have designed this userlookup to display only User Info, Neopets, Shop &amp; Gallery, Collections, Trophies and a single text box for your own writing. I have not included Neohomes or NC Mall boxes. If you want to include these, feel free to drop me a Neomail and I will do my best to help.</p><p>
+
+When it comes to giving credit, it isn't necessary. I don't expect anything in return for this template and guide. <b>However</b> if you do want to credit me and link back to this tutorial so others can follow along, I would really appreciate it!</p><p>
+
+So, are you ready to get started? Let's jump on in!</p><p>
+
+</p><h1>The Template</h1>
+
+The first thing I suggest you do for this tutorial is open Notepad on your PC. This is a great program for working on your userlookup code, as it doesn't use any formatting and you can just copy and paste straight over to your userlookup box when you go to edit your profile. For those who don't know, you can edit your profile <a href="//www.neopets.com/userinfo.phtml">here.</a><p>
+
+Next, copy and paste this link into your browser and download the image. This the template we will be using in the main part of this tutorial.</p><p>
+
+<textarea>https://i.ibb.co/Bg014RF/Userlookup-Template-2.jpg</textarea></p><p>
+
+Now, in Notepad, first copy and paste this:</p><p>
+
+<textarea><style></style></textarea></p><p>
+
+Then, between those two tags, copy and paste this code:</p><p>
+
+<textarea>
+#header, #footer, .adBox,.adBox2, .ad_wrapper_fixed, #ban, #ban_bottom, .footOverlay, .sf, hr, #userneohome .contentModuleTable, #habitarium .contentModuleTable, #ncmall .contentModuleTable, #superfooter {
+	display:none;
+}
+.contentModuleContent table table {
+	border: none !important;
+}
+.content div a img, .content div b {
+	visibility:hidden;
+}
+.contentModule div a img, .contentModule div b {
+	visibility:visible;
+}
+.contentModuleHeader, .contentModuleHeaderAlt {
+	font: bold 20px verdana !important;
+	color: #dba17b;
+	background: none;
+	text-align: center;
+}
+.contentModule, .contentModuleContent, .contentModuleTable {
+	border: none;
+	background: none;
+}
+.contentModuleTable td img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #dba17b;
+}
+
+a:link, a:visited, a:active {
+	color: #f2f0d9;
+	font-family: 
+	verdana;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #93993f;
+	font-family: verdana;
+	font-weight: bold;
+	text-decoration: none;
+}
+body, .medText {
+	color: #efdd8b;
+	font-size: 11px;
+	font-family: verdana;
+	text-decoration: none;}
+body {
+	background: #efdd8b;
+}
+#main {
+	background: transparent url("https://i.ibb.co/Bg014RF/Userlookup-Template-2.jpg") center no-repeat;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #dba17b;
+	width: 1000px;
+	height: 2500px;
+}
+#content {
+	width: 100%;
+	padding: 0px;
+	position: absolute;
+}
+#userinfo {
+	position: absolute;
+	top: 625px;
+	left: 100px;
+	width: 350px;
+	height: 250px !important;
+}
+#userneopets {
+        position: absolute;
+	top: 958px;
+	left: 164px;
+	width: 680px;
+	height: 260px !important;
+}
+#userneopets img {
+	margin-bottom: -20px;
+	width: 150px;
+	height: 150px;
+}
+#userneopets li {
+	margin-right: 20px !important;
+}
+#usershop {
+	position: absolute;
+	top: 1305px;
+	left: 268px;
+}
+#usercollections {
+	position: absolute;
+	top: 1302px;
+	left: 550px;
+	height: 330px !important;
+	width: 260px !important;
+}
+#usertrophies {
+	position: absolute;
+	display: block;
+	top: 1716px;
+	left: 70px;
+	width: 875px !important;
+	height: 375px !important;
+	overflow: auto;
+}
+#aboutbox {
+	position: absolute;
+	top: 623px;
+	left: 553px;
+	width: 360px;
+	height: 280px !important;
+	overflow: auto;
+	text-align: justify;
+	padding-right: 7px;
+}
+#customnav {
+	position: absolute;
+	top: 528px;
+	left: 5px;
+	width: 1000px;
+	height: 185px;
+	overflow: auto;
+	font: 20px garamond;
+	color: #1f1f1f;
+	text-align: justify;
+	padding-right: 5px;
+}
+</textarea></p><p>
+
+Below everything you have so far, after your closing style tag, copy and paste this. This is the HTML section. Everything within the style tags above is CSS.</p><p>
+
+<textarea><div id="customnav">| <a href="/myaccount.phtml">My Account</a> | 	
+<a href="/customise/">Customise</a> | 
+<a href="/games/arcade.phtml">Games Room</a> | 
+<a href="/explore.phtml">Explore</a> | 
+<a href="/nf.phtml">News</a> |
+<a href="/community/index.phtml">Community</a> | 
+<a href="/objects.phtml">Shops</a> | 
+<a href="/mall/index.phtml">NC Mall</a> | <p>
+</p></div>
+<div id="aboutbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p><p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p></div></textarea></p><p>
+
+For some weird reason I couldn't put the code all in one box for you to copy and paste, but this will give you the same results.</p><p>
+
+Now the fun part! Take the template image into your favourite art program, and go crazy. Decorate it however you like! If you don't want to have to edit the code too much, try to keep the boxes in the same place. I have labelled these according to where the different parts will go. However, if you want to be a bit more adventurous, feel free to change the layout. I'll explain how to move the userlookup modules around later in the tutorial.</p><p>
+
+When you're done, you will end up with something similar to this. (This is the image I made for my userlookup when writing the code):</p><p>
+
+<img src="http://i.ibb.co/sbbpfyT/Pandaphant-Lookup-Background.jpg" style="width: 200px;"></p><p>
+
+Now, upload your image to a free image hosting website. It's easy to find one, just type "free image hosting" into Google. Copy and paste your image URL and, in the code you have open in your notepad, find this section:</p><p>
+
+<textarea>#main {
+	background: transparent url("https://i.ibb.co/Bg014RF/Userlookup-Template-2.jpg") center no-repeat;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #dba17b;
+	width: 1000px;
+	height: 2500px;
+}</textarea></p><p>
+
+Replace my URL with the one for your newly uploaded image. Then, copy and paste the whole code into the description box of the My Profile editing section. Ta-da! You should now have a custom userlookup.</p><p>
+
+To edit what's writen in the text box, find the 'lorum ipsum' body of text near the bottom of the code and replace it with whatever you want to say. Any basic HTML should work in here.</p><p>
+
+But what about the background, text and border colours? If they don't match your design, don't worry. Let's have a look at changing them...</p><p>
+
+</p><h1>Colours &amp; Borders</h1>
+There are a few colours to change in the code, including the background, text, links, and borders around the background and images. The first thing you need to know is what a CSS colour looks like. It's usually in the form <b>#000000</b>, with the string of 0's being some combination of numbers and letters. Have a look through the code, and you will see these hex codes throughout.<p>
+
+You should be able to find this code for any colour you use somewhere in your art program that you used to design your lookup. Have a look with the colour picker and see if you can spot it. It might be worth writing down a few of the hex codes for colours you used in your design, or you can choose new ones to match.</p><p>
+
+First, let's change the main background colour. Find this part of the code:</p><p>
+
+<textarea>
+body {
+	background: #7ee7fe;
+}</textarea></p><p>
+
+See that hex code? Change it! Make sure you keep the <b>#</b> and <b>;</b> in the same place.</p><p>
+
+Now, how about the text? Easy, just find the relevant bits of code as per below and once again, change the colours. You can also see here that this is where the font and size of the text is set. Feel free to play around with these too!</p><p>
+
+Main text:</p><p>
+
+<textarea>body, .medText {
+	color: #354ecd;
+	font-size: 12px;
+	font-family: verdana;
+	text-decoration: none;}</textarea></p><p>
+
+Links:</p><p>
+
+<textarea>a:link, a:visited, a:active {
+	color: #187fe8;
+	font-family: 
+	verdana;
+	font-weight: bold;
+	text-decoration: none;
+}<p>
+
+Links, but when you're hovering over them:</p><p>
+
+<textarea>a:hover {
+	color: #74e3e2;
+	font-family: verdana;
+	font-weight: bold;
+	text-decoration: none;
+}</textarea></p><p>
+
+Headings of module boxes (e.g. where it says 'User Info' or 'Neopets'):</p><p>
+
+<textarea>.contentModuleHeader, .contentModuleHeaderAlt {
+	font: bold 20px verdana !important;
+	color: #6433a2;
+	background: none;
+	text-align: center;
+}</textarea></p><p>
+
+Woo! Look at you go! I bet that text is looking all fancy now! (Sorry, I think I've had too much caffeine...)</p><p>
+
+Borders next! There are two types of border in this userlookup code - one that goes around the outside of your background image, and one that goes around all of the smaller images such as your shield, Neopet images, shopkeeper etc. You can easily edit the colour and even width of these borders by finding these two bits of code, and changing the <b>border-color</b> and <b>border-width</b> parts.</p><p>
+
+For the larger outside border:</p><p>
+<textarea> #main {
+	background: transparent url("https://i.ibb.co/Bg014RF/Userlookup-Template-2.jpg") center no-repeat;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #354ecd;
+	width: 1000px;
+	height: 2500px;
+}</textarea></p><p>
+
+And for the smaller, inside borders:</p><p>
+<textarea>.contentModuleTable td img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #354ecd;
+}</textarea></p><p>
+
+That's it for editing the colours. Everything should be nice and matching now.</p><p>
+
+Feel free to end the tutorial here, but if you want to dig deeper and customise the position of your boxes, add more extra boxes to write in, or even create custom little buttons to scroll through your Neopets with, then keep on reading!</p><p>
+
+</p><h1>Moving Modules</h1>
+
+You may have noticed within the code that there are a number of different sections, each relating to a <b>module</b>. By module, I mean the boxes that display different things, such as your User Info, Neopets, Trophies etc.<p>
+
+Moving these modules around the page is simple, but can take a little bit of time due to the trial-and-error approach. I'll explain how to move the User Info module here, and then list the parts of code you need to find to move the rest of the modules using the same method.</p><p>
+
+To move your User Info module, first find this part of the code:</p><p>
+
+<textarea>#userinfo {
+	position: absolute;
+	top: 625px;
+	left: 100px;
+	width: 350px;
+	height: 250px !important;
+}</textarea></p><p>
+
+You see where it says <b>top</b> and <b>left</b>, and has a pixel value next to each? This is the part we need to change.  The pixel numbers represent the position of the module on the page - how many pixels from the top, and how many pixels from the left. To move the module, just change these numbers! It might take you a few attempts to get the module in the right position, but the <b>Preview Lookup</b> funtion above where you're putting your code should help.</p><p>
+
+Now, you can do the same for the rest of the sections! Here's the code that relates to each part, including the navigation links.</p><p>
+
+Neopets:</p><p>
+<textarea>#userneopets {
+	position: absolute;
+	top: 958px;
+	left: 164px;
+	width: 680px;
+	height: 250px !important;
+}</textarea></p><p>
+
+Shop &amp; Gallery:</p><p>
+
+<textarea> #usershop {
+	position: absolute;
+	top: 1305px;
+	left: 268px;
+}</textarea></p><p>
+
+Collections:</p><p>
+<textarea>#usercollections {
+	position: absolute;
+	top: 1302px;
+	left: 550px;
+	height: 330px !important;
+	width: 260px !important;
+}</textarea></p><p>
+
+Trophies:</p><p>
+
+<textarea>#usertrophies {
+	position: absolute;
+	display: block;
+	top: 1716px;
+	left: 70px;
+	width: 875px !important;
+	height: 375px !important;
+	overflow: auto;
+}</textarea></p><p>
+
+Text/about box:</p><p>
+<textarea>#aboutbox {
+	position: absolute;
+	top: 625px;
+	left: 555px;
+	width: 360px;
+	height: 280px !important;
+	overflow: auto;
+	text-align: justify;
+	padding-right: 5px;
+}</textarea></p><p>
+
+Navigation:</p><p>
+
+<textarea>#customnav {
+	position: absolute;
+	top: 528px;
+	left: 5px;
+	width: 1000px;
+	height: 185px;
+	overflow: auto;
+	font: 20px garamond;
+	color: #1f1f1f;
+	text-align: justify;
+	padding-right: 5px;
+}</textarea></p><p>
+
+With a bit of patience, you should be able to position each of these sections wherever you like on your background image. Try not to mess with the width and height of the different boxes if you're not too confident, as this can be fiddly, but if you want to have a play around and experiment then go ahead!</p><p>
+
+</p><h1>Adding More Text Boxes</h1>
+
+Have a lot to say, or want to display different information in different places throughout your userlookup? Maybe a wishlist in one, and your side accounts in another? No problem at all! Here's how to easily add in more.<p>
+
+First, copy and paste this code somewhere between your style tags - at the bottom under the <b>#aboutbox</b> and <b>#customnav</b> sections would be good.</p><p>
+
+<textarea>#aboutbox {
+	position: absolute;
+	top: 625px;
+	left: 555px;
+	width: 360px;
+	height: 280px !important;
+	overflow: auto;
+	text-align: justify;
+	padding-right: 5px;
+}</textarea></p><p>
+
+Next, you need to change <b>#aboutbox</b> to something different. You could even just add a number to the end. For example you could use <b>#aboutbox2</b> or <b>#wishlist</b>. This will allow the code to put your HTML in the right place.</p><p>
+
+Next, edit the placement using the same method as moving the modules above, by changing the top and left values. You can also change the size of the box to match your designated area by changing the width and height aspects.</p><p>
+
+To write something in the box, you will also need to add in some HTML below your CSS. Scroll down to the bottom of your code, and add in this:</p><p>
+
+<textarea><div id="aboutbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p><p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p></div></textarea></p><p>
+
+Where it says <b>aboutbox</b>, change this to whatever you called your new box in the CSS code, including quotation marks but not including the #. You should now be able to replace the "lorum ipsum" text as with the other about box.</p><p>
+
+Repeat this step as many times as you need, remembering to label each one differently.</p><p>
+
+</p><h1>Arrow Buttons for Neopet Scrolling</h1>
+
+Have you noticed that you can scroll through peoples Neopets on their userlookup using some funky little grey arrow buttons? It's pretty cool, but what's not cool is the buttons not matching your new custom userlookup! Here's how to make custom ones.<p>
+
+First, you'll need to copy and paste these links, save the images, and edit them the same as you did for your main userlookup background. The only difference here is that, unless you want square buttons, you'll need to create something with a transparent background and save them as a PNG file.</p><p>
+
+<textarea>https://i.ibb.co/q1R1cdP/Userlookup-Prev.png
+https://i.ibb.co/VQFbRgk/Userlookup-Next.png</textarea></p><p>
+
+Once again, upload these to the image hosting website of your choice.</p><p>
+
+Next, copy this code and paste it somewhere in your style tags. At the bottom, just before the closing tag, is a nice easy way to do it.</p><p>
+
+<textarea>.bx-prev {
+	background: url("http://i.ibb.co/q1R1cdP/Userlookup-Prev.png") no-repeat !important;
+}
+.bx-next {
+	background: url("http://i.ibb.co/VQFbRgk/Userlookup-Next.png") no-repeat !important;
+}</textarea></p><p>
+
+Next, replace my URLs with your own. You should now have some fancy new buttons!</p><p>
+
+</p><h1>Conclusion</h1>
+
+This concludes my userlookup tutorial and template walkthrough. I hope you've found it helpful!<p>
+
+As stated in the introduction, don't feel like you have to credit me, although it would certainly be nice if you did!</p><p>
+
+If you have any questions or notice any mistakes, please do let me know. My Neomails are always open! Plus, if you use this tutorial, I would absolutely love to see your userlookup!!</p><p>
+
+
+<img src="//images.neopets.com/items/mall_negg_sunnysideup.gif" title="Sunny Side Up Negg : 91"></p></textarea></p></div><BR><BR><BR>
